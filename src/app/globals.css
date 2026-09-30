@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/* Exclude the bundled ML model + precomputed embeddings from Tailwind's
+   automatic source scan — they're large binary/JSON assets, not markup,
+   and scanning them for class names is extremely slow. */
+@source not "../../models";
+@source not "../data/listing-embeddings.json";
+
+:root {
+  /* A warm paper/cream ground rather than stark white — the "editorial
+     auction-catalogue" identity Hemang picked from three mocked-up
+     directions, built around Bodoni Moda, gold, and a "Lot"-numbered
+     listing motif rather than a generic SaaS-template look. */
+  --background: #f6f1e7;
+  --foreground: #241a1c;
+
+  /* Manzell brand palette — carried forward from the live site audit */
+  --color-brand-primary: #832a89; /* nav accents, buttons */
+  --color-brand-plum: #36013f; /* deep plum — footer, CTA band, bold headline word */
+  --color-brand-footer: #68226d;
+  --color-brand-accent: #514ea2;
+  --color-brand-surface: #efe6d3; /* deeper cream — alternating sections */
+  --color-brand-surface-2: #e9dfc9;
+  --color-brand-border: rgba(36, 26, 28, 0.15);
+  --color-brand-ink: #241a1c;
+
+  /* A warm brass/gold accent — the recurring "look here" colour: every price
+     figure, "Lot" numbering, section kickers, hover states. Purple remains
+     the secondary brand colour (buttons, the plum headline word, footer);
+     gold is what's meant to catch the eye first. */
+  --color-brand-gold: #a9762f;
+  --color-brand-gold-deep: #7c581f;
+
+  /* Deliberate semantic status colours (the live site's red/amber were ad hoc) */
+  --color-status-sale: #832a89;
+  --color-status-let: #1f7a5c;
+  --color-status-sstc: #b8862f;
+  --color-status-reduced: #9b3d3d;
+
+  /* Font stacks — actual font files are self-hosted via @fontsource and
+     imported as CSS in layout.tsx, so these just name the resulting
+     font-family. */
+  --font-montserrat: "Montserrat", Inter, -apple-system, sans-serif;
+  --font-bodoni: "Bodoni Moda", "Times New Roman", Georgia, serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-primary: var(--color-brand-primary);
+  --color-brand-plum: var(--color-brand-plum);
+  --color-brand-footer: var(--color-brand-footer);
+  --color-brand-accent: var(--color-brand-accent);
+  --color-brand-surface: var(--color-brand-surface);
+  --color-brand-surface-2: var(--color-brand-surface-2);
+  --color-brand-border: var(--color-brand-border);
+  --color-brand-ink: var(--color-brand-ink);
+  --color-brand-gold: var(--color-brand-gold);
+  --color-brand-gold-deep: var(--color-brand-gold-deep);
+  --color-status-sale: var(--color-status-sale);
+  --color-status-let: var(--color-status-let);
+  --color-status-sstc: var(--color-status-sstc);
+  --color-status-reduced: var(--color-status-reduced);
+  --font-display: var(--font-bodoni);
+  --font-sans: var(--font-montserrat);
+  --font-mono: ui-monospace, "SFMono-Regular", monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-bodoni);
+}
+
+/* The price figure is the one number every visitor reads on every card — an
+   italic, bold didone numeral in the gold accent so it reads as the single
+   deliberately eye-catching detail on the page, not a bigger/bolder version
+   of the body font. */
+.price-figure {
+  font-family: var(--font-bodoni);
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-brand-gold-deep);
+}
+
+/* The recurring "Lot NN — Area" catalogue-style label used on listing
+   cards, echoing an auction house's lot numbering. */
+.lot-label {
+  font-family: var(--font-bodoni);
+  font-style: italic;
+  font-size: 0.8125rem;
+  color: var(--color-brand-gold-deep);
+}
+
+.container-page {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .container-page {
+    padding-inline: 2rem;
+  }
+}
+
+/* Used by the homepage's live AI-search hero demo (LiveSearchHero). */
+@keyframes blink {
+  0%, 45% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

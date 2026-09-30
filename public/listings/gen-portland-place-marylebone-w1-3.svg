@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="640" viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portland Place · Marylebone">
+  <defs>
+    <linearGradient id="g227" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(59)">
+      <stop offset="0%" stop-color="#36013f"/>
+      <stop offset="100%" stop-color="#832a89"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#g227)"/>
+  <rect x="0" y="0" width="960" height="640" fill="#514ea2" opacity="0.06"/>
+  
+    <rect x="115.19999999999999" y="179.20000000000002" width="729.6" height="345.6" fill="none" stroke="#f9f7fa" stroke-width="2" opacity="0.85"/>
+    <rect x="211.2" y="230.39999999999998" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="345.59999999999997" y="230.39999999999998" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="480" y="230.39999999999998" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="614.4" y="230.39999999999998" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="748.8000000000001" y="230.39999999999998" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="211.2" y="326.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="345.59999999999997" y="326.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="480" y="326.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="614.4" y="326.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="748.8000000000001" y="326.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="211.2" y="422.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="345.59999999999997" y="422.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="480" y="422.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="614.4" y="422.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/><rect x="748.8000000000001" y="422.4" width="57.599999999999994" height="57.599999999999994" fill="#f9f7fa" opacity="0.5"/>
+  
+  <text x="57.599999999999994" y="606" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#f9f7fa" opacity="0.92">Portland Place · Marylebone</text>
+  <text x="57.599999999999994" y="628" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#f9f7fa" opacity="0.6">MANZELL — ILLUSTRATIVE PLACEHOLDER</text>
+</svg>
