@@ -27,14 +27,18 @@ export default function PropertyCard({
   variant?: "grid" | "lot";
 }) {
   const cover = listing.images[0];
+  const isGrid = variant === "grid";
 
   return (
     <Link
       href={`/property/${listing.slug}`}
-      className={`group flex flex-col bg-background transition-colors hover:border-brand-gold ${
-        variant === "lot" ? "p-7 md:p-8" : "border border-brand-border p-5 hover:bg-brand-surface/40"
+      className={`group relative flex flex-col overflow-hidden bg-background ${
+        isGrid
+          ? "listing-card border border-brand-border p-5"
+          : "p-7 transition-colors hover:border-brand-gold hover:bg-brand-surface/40 md:p-8"
       }`}
     >
+      {isGrid && <div className="listing-card-shine" aria-hidden />}
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-brand-surface-2">
         {cover && (
           // Plain <img>, not next/image: listing images are a mix of locally
@@ -44,7 +48,7 @@ export default function PropertyCard({
           <img
             src={cover.src}
             alt={cover.alt}
-            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.06]"
           />
         )}
         <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 border border-brand-border bg-background/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-brand-ink">
@@ -53,7 +57,7 @@ export default function PropertyCard({
         </span>
       </div>
 
-      <div className="flex flex-1 flex-col gap-3 pt-4">
+      <div className="relative flex flex-1 flex-col gap-3 pt-4">
         <div>
           <p className="lot-label">
             {lotNumber ? `Lot ${String(lotNumber).padStart(2, "0")} — ${listing.area}` : `${listing.area} · ${formatPropertyType(listing.propertyType)}`}

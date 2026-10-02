@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import PropertyCard from "@/components/PropertyCard";
+import { formatPrice, formatRentPcm } from "@/lib/format";
 import type { Listing, ListingPurpose } from "@/types/listing";
 
 const AREA_OPTIONS = [
@@ -45,8 +46,27 @@ export default function ListingsBrowser({
   const [minBeds, setMinBeds] = useState(0);
   const [sort, setSort] = useState<"newest" | "price-asc" | "price-desc">("newest");
 
+  const purposeListings = useMemo(
+    () => listings.filter((l) => l.purpose === purpose),
+    [listings, purpose],
+  );
+
+  const areaCount = useMemo(
+    () => new Set(purposeListings.map((l) => l.area)).size,
+    [purposeListings],
+  );
+
+  const averageFigure = useMemo(() => {
+    const figures = purposeListings
+      .map((l) => l.price ?? l.rentPcm)
+      .filter((n): n is number => typeof n === "number");
+    if (figures.length === 0) return "—";
+    const avg = Math.round(figures.reduce((sum, n) => sum + n, 0) / figures.length);
+    return purpose === "sale" ? formatPrice(avg) : formatRentPcm(avg);
+  }, [purposeListings, purpose]);
+
   const filtered = useMemo(() => {
-    let result = listings.filter((l) => l.purpose === purpose);
+    let result = purposeListings;
 
     if (area !== "All areas") {
       result = result.filter((l) => l.area === area);
@@ -64,49 +84,100 @@ export default function ListingsBrowser({
     });
 
     return result;
-  }, [listings, purpose, area, minBeds, sort]);
+  }, [purposeListings, area, minBeds, sort]);
 
   return (
     <div>
-      <div className="mb-8 flex flex-wrap items-center gap-3 border border-brand-border bg-white p-4">
-        <select
-          value={area}
-          onChange={(e) => setArea(e.target.value)}
-          className="border border-brand-border bg-white px-3 py-2 text-sm text-brand-ink"
-        >
-          {AREA_OPTIONS.map((option) => (
-            <option key={option} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
-
-        <select
-          value={minBeds}
-          onChange={(e) => setMinBeds(Number(e.target.value))}
-          className="border border-brand-border bg-white px-3 py-2 text-sm text-brand-ink"
-        >
-          {BED_OPTIONS.map((option) => (
-            <option key={option.label} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
-
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value as typeof sort)}
-          className="ml-auto border border-brand-border bg-white px-3 py-2 text-sm text-brand-ink"
-        >
-          <option value="newest">Newest first</option>
-          <option value="price-asc">Price: low to high</option>
-          <option value="price-desc">Price: high to low</option>
-        </select>
+      {/* Stat strip — same divided-cell family as the property page's key
+          stats bar, giving a quick read of the live book before filtering. */}
+      <div className="mb-6 flex flex-wrap border border-brand-border bg-white shadow-[0_22px_44px_-28px_rgba(36,26,28,0.26)]">
+        <div className="min-w-[140px] flex-1 border-r border-brand-border px-5 py-4 text-center">
+          <div className="text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Live Instructions
+          </div>
+          <div className="price-figure mt-1.5 text-[19px]">{purposeListings.length}</div>
+        </div>
+        <div className="min-w-[140px] flex-1 border-r border-brand-border px-5 py-4 text-center">
+          <div className="text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            {purpose === "sale" ? "Average Price" : "Average Rent"}
+          </div>
+          <div className="price-figure mt-1.5 text-[19px]">{averageFigure}</div>
+        </div>
+        <div className="min-w-[140px] flex-1 border-r border-brand-border px-5 py-4 text-center">
+          <div className="text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Areas Covered
+          </div>
+          <div className="price-figure mt-1.5 text-[19px]">{areaCount}</div>
+        </div>
+        <div className="min-w-[140px] flex-1 px-5 py-4 text-center">
+          <div className="text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Updated
+          </div>
+          <div className="price-figure mt-1.5 text-[19px]">Daily</div>
+        </div>
       </div>
 
-      <p className="mb-4 text-sm text-brand-ink/60">
-        {filtered.length} {filtered.length === 1 ? "property" : "properties"}
-      </p>
+      {/* Filter bar — same bordered, divided-cell strip as the stat strip
+          above, so it reads as part of the system rather than a bare form
+          row; the live result count is folded into its own cell rather
+          than floating below as a separate paragraph. */}
+      <div className="mb-8 flex flex-wrap border border-brand-border bg-white shadow-[0_22px_44px_-28px_rgba(36,26,28,0.26)]">
+        <div className="filter-cell min-w-[170px] flex-1 border-r border-brand-border px-[22px] py-[14px] transition-colors hover:bg-[rgba(169,118,47,0.05)] focus-within:bg-[rgba(169,118,47,0.05)]">
+          <label className="mb-[3px] block text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Area
+          </label>
+          <select
+            value={area}
+            onChange={(e) => setArea(e.target.value)}
+            className="field-select"
+          >
+            {AREA_OPTIONS.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="filter-cell min-w-[170px] flex-1 border-r border-brand-border px-[22px] py-[14px] transition-colors hover:bg-[rgba(169,118,47,0.05)] focus-within:bg-[rgba(169,118,47,0.05)]">
+          <label className="mb-[3px] block text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Bedrooms
+          </label>
+          <select
+            value={minBeds}
+            onChange={(e) => setMinBeds(Number(e.target.value))}
+            className="field-select"
+          >
+            {BED_OPTIONS.map((option) => (
+              <option key={option.label} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="filter-cell min-w-[170px] flex-1 border-r border-brand-border px-[22px] py-[14px] transition-colors hover:bg-[rgba(169,118,47,0.05)] focus-within:bg-[rgba(169,118,47,0.05)]">
+          <label className="mb-[3px] block text-[9.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/50">
+            Sort
+          </label>
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as typeof sort)}
+            className="field-select"
+          >
+            <option value="newest">Newest first</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+          </select>
+        </div>
+
+        <div className="flex flex-none items-center justify-center gap-[7px] whitespace-nowrap px-[26px] py-[14px]">
+          <span className="price-figure text-[16px]">{filtered.length}</span>
+          <span className="text-[11.5px] text-brand-ink/55">
+            {filtered.length === 1 ? "property" : "properties"}
+          </span>
+        </div>
+      </div>
 
       {filtered.length === 0 ? (
         <div className="border border-dashed border-brand-border p-12 text-center text-brand-ink/60">

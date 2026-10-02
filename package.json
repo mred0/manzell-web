@@ -8,19 +8,23 @@
     "start": "next start",
     "lint": "eslint",
     "build:embeddings": "tsx scripts/build-embeddings.mjs",
-    "db:seed": "tsx scripts/seed-supabase.mjs"
+    "db:seed": "tsx scripts/seed-supabase.mjs",
+    "eval:assistant": "node scripts/eval-assistant.mjs"
   },
   "dependencies": {
+    "@ai-sdk/groq": "^4.0.53",
     "@fontsource/bodoni-moda": "^5.3.0",
     "@fontsource/montserrat": "^5.3.0",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.117.2",
     "@xenova/transformers": "^2.17.2",
+    "ai": "^7.0.123",
     "lucide-react": "^1.45.0",
     "next": "16.3.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

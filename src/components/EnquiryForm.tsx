@@ -5,6 +5,14 @@ import { CheckCircle2, Loader2 } from "lucide-react";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
+// Underline-style fields (no boxed borders) to match the premium editorial
+// card used across the redesigned pages, rather than the plain bordered
+// inputs the form used before.
+const fieldClasses =
+  "mt-1 w-full border-0 border-b border-brand-border bg-transparent px-0.5 py-2.5 text-sm text-brand-ink outline-none transition-colors focus:border-brand-gold-deep";
+const labelTextClasses =
+  "block text-[10.5px] font-semibold uppercase tracking-[0.1em] text-brand-ink/55";
+
 export default function EnquiryForm({
   initialListing,
   initialRef,
@@ -45,7 +53,7 @@ export default function EnquiryForm({
 
   if (status === "success") {
     return (
-      <div className="flex flex-col items-center gap-3 border border-brand-border bg-white p-10 text-center">
+      <div className="flex flex-col items-center gap-3 border border-brand-border bg-white p-10 text-center shadow-[0_30px_60px_-30px_rgba(36,26,28,0.3)]">
         <CheckCircle2 className="text-status-let" size={40} />
         <h2 className="font-display text-xl font-bold text-brand-ink">
           Thank you — we&rsquo;ve received your enquiry
@@ -61,7 +69,7 @@ export default function EnquiryForm({
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-5 border border-brand-border bg-white p-6 md:p-8"
+      className="border border-brand-border bg-white p-8 shadow-[0_30px_60px_-30px_rgba(36,26,28,0.3)] md:p-11"
     >
       {initialListing && (
         <>
@@ -70,69 +78,66 @@ export default function EnquiryForm({
         </>
       )}
 
+      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
+        Send an Enquiry
+      </p>
+      <h2 className="mt-1.5 font-display text-xl font-bold text-brand-ink">
+        Tell us what you&rsquo;re looking for
+      </h2>
+
       {initialListing && (
-        <div className="bg-brand-surface px-4 py-3 text-sm text-brand-ink/80">
+        <div className="mt-6 bg-brand-surface px-4 py-3 text-sm text-brand-ink/80">
           Regarding: <span className="font-semibold">{initialListing}</span>
         </div>
       )}
 
-      <div className="grid gap-5 sm:grid-cols-2">
-        <label className="block text-sm font-medium text-brand-ink">
-          Full name
-          <input
-            required
-            name="name"
-            type="text"
-            autoComplete="name"
-            className="mt-1.5 w-full border border-brand-border px-3 py-2.5 text-sm outline-none focus:border-brand-gold"
-          />
+      <div className="mt-7 grid gap-6 sm:grid-cols-2">
+        <label className="block">
+          <span className={labelTextClasses}>Full name</span>
+          <input required name="name" type="text" autoComplete="name" className={fieldClasses} />
         </label>
 
-        <label className="block text-sm font-medium text-brand-ink">
-          Email
-          <input
-            required
-            name="email"
-            type="email"
-            autoComplete="email"
-            className="mt-1.5 w-full border border-brand-border px-3 py-2.5 text-sm outline-none focus:border-brand-gold"
-          />
+        <label className="block">
+          <span className={labelTextClasses}>Email</span>
+          <input required name="email" type="email" autoComplete="email" className={fieldClasses} />
         </label>
       </div>
 
-      <label className="block text-sm font-medium text-brand-ink">
-        Phone (optional)
-        <input
-          name="phone"
-          type="tel"
-          autoComplete="tel"
-          className="mt-1.5 w-full border border-brand-border px-3 py-2.5 text-sm outline-none focus:border-brand-gold"
-        />
+      <label className="mt-6 block">
+        <span className={labelTextClasses}>
+          Phone <span className="normal-case text-brand-ink/40">(optional)</span>
+        </span>
+        <input name="phone" type="tel" autoComplete="tel" className={fieldClasses} />
       </label>
 
-      <label className="block text-sm font-medium text-brand-ink">
-        Message
+      <label className="mt-6 block">
+        <span className={labelTextClasses}>Message</span>
         <textarea
           required
           name="message"
-          rows={5}
+          rows={4}
           defaultValue={initialListing ? `I'd like to arrange a viewing for ${initialListing}.` : ""}
-          className="mt-1.5 w-full resize-none border border-brand-border px-3 py-2.5 text-sm outline-none focus:border-brand-gold"
+          className={`${fieldClasses} resize-none`}
         />
       </label>
 
       {status === "error" && errorMessage && (
-        <p className="text-sm font-medium text-status-reduced">{errorMessage}</p>
+        <p className="mt-5 text-sm font-medium text-status-reduced">{errorMessage}</p>
       )}
 
-      <button
-        type="submit"
-        disabled={status === "submitting"}
-        className="inline-flex items-center gap-2 border border-brand-ink px-6 py-3 text-xs font-semibold uppercase tracking-[0.08em] text-brand-ink transition-colors hover:bg-brand-ink hover:text-background disabled:opacity-60"
-      >
-        {status === "submitting" && <Loader2 className="animate-spin" size={16} />}
-        {status === "submitting" ? "Sending…" : "Send enquiry"}
-      </button>
+      <div className="mt-8 flex items-center justify-between gap-6">
+        <p className="max-w-[220px] text-[11px] leading-relaxed text-brand-ink/50">
+          We reply personally &mdash; never an automated response.
+        </p>
+        <button
+          type="submit"
+          disabled={status === "submitting"}
+          className="inline-flex shrink-0 items-center gap-2 border border-brand-gold px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.08em] text-brand-gold-deep transition-all duration-300 hover:bg-[linear-gradient(135deg,rgba(255,255,255,0.75)_0%,rgba(233,201,138,0.4)_60%,rgba(233,201,138,0.55)_100%)] hover:text-brand-plum hover:shadow-[0_0_18px_-2px_rgba(233,201,138,0.7)] disabled:opacity-60"
+        >
+          {status === "submitting" && <Loader2 className="animate-spin" size={16} />}
+          {status === "submitting" ? "Sending…" : "Send enquiry"}
+        </button>
+      </div>
     </form>
   );
 }

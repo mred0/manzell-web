@@ -31,6 +31,10 @@ export default async function BuyPage({
         <h1 className="mt-1 font-display text-3xl font-bold text-brand-ink md:text-4xl">
           Property for sale in prime London
         </h1>
+        <p className="mt-2.5 max-w-xl text-sm leading-relaxed text-brand-ink/70 md:text-[15px]">
+          Current instructions across Belgravia, Mayfair, Knightsbridge, Chelsea, Kensington
+          and beyond &mdash; updated as they come to market.
+        </p>
       </div>
       <ListingsBrowser purpose="sale" listings={listings} initialArea={area} />
     </div>

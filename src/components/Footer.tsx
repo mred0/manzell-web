@@ -35,8 +35,9 @@ export default function Footer() {
           </p>
           <ul className="mt-4 space-y-2 text-sm text-white/85">
             <li><Link href="/contact" className="hover:text-white">Enquiry form</Link></li>
-            <li>hello@manzell.example</li>
-            <li>+44 (0)20 7946 0000</li>
+            <li>contact@manzell.com</li>
+            <li>020 3337 8554</li>
+            <li>London, W2 4UJ</li>
           </ul>
         </div>
 
