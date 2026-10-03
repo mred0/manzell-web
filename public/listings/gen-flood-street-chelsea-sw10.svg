@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="960" height="640" viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flood Street · Chelsea">
   <defs>
-    <linearGradient id="g165" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(45)">
+    <linearGradient id="g101" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(37)">
       <stop offset="0%" stop-color="#36013f"/>
       <stop offset="100%" stop-color="#832a89"/>
     </linearGradient>
   </defs>
-  <rect width="960" height="640" fill="url(#g165)"/>
+  <rect width="960" height="640" fill="url(#g101)"/>
   <rect x="0" y="0" width="960" height="640" fill="#514ea2" opacity="0.06"/>
   
     <rect x="172.79999999999998" y="204.8" width="614.4" height="320" fill="none" stroke="#f9f7fa" stroke-width="2" opacity="0.85"/>

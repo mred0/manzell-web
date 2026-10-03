@@ -14,38 +14,41 @@ import type { Listing } from "@/types/listing";
 export const generatedListings: Listing[] = [
   {
     "id": "man-0009",
-    "slug": "upper-phillimore-gardens-kensington-w8",
+    "slug": "percy-street-fitzrovia-w1",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Upper Phillimore Gardens, Kensington",
-    "addressLine": "Upper Phillimore Gardens",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "rentPcm": 16950,
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A discreetly renovated penthouse on Percy Street, Fitzrovia",
+    "addressLine": "Percy Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "rentPcm": 12400,
     "bedrooms": 4,
     "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 2950,
+    "receptions": 2,
+    "sizeSqft": 2160,
     "epcRating": "D",
     "councilTaxBand": "G",
-    "summary": "An immaculately kept townhouse in Kensington, close to Kensington Palace Gardens.",
+    "serviceChargeAnnual": 14600,
+    "leaseYearsRemaining": 128,
+    "summary": "A discreetly renovated penthouse in Fitzrovia, a short walk from Soho and the British Museum.",
     "description": [
-      "An immaculately kept townhouse on Upper Phillimore Gardens, set close to Kensington Palace Gardens.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 4 bedrooms above.",
-      "Available from next month, furnished to a high standard."
+      "A discreetly renovated penthouse on Percy Street, set a short walk from Soho and the British Museum.",
+      "Lift access serves the full floor, where 4 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
+      "Available on a company or private let, furnished or unfurnished."
     ],
     "features": [
-      "Home cinema room",
-      "Off-street parking permit eligible",
-      "Garden square access",
-      "Original staircase retained"
+      "Private roof terrace",
+      "Concierge",
+      "Lift access",
+      "Wraparound terrace",
+      "128-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-penthouse-01.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -76,41 +79,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-17",
+    "dateListed": "2026-07-23",
     "featured": false
   },
   {
     "id": "man-0010",
-    "slug": "walton-street-knightsbridge-sw1",
-    "purpose": "let",
-    "status": "to-let",
+    "slug": "flood-street-chelsea-sw10",
+    "purpose": "sale",
+    "status": "sstc",
     "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A five-storey townhouse on Walton Street, Knightsbridge",
-    "addressLine": "Walton Street",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 18400,
+    "title": "A freshly restored townhouse on Flood Street, Chelsea",
+    "addressLine": "Flood Street",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "price": 6020000,
     "bedrooms": 3,
     "bathrooms": 2,
     "receptions": 3,
-    "sizeSqft": 2510,
+    "sizeSqft": 2660,
     "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 14300,
-    "leaseYearsRemaining": 132,
-    "summary": "A five-storey townhouse in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12000,
+    "leaseYearsRemaining": 80,
+    "summary": "A freshly restored townhouse in Chelsea, close to the river and Albert Bridge.",
     "description": [
-      "A five-storey townhouse on Walton Street, set within easy reach of Harrods and Hyde Park's south side.",
+      "A freshly restored townhouse on Flood Street, set close to the river and Albert Bridge.",
       "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
-      "Available from next month, furnished to a high standard."
+      "A considered instruction, offered to the market with no onward chain."
     ],
     "features": [
+      "Home cinema room",
+      "Original staircase retained",
       "Garden square access",
       "Underfloor heating",
-      "Home cinema room",
-      "Off-street parking permit eligible",
-      "132-year lease"
+      "80-year lease"
     ],
     "images": [
       {
@@ -134,46 +137,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-09",
+    "dateListed": "2026-08-01",
     "featured": false
   },
   {
     "id": "man-0011",
-    "slug": "chesham-place-belgravia-sw1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A freshly restored townhouse on Chesham Place, Belgravia",
-    "addressLine": "Chesham Place",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 7050,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1280,
-    "epcRating": "D",
+    "slug": "harley-street-marylebone-w1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "share-of-freehold",
+    "title": "A garden maisonette on Harley Street, Marylebone",
+    "addressLine": "Harley Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 3690000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 1980,
+    "epcRating": "C",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 8700,
-    "leaseYearsRemaining": 127,
-    "summary": "A freshly restored townhouse in Belgravia, a short walk from Sloane Square and the shops on Elizabeth Street.",
+    "serviceChargeAnnual": 13700,
+    "leaseYearsRemaining": 964,
+    "summary": "A garden maisonette in Marylebone, a short walk from Marylebone Village.",
     "description": [
-      "A freshly restored townhouse on Chesham Place, set a short walk from Sloane Square and the shops on Elizabeth Street.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 1 bedroom above.",
-      "Available for a minimum twelve-month term, furnished or unfurnished."
+      "A garden maisonette on Harley Street, set a short walk from Marylebone Village.",
+      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Private rear garden",
-      "Wine cellar",
-      "Garden square access",
-      "Home cinema room",
-      "127-year lease"
+      "Underfloor heating",
+      "Bespoke fitted joinery",
+      "Private garden",
+      "Two reception rooms",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -192,40 +195,40 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-10",
+    "dateListed": "2026-05-01",
     "featured": false
   },
   {
     "id": "man-0012",
-    "slug": "argyll-road-kensington-w8",
-    "purpose": "let",
-    "status": "let-agreed",
+    "slug": "glebe-place-chelsea-sw3",
+    "purpose": "sale",
+    "status": "sstc",
     "propertyType": "maisonette",
     "tenure": "share-of-freehold",
-    "title": "A beautifully proportioned maisonette on Argyll Road, Kensington",
-    "addressLine": "Argyll Road",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "rentPcm": 6700,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1520,
+    "title": "A garden maisonette on Glebe Place, Chelsea",
+    "addressLine": "Glebe Place",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW3",
+    "price": 4500000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2210,
     "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9900,
-    "leaseYearsRemaining": 963,
-    "summary": "A beautifully proportioned maisonette in Kensington, between Holland Park and Kensington High Street.",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 11300,
+    "leaseYearsRemaining": 922,
+    "summary": "A garden maisonette in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
     "description": [
-      "A beautifully proportioned maisonette on Argyll Road, set between Holland Park and Kensington High Street.",
-      "The raised ground floor holds the principal reception rooms, with 2 bedrooms and a family bathroom on the floor below.",
-      "Available from next month, furnished or unfurnished."
+      "A garden maisonette on Glebe Place, set moments from Duke of York Square and the Saatchi Gallery.",
+      "A private front door leads straight into the reception, with 4 bedrooms arranged over the floor above.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
       "Private garden",
       "Own front door",
-      "Original shutters and fireplaces",
       "Two reception rooms",
+      "Original shutters and fireplaces",
       "Share of freehold"
     ],
     "images": [
@@ -254,46 +257,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-24",
+    "dateListed": "2026-05-22",
     "featured": false
   },
   {
     "id": "man-0013",
-    "slug": "circus-road-st-john-s-wood-nw8",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
+    "slug": "manchester-square-marylebone-w1",
+    "purpose": "let",
+    "status": "let-agreed",
+    "propertyType": "maisonette",
     "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "price": 7345000,
-    "bedrooms": 4,
-    "bathrooms": 3,
+    "title": "A garden maisonette on Manchester Square, Marylebone",
+    "addressLine": "Manchester Square",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "rentPcm": 11200,
+    "bedrooms": 6,
+    "bathrooms": 6,
     "receptions": 2,
-    "sizeSqft": 2940,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 15900,
-    "leaseYearsRemaining": 61,
-    "summary": "A stucco-fronted townhouse in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
+    "sizeSqft": 2920,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 14100,
+    "leaseYearsRemaining": 59,
+    "summary": "A garden maisonette in Marylebone, a short walk from Marylebone Village.",
     "description": [
-      "A stucco-fronted townhouse on Circus Road, set a short walk from Primrose Hill and the Regent's Canal towpath.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "An honest instruction, offered to the market with vacant possession."
+      "A garden maisonette on Manchester Square, set a short walk from Marylebone Village.",
+      "The raised ground floor holds the principal reception rooms, with 6 bedrooms and a family bathroom on the floor below.",
+      "Available immediately, furnished or unfurnished."
     ],
     "features": [
-      "Off-street parking permit eligible",
-      "Original staircase retained",
-      "Garden square access",
+      "Own front door",
       "Underfloor heating",
-      "61-year lease"
+      "Two reception rooms",
+      "Bespoke fitted joinery",
+      "59-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -310,52 +313,48 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-02.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-01",
+    "dateListed": "2026-07-21",
     "featured": false
   },
   {
     "id": "man-0014",
-    "slug": "bickenhall-street-marylebone-w1",
+    "slug": "campden-hill-road-kensington-w8",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A two-storey maisonette on Bickenhall Street, Marylebone",
-    "addressLine": "Bickenhall Street",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 5850000,
-    "bedrooms": 6,
-    "bathrooms": 6,
-    "receptions": 2,
-    "sizeSqft": 2760,
-    "epcRating": "E",
+    "status": "under-offer",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "A light-filled apartment on Campden Hill Road, Kensington",
+    "addressLine": "Campden Hill Road",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3755000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1520,
+    "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 17200,
-    "leaseYearsRemaining": 135,
-    "summary": "A two-storey maisonette in Marylebone, a short walk from Marylebone Village.",
+    "serviceChargeAnnual": 8300,
+    "leaseYearsRemaining": 968,
+    "summary": "A light-filled apartment in Kensington, between Holland Park and Kensington High Street.",
     "description": [
-      "A two-storey maisonette on Bickenhall Street, set a short walk from Marylebone Village.",
-      "Two floors give a genuine sense of a house rather than a flat, with 6 bedrooms and a garden-facing kitchen at lower ground level.",
-      "An honest instruction, offered to the market with vacant possession."
+      "A light-filled apartment on Campden Hill Road, set between Holland Park and Kensington High Street.",
+      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
+      "A straightforward instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Private garden",
-      "Two reception rooms",
-      "Original shutters and fireplaces",
-      "Bespoke fitted joinery",
-      "135-year lease"
+      "Recently renovated kitchen",
+      "Video entry system",
+      "High ceilings",
+      "Period cornicing retained",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -378,46 +377,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-08",
+    "dateListed": "2026-08-06",
     "featured": false
   },
   {
     "id": "man-0015",
-    "slug": "kensington-court-kensington-w8",
+    "slug": "cranley-gardens-south-kensington-sw7",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A sunny maisonette on Kensington Court, Kensington",
-    "addressLine": "Kensington Court",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 3910000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2190,
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A freshly restored townhouse on Cranley Gardens, South Kensington",
+    "addressLine": "Cranley Gardens",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 6190000,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "receptions": 1,
+    "sizeSqft": 3220,
     "epcRating": "B",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 10600,
-    "leaseYearsRemaining": 981,
-    "summary": "A sunny maisonette in Kensington, between Holland Park and Kensington High Street.",
+    "councilTaxBand": "H",
+    "summary": "A freshly restored townhouse in South Kensington, close to the museums along Exhibition Road.",
     "description": [
-      "A sunny maisonette on Kensington Court, set between Holland Park and Kensington High Street.",
-      "The raised ground floor holds the principal reception rooms, with 4 bedrooms and a family bathroom on the floor below.",
-      "A rare instruction, offered to the market with no onward chain."
+      "A freshly restored townhouse on Cranley Gardens, set close to the museums along Exhibition Road.",
+      "The principal reception rooms sit on the raised ground and first floors, with 5 bedrooms arranged across the upper storeys.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Own front door",
-      "Bespoke fitted joinery",
-      "Underfloor heating",
-      "Original shutters and fireplaces",
-      "Share of freehold"
+      "Original staircase retained",
+      "Garden square access",
+      "Off-street parking permit eligible",
+      "Wine cellar"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -440,46 +436,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-27",
+    "dateListed": "2026-05-10",
     "featured": false
   },
   {
     "id": "man-0016",
-    "slug": "charlotte-street-fitzrovia-w1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
+    "slug": "charles-street-mayfair-w1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "penthouse",
     "tenure": "leasehold",
-    "title": "A raised ground-floor maisonette on Charlotte Street, Fitzrovia",
-    "addressLine": "Charlotte Street",
-    "area": "Fitzrovia",
+    "title": "A discreetly renovated penthouse on Charles Street, Mayfair",
+    "addressLine": "Charles Street",
+    "area": "Mayfair",
     "postcodeDistrict": "W1",
-    "price": 4025000,
-    "bedrooms": 3,
-    "bathrooms": 3,
+    "rentPcm": 16450,
+    "bedrooms": 5,
+    "bathrooms": 5,
     "receptions": 2,
-    "sizeSqft": 1950,
-    "epcRating": "E",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 11800,
-    "leaseYearsRemaining": 92,
-    "summary": "A raised ground-floor maisonette in Fitzrovia, a short walk from Soho and the British Museum.",
+    "sizeSqft": 2320,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 9400,
+    "leaseYearsRemaining": 75,
+    "summary": "A discreetly renovated penthouse in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A raised ground-floor maisonette on Charlotte Street, set a short walk from Soho and the British Museum.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "A considered instruction, offered to the market with vacant possession."
+      "A discreetly renovated penthouse on Charles Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "Lift access serves the full floor, where 5 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
+      "Available on a company or private let, part-furnished."
     ],
     "features": [
-      "Private garden",
-      "Bespoke fitted joinery",
-      "Underfloor heating",
-      "Original shutters and fireplaces",
-      "92-year lease"
+      "Concierge",
+      "Panoramic outlook",
+      "Wraparound terrace",
+      "Private roof terrace",
+      "75-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -498,46 +494,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-05",
+    "dateListed": "2026-09-25",
     "featured": false
   },
   {
     "id": "man-0017",
-    "slug": "portland-place-marylebone-w1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "penthouse",
-    "tenure": "share-of-freehold",
-    "title": "A newly reconfigured penthouse on Portland Place, Marylebone",
-    "addressLine": "Portland Place",
-    "area": "Marylebone",
+    "slug": "hill-street-mayfair-w1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A handsomely proportioned townhouse on Hill Street, Mayfair",
+    "addressLine": "Hill Street",
+    "area": "Mayfair",
     "postcodeDistrict": "W1",
-    "rentPcm": 10400,
+    "price": 8285000,
     "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2490,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 10500,
-    "leaseYearsRemaining": 955,
-    "summary": "A newly reconfigured penthouse in Marylebone, a short walk from Marylebone Village.",
+    "bathrooms": 5,
+    "receptions": 2,
+    "sizeSqft": 3060,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 21100,
+    "leaseYearsRemaining": 125,
+    "summary": "A handsomely proportioned townhouse in Mayfair, a short walk from Berkeley Square and the Connaught.",
     "description": [
-      "A newly reconfigured penthouse on Portland Place, set a short walk from Marylebone Village.",
-      "Lift access serves the full floor, where 5 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
-      "Available on a company or private let, part-furnished."
+      "A handsomely proportioned townhouse on Hill Street, set a short walk from Berkeley Square and the Connaught.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 5 bedrooms above.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Wraparound terrace",
-      "Recently reconfigured layout",
-      "Private roof terrace",
-      "Panoramic outlook",
-      "Share of freehold"
+      "Home cinema room",
+      "Original staircase retained",
+      "Garden square access",
+      "Private rear garden",
+      "125-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-01.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -560,46 +556,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-05",
+    "dateListed": "2026-08-18",
     "featured": false
   },
   {
     "id": "man-0018",
-    "slug": "newman-street-fitzrovia-w1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "An immaculately presented apartment on Newman Street, Fitzrovia",
-    "addressLine": "Newman Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 4610000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2000,
-    "epcRating": "B",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 8700,
-    "leaseYearsRemaining": 943,
-    "summary": "An immaculately presented apartment in Fitzrovia, a short walk from Soho and the British Museum.",
+    "slug": "addison-road-holland-park-w11",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A quietly grand townhouse on Addison Road, Holland Park",
+    "addressLine": "Addison Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "rentPcm": 15350,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 1,
+    "sizeSqft": 3480,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "summary": "A quietly grand townhouse in Holland Park, a short walk from Holland Park Avenue's restaurants.",
     "description": [
-      "An immaculately presented apartment on Newman Street, set a short walk from Soho and the British Museum.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
-      "A rare instruction, offered to the market with flexible completion."
+      "A quietly grand townhouse on Addison Road, set a short walk from Holland Park Avenue's restaurants.",
+      "The principal reception rooms sit on the raised ground and first floors, with 6 bedrooms arranged across the upper storeys.",
+      "Available from next month, furnished to a high standard."
     ],
     "features": [
-      "Lift access",
-      "Engineered oak flooring",
-      "Porterage",
-      "Air conditioning",
-      "Share of freehold"
+      "Garden square access",
+      "Original staircase retained",
+      "Wine cellar",
+      "Off-street parking permit eligible"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -622,46 +615,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-07",
+    "dateListed": "2026-08-19",
     "featured": false
   },
   {
     "id": "man-0019",
-    "slug": "the-boltons-south-kensington-sw7",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A handsomely proportioned townhouse on The Boltons, South Kensington",
-    "addressLine": "The Boltons",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 5550000,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 3170,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 18100,
-    "leaseYearsRemaining": 109,
-    "summary": "A handsomely proportioned townhouse in South Kensington, a short walk from Brompton Cross and the Natural History Museum.",
+    "slug": "upper-phillimore-gardens-kensington-w8",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "A remodelled apartment on Upper Phillimore Gardens, Kensington",
+    "addressLine": "Upper Phillimore Gardens",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "rentPcm": 9650,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 1700,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8700,
+    "leaseYearsRemaining": 928,
+    "summary": "A remodelled apartment in Kensington, between Holland Park and Kensington High Street.",
     "description": [
-      "A handsomely proportioned townhouse on The Boltons, set a short walk from Brompton Cross and the Natural History Museum.",
-      "The principal reception rooms sit on the raised ground and first floors, with 5 bedrooms arranged across the upper storeys.",
-      "A considered instruction, offered to the market with an early exchange preferred."
+      "A remodelled apartment on Upper Phillimore Gardens, set between Holland Park and Kensington High Street.",
+      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
+      "Available for a minimum twelve-month term, furnished or unfurnished."
     ],
     "features": [
-      "Home cinema room",
-      "Original staircase retained",
-      "Off-street parking permit eligible",
-      "Garden square access",
-      "109-year lease"
+      "Recently renovated kitchen",
+      "Porterage",
+      "Period cornicing retained",
+      "Engineered oak flooring",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -684,46 +677,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-08",
+    "dateListed": "2026-08-22",
     "featured": false
   },
   {
     "id": "man-0020",
-    "slug": "motcomb-street-belgravia-sw1",
+    "slug": "the-vale-chelsea-sw3",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "An exceptionally quiet apartment on Motcomb Street, Belgravia",
-    "addressLine": "Motcomb Street",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 4740000,
-    "bedrooms": 3,
+    "propertyType": "mews-house",
+    "tenure": "leasehold",
+    "title": "A self-contained mews house on The Vale, Chelsea",
+    "addressLine": "The Vale",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW3",
+    "price": 5725000,
+    "bedrooms": 4,
     "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 1560,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9500,
-    "leaseYearsRemaining": 919,
-    "summary": "An exceptionally quiet apartment in Belgravia, a short walk from Sloane Square and the shops on Elizabeth Street.",
+    "receptions": 3,
+    "sizeSqft": 2840,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 13300,
+    "leaseYearsRemaining": 118,
+    "summary": "A self-contained mews house in Chelsea, close to the river and Albert Bridge.",
     "description": [
-      "An exceptionally quiet apartment on Motcomb Street, set a short walk from Sloane Square and the shops on Elizabeth Street.",
-      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
-      "A considered instruction, offered to the market with flexible completion."
+      "A self-contained mews house on The Vale, set close to the river and Albert Bridge.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 4 bedrooms on the floors above.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Air conditioning",
-      "Lift access",
-      "Secure underground parking",
-      "Video entry system",
-      "Share of freehold"
+      "Skylights throughout",
+      "Roof terrace",
+      "Cobbled mews setting",
+      "Own front door",
+      "118-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-02.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -747,7 +740,7 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0021",
-    "slug": "charlotte-street-fitzrovia-w1-1",
+    "slug": "charlotte-street-fitzrovia-w1",
     "purpose": "let",
     "status": "let-agreed",
     "propertyType": "apartment",
@@ -809,38 +802,41 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0022",
-    "slug": "holland-park-avenue-holland-park-w11",
+    "slug": "montpelier-square-knightsbridge-sw1",
     "purpose": "sale",
     "status": "under-offer",
-    "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A fully detached house on Holland Park Avenue, Holland Park",
-    "addressLine": "Holland Park Avenue",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 2745000,
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "An immaculately presented apartment on Montpelier Square, Knightsbridge",
+    "addressLine": "Montpelier Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "price": 3035000,
     "bedrooms": 1,
     "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1610,
+    "sizeSqft": 1260,
     "epcRating": "B",
     "councilTaxBand": "H",
-    "summary": "A fully detached house in Holland Park, a short walk from Holland Park Avenue's restaurants.",
+    "serviceChargeAnnual": 8600,
+    "leaseYearsRemaining": 85,
+    "summary": "An immaculately presented apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
     "description": [
-      "A fully detached house on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
-      "The house stands alone on its plot, with reception rooms front and back and 1 bedrooms arranged across a mix of family and guest configurations.",
-      "A considered instruction, offered to the market with flexible completion."
+      "An immaculately presented apartment on Montpelier Square, set within easy reach of Harrods and Hyde Park's south side.",
+      "An open-plan kitchen and reception take up the front of the flat, with 1 bedroom arranged quietly to the rear.",
+      "A considered instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Swimming pool",
-      "Landscaped grounds",
-      "Private garden",
-      "Underfloor heating"
+      "Recently renovated kitchen",
+      "Porterage",
+      "Lift access",
+      "Air conditioning",
+      "85-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -859,46 +855,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-25",
+    "dateListed": "2026-06-28",
     "featured": false
   },
   {
     "id": "man-0023",
-    "slug": "pont-street-knightsbridge-sw3",
+    "slug": "hill-street-mayfair-w1-1",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A rarely available apartment on Pont Street, Knightsbridge",
-    "addressLine": "Pont Street",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "price": 4880000,
+    "propertyType": "penthouse",
+    "tenure": "share-of-freehold",
+    "title": "A dual-aspect penthouse on Hill Street, Mayfair",
+    "addressLine": "Hill Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "price": 4105000,
     "bedrooms": 3,
-    "bathrooms": 2,
+    "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 1630,
-    "epcRating": "C",
+    "sizeSqft": 1680,
+    "epcRating": "E",
     "councilTaxBand": "F",
-    "serviceChargeAnnual": 11200,
-    "leaseYearsRemaining": 62,
-    "summary": "A rarely available apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "serviceChargeAnnual": 9300,
+    "leaseYearsRemaining": 957,
+    "summary": "A dual-aspect penthouse in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A rarely available apartment on Pont Street, set within easy reach of Harrods and Hyde Park's south side.",
-      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
-      "A straightforward instruction, offered to the market with flexible completion."
+      "A dual-aspect penthouse on Hill Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Secure underground parking",
-      "Period cornicing retained",
-      "Air conditioning",
-      "High ceilings",
-      "62-year lease"
+      "Panoramic outlook",
+      "Private roof terrace",
+      "Concierge",
+      "Recently reconfigured layout",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-penthouse-01.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -917,43 +913,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-24",
+    "dateListed": "2026-07-13",
     "featured": false
   },
   {
     "id": "man-0024",
-    "slug": "lansdowne-road-notting-hill-w11",
+    "slug": "glebe-place-chelsea-sw3-1",
     "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
+    "status": "let-agreed",
+    "propertyType": "mews-house",
     "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Lansdowne Road, Notting Hill",
-    "addressLine": "Lansdowne Road",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "rentPcm": 8300,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1560,
+    "title": "A recently updated mews house on Glebe Place, Chelsea",
+    "addressLine": "Glebe Place",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW3",
+    "rentPcm": 12150,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 2240,
     "epcRating": "B",
-    "councilTaxBand": "G",
-    "summary": "An immaculately kept townhouse in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
+    "councilTaxBand": "F",
+    "summary": "A recently updated mews house in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
     "description": [
-      "An immaculately kept townhouse on Lansdowne Road, set close to the communal gardens Notting Hill's crescents are built around.",
-      "The principal reception rooms sit on the raised ground and first floors, with 1 bedroom arranged across the upper storeys.",
-      "Available immediately, part-furnished."
+      "A recently updated mews house on Glebe Place, set moments from Duke of York Square and the Saatchi Gallery.",
+      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 3 bedrooms above.",
+      "Available on a company or private let, unfurnished."
     ],
     "features": [
-      "Wine cellar",
-      "Underfloor heating",
-      "Private rear garden",
-      "Off-street parking permit eligible"
+      "Own front door",
+      "Integral garage",
+      "Skylights throughout",
+      "Cobbled mews setting"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-02.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -980,46 +976,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-12",
+    "dateListed": "2026-05-17",
     "featured": false
   },
   {
     "id": "man-0025",
-    "slug": "north-audley-street-mayfair-w1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "An immaculately presented apartment on North Audley Street, Mayfair",
-    "addressLine": "North Audley Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "rentPcm": 7650,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1120,
-    "epcRating": "D",
+    "slug": "clifton-villas-little-venice-w9",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A freshly restored townhouse on Clifton Villas, Little Venice",
+    "addressLine": "Clifton Villas",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "price": 5900000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2680,
+    "epcRating": "E",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 7700,
-    "leaseYearsRemaining": 79,
-    "summary": "An immaculately presented apartment in Mayfair, a short walk from Berkeley Square and the Connaught.",
+    "summary": "A freshly restored townhouse in Little Venice, close to Paddington Basin and the Regent's Canal.",
     "description": [
-      "An immaculately presented apartment on North Audley Street, set a short walk from Berkeley Square and the Connaught.",
-      "An open-plan kitchen and reception take up the front of the flat, with 1 bedroom arranged quietly to the rear.",
-      "Available for a minimum twelve-month term, unfurnished."
+      "A freshly restored townhouse on Clifton Villas, set close to Paddington Basin and the Regent's Canal.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "An honest instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Air conditioning",
-      "Period cornicing retained",
-      "Porterage",
-      "Video entry system",
-      "79-year lease"
+      "Garden square access",
+      "Private rear garden",
+      "Off-street parking permit eligible",
+      "Underfloor heating"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -1036,35 +1029,39 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-02.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-03",
+    "dateListed": "2026-05-02",
     "featured": false
   },
   {
     "id": "man-0026",
-    "slug": "circus-road-st-john-s-wood-nw8-1",
+    "slug": "bolton-gardens-south-kensington-sw7",
     "purpose": "let",
-    "status": "to-let",
+    "status": "let-agreed",
     "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 7500,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1670,
+    "title": "A stucco-fronted townhouse on Bolton Gardens, South Kensington",
+    "addressLine": "Bolton Gardens",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "rentPcm": 10650,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2370,
     "epcRating": "B",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 11600,
+    "serviceChargeAnnual": 16400,
     "leaseYearsRemaining": 86,
-    "summary": "A stucco-fronted townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "summary": "A stucco-fronted townhouse in South Kensington, a short walk from Brompton Cross and the Natural History Museum.",
     "description": [
-      "A stucco-fronted townhouse on Circus Road, set close to St John's Wood High Street's boutiques and cafés.",
-      "The house rises across its full height with reception rooms on the lower floors and 2 bedrooms above, each with its own character.",
+      "A stucco-fronted townhouse on Bolton Gardens, set a short walk from Brompton Cross and the Natural History Museum.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
       "Available for a minimum twelve-month term, part-furnished."
     ],
     "features": [
@@ -1101,38 +1098,41 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0027",
-    "slug": "reeves-mews-mayfair-w1",
+    "slug": "thackeray-street-kensington-w8",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "mews-house",
-    "tenure": "freehold",
-    "title": "A garaged mews house on Reeves Mews, Mayfair",
-    "addressLine": "Reeves Mews",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 5690000,
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A remodelled apartment on Thackeray Street, Kensington",
+    "addressLine": "Thackeray Street",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3175000,
     "bedrooms": 2,
     "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1960,
+    "sizeSqft": 1510,
     "epcRating": "E",
     "councilTaxBand": "G",
-    "summary": "A garaged mews house in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
+    "serviceChargeAnnual": 10300,
+    "leaseYearsRemaining": 86,
+    "summary": "A remodelled apartment in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
     "description": [
-      "A garaged mews house on Reeves Mews, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 2 bedrooms above.",
-      "A straightforward instruction, offered to the market with no onward chain."
+      "A remodelled apartment on Thackeray Street, set a short walk from the Design Museum and Holland Park's tennis courts.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
+      "A considered instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Cobbled mews setting",
-      "Roof terrace",
-      "Own front door",
-      "Skylights throughout"
+      "Engineered oak flooring",
+      "Secure underground parking",
+      "Porterage",
+      "Period cornicing retained",
+      "86-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-01.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -1155,43 +1155,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-07",
+    "dateListed": "2026-09-13",
     "featured": false
   },
   {
     "id": "man-0028",
-    "slug": "royal-crescent-holland-park-w11",
+    "slug": "circus-road-st-john-s-wood-nw8",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A handsomely proportioned townhouse on Royal Crescent, Holland Park",
-    "addressLine": "Royal Crescent",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 6500000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 3080,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "summary": "A handsomely proportioned townhouse in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
+    "status": "under-offer",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "An immaculately presented apartment on Circus Road, St John's Wood",
+    "addressLine": "Circus Road",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 2365000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1280,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8400,
+    "leaseYearsRemaining": 138,
+    "summary": "An immaculately presented apartment in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
     "description": [
-      "A handsomely proportioned townhouse on Royal Crescent, set close to the Design Museum and Holland Park's kyoto garden.",
-      "The principal reception rooms sit on the raised ground and first floors, with 5 bedrooms arranged across the upper storeys.",
-      "An honest instruction, offered to the market with flexible completion."
+      "An immaculately presented apartment on Circus Road, set a short walk from Primrose Hill and the Regent's Canal towpath.",
+      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
+      "An honest instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Garden square access",
-      "Private rear garden",
-      "Underfloor heating",
-      "Original staircase retained"
+      "Porterage",
+      "Lift access",
+      "Recently renovated kitchen",
+      "Video entry system",
+      "138-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -1210,46 +1213,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-16",
+    "dateListed": "2026-08-26",
     "featured": false
   },
   {
     "id": "man-0029",
-    "slug": "walton-street-knightsbridge-sw3",
+    "slug": "cadogan-square-knightsbridge-sw1",
     "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "penthouse",
+    "status": "for-sale",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A newly reconfigured penthouse on Walton Street, Knightsbridge",
-    "addressLine": "Walton Street",
+    "title": "An immaculately kept townhouse on Cadogan Square, Knightsbridge",
+    "addressLine": "Cadogan Square",
     "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "price": 6215000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2250,
+    "postcodeDistrict": "SW1",
+    "price": 11725000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 1,
+    "sizeSqft": 3690,
     "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 10400,
-    "leaseYearsRemaining": 145,
-    "summary": "A newly reconfigured penthouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 18600,
+    "leaseYearsRemaining": 108,
+    "summary": "An immaculately kept townhouse in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
     "description": [
-      "A newly reconfigured penthouse on Walton Street, set a few minutes from Hyde Park and the Knightsbridge tube.",
-      "The reception spans the width of the top floor, with 4 bedrooms opening onto private terrace space of its own.",
-      "A considered instruction, offered to the market with flexible completion."
+      "An immaculately kept townhouse on Cadogan Square, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 6 bedrooms above.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Air conditioning",
-      "Private roof terrace",
-      "Panoramic outlook",
-      "Wraparound terrace",
-      "145-year lease"
+      "Off-street parking permit eligible",
+      "Original staircase retained",
+      "Wine cellar",
+      "Underfloor heating",
+      "108-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-01.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -1276,46 +1279,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-21",
+    "dateListed": "2026-06-28",
     "featured": false
   },
   {
     "id": "man-0030",
-    "slug": "evelyn-gardens-south-kensington-sw7",
+    "slug": "holland-park-avenue-holland-park-w14",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A light-filled apartment on Evelyn Gardens, South Kensington",
-    "addressLine": "Evelyn Gardens",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 1760000,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 950,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 3800,
-    "leaseYearsRemaining": 968,
-    "summary": "A light-filled apartment in South Kensington, a short walk from Brompton Cross and the Natural History Museum.",
+    "propertyType": "detached-house",
+    "tenure": "leasehold",
+    "title": "A beautifully maintained house on Holland Park Avenue, Holland Park",
+    "addressLine": "Holland Park Avenue",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "price": 4790000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2760,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 19300,
+    "leaseYearsRemaining": 121,
+    "summary": "A beautifully maintained house in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
     "description": [
-      "A light-filled apartment on Evelyn Gardens, set a short walk from Brompton Cross and the Natural History Museum.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 1 well-proportioned bedroom.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A beautifully maintained house on Holland Park Avenue, set close to the Design Museum and Holland Park's kyoto garden.",
+      "The house stands alone on its plot, with reception rooms front and back and 4 bedrooms arranged across a mix of family and guest configurations.",
+      "A rare instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Porterage",
-      "Recently renovated kitchen",
-      "Period cornicing retained",
-      "Lift access",
-      "Share of freehold"
+      "Lower ground leisure floor",
+      "Private garden",
+      "Landscaped grounds",
+      "Swimming pool",
+      "121-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -1338,46 +1341,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-22",
+    "dateListed": "2026-07-07",
     "featured": false
   },
   {
     "id": "man-0031",
-    "slug": "trevor-square-knightsbridge-sw1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A light-filled apartment on Trevor Square, Knightsbridge",
-    "addressLine": "Trevor Square",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "price": 5225000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1580,
+    "slug": "bolton-gardens-south-kensington-sw7-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A handsomely proportioned townhouse on Bolton Gardens, South Kensington",
+    "addressLine": "Bolton Gardens",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "rentPcm": 12750,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2780,
     "epcRating": "C",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 9500,
-    "leaseYearsRemaining": 938,
-    "summary": "A light-filled apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "summary": "A handsomely proportioned townhouse in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A light-filled apartment on Trevor Square, set within easy reach of Harrods and Hyde Park's south side.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
-      "An honest instruction, offered to the market with vacant possession."
+      "A handsomely proportioned townhouse on Bolton Gardens, set moments from South Kensington's garden squares.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "Available from next month, part-furnished."
     ],
     "features": [
-      "Secure underground parking",
-      "Porterage",
-      "Engineered oak flooring",
-      "High ceilings",
-      "Share of freehold"
+      "Wine cellar",
+      "Underfloor heating",
+      "Private rear garden",
+      "Original staircase retained"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -1396,43 +1396,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-11",
+    "dateListed": "2026-05-10",
     "featured": false
   },
   {
     "id": "man-0032",
-    "slug": "culross-street-mayfair-w1",
+    "slug": "portland-place-marylebone-w1",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "mews-house",
-    "tenure": "freehold",
-    "title": "A garaged mews house on Culross Street, Mayfair",
-    "addressLine": "Culross Street",
-    "area": "Mayfair",
+    "status": "sstc",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A sunny maisonette on Portland Place, Marylebone",
+    "addressLine": "Portland Place",
+    "area": "Marylebone",
     "postcodeDistrict": "W1",
-    "price": 7665000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2950,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "summary": "A garaged mews house in Mayfair, a short walk from Berkeley Square and the Connaught.",
+    "price": 2700000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1210,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 5200,
+    "leaseYearsRemaining": 143,
+    "summary": "A sunny maisonette in Marylebone, two minutes from Marylebone High Street's shops and cafés.",
     "description": [
-      "A garaged mews house on Culross Street, set a short walk from Berkeley Square and the Connaught.",
-      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 4 bedrooms on the floors above.",
-      "A rare instruction, offered to the market with vacant possession."
+      "A sunny maisonette on Portland Place, set two minutes from Marylebone High Street's shops and cafés.",
+      "A private front door leads straight into the reception, with 2 bedrooms arranged over the floor above.",
+      "A rare instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
+      "Bespoke fitted joinery",
+      "Original shutters and fireplaces",
       "Own front door",
-      "Roof terrace",
-      "Cobbled mews setting",
-      "Integral garage"
+      "Underfloor heating",
+      "143-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-02.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -1451,46 +1454,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-15",
+    "dateListed": "2026-06-09",
     "featured": false
   },
   {
     "id": "man-0033",
-    "slug": "manchester-square-marylebone-w1",
+    "slug": "pont-street-knightsbridge-sw3",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "penthouse",
-    "tenure": "share-of-freehold",
-    "title": "A full-floor penthouse on Manchester Square, Marylebone",
-    "addressLine": "Manchester Square",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "rentPcm": 8000,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1520,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 10000,
-    "leaseYearsRemaining": 994,
-    "summary": "A full-floor penthouse in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A handsomely proportioned townhouse on Pont Street, Knightsbridge",
+    "addressLine": "Pont Street",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW3",
+    "rentPcm": 20400,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 3100,
+    "epcRating": "C",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 16900,
+    "leaseYearsRemaining": 106,
+    "summary": "A handsomely proportioned townhouse in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
     "description": [
-      "A full-floor penthouse on Manchester Square, set close to Regent's Park and the Wallace Collection.",
-      "The reception spans the width of the top floor, with 2 bedrooms opening onto private terrace space of its own.",
-      "Available from next month, furnished or unfurnished."
+      "A handsomely proportioned townhouse on Pont Street, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "Available immediately, part-furnished."
     ],
     "features": [
-      "Home automation system",
-      "Air conditioning",
-      "Private roof terrace",
-      "Concierge",
-      "Share of freehold"
+      "Original staircase retained",
+      "Underfloor heating",
+      "Garden square access",
+      "Wine cellar",
+      "106-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-01.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -1517,43 +1520,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-01",
+    "dateListed": "2026-09-27",
     "featured": false
   },
   {
     "id": "man-0034",
-    "slug": "acacia-road-st-john-s-wood-nw8",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A beautifully maintained house on Acacia Road, St John's Wood",
-    "addressLine": "Acacia Road",
+    "slug": "cavendish-avenue-st-john-s-wood-nw8",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A lateral apartment on Cavendish Avenue, St John's Wood",
+    "addressLine": "Cavendish Avenue",
     "area": "St John's Wood",
     "postcodeDistrict": "NW8",
-    "rentPcm": 16150,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 3340,
-    "epcRating": "D",
+    "price": 2895000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1290,
+    "epcRating": "C",
     "councilTaxBand": "G",
-    "summary": "A beautifully maintained house in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "serviceChargeAnnual": 6500,
+    "leaseYearsRemaining": 119,
+    "summary": "A lateral apartment in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
     "description": [
-      "A beautifully maintained house on Acacia Road, set close to St John's Wood High Street's boutiques and cafés.",
-      "The house stands alone on its plot, with reception rooms front and back and 5 bedrooms arranged across a mix of family and guest configurations.",
-      "Available from next month, furnished or unfurnished."
+      "A lateral apartment on Cavendish Avenue, set a short walk from Primrose Hill and the Regent's Canal towpath.",
+      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
+      "A rare instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Landscaped grounds",
-      "Swimming pool",
-      "Integral garage",
-      "Lower ground leisure floor"
+      "Porterage",
+      "Air conditioning",
+      "Recently renovated kitchen",
+      "Secure underground parking",
+      "119-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -1576,46 +1582,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-27",
+    "dateListed": "2026-06-05",
     "featured": false
   },
   {
     "id": "man-0035",
-    "slug": "hamilton-terrace-st-john-s-wood-nw8",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
+    "slug": "stanley-gardens-notting-hill-w11",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A rarely available apartment on Hamilton Terrace, St John's Wood",
-    "addressLine": "Hamilton Terrace",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 11000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2280,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 13400,
-    "leaseYearsRemaining": 84,
-    "summary": "A rarely available apartment in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
+    "title": "A quietly grand townhouse on Stanley Gardens, Notting Hill",
+    "addressLine": "Stanley Gardens",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 4900000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 3,
+    "sizeSqft": 2690,
+    "epcRating": "E",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 13700,
+    "leaseYearsRemaining": 106,
+    "summary": "A quietly grand townhouse in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
     "description": [
-      "A rarely available apartment on Hamilton Terrace, set a short walk from Primrose Hill and the Regent's Canal towpath.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 5 well-proportioned bedrooms.",
-      "Available for a minimum twelve-month term, part-furnished."
+      "A quietly grand townhouse on Stanley Gardens, set close to the communal gardens Notting Hill's crescents are built around.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Engineered oak flooring",
-      "Secure underground parking",
-      "Air conditioning",
-      "Lift access",
-      "84-year lease"
+      "Home cinema room",
+      "Underfloor heating",
+      "Garden square access",
+      "Original staircase retained",
+      "106-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -1634,46 +1640,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-21",
+    "dateListed": "2026-08-07",
     "featured": false
   },
   {
     "id": "man-0036",
     "slug": "blomfield-road-little-venice-w9",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A two-storey maisonette on Blomfield Road, Little Venice",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A five-storey townhouse on Blomfield Road, Little Venice",
     "addressLine": "Blomfield Road",
     "area": "Little Venice",
     "postcodeDistrict": "W9",
-    "rentPcm": 6500,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1220,
-    "epcRating": "D",
+    "price": 5925000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2740,
+    "epcRating": "C",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 7000,
-    "leaseYearsRemaining": 136,
-    "summary": "A two-storey maisonette in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
+    "summary": "A five-storey townhouse in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
     "description": [
-      "A two-storey maisonette on Blomfield Road, set a short walk from Warwick Avenue's cafés and the towpath.",
-      "The raised ground floor holds the principal reception rooms, with 2 bedrooms and a family bathroom on the floor below.",
-      "Available from next month, unfurnished."
+      "A five-storey townhouse on Blomfield Road, set a short walk from Warwick Avenue's cafés and the towpath.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "A considered instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Two reception rooms",
-      "Private garden",
-      "Underfloor heating",
-      "Original shutters and fireplaces",
-      "136-year lease"
+      "Wine cellar",
+      "Home cinema room",
+      "Original staircase retained",
+      "Off-street parking permit eligible"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -1696,43 +1699,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-25",
+    "dateListed": "2026-05-08",
     "featured": false
   },
   {
     "id": "man-0037",
-    "slug": "holland-villas-road-holland-park-w11",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "detached-house",
+    "slug": "old-church-street-chelsea-sw3",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "mews-house",
     "tenure": "freehold",
-    "title": "An exceptionally private house on Holland Villas Road, Holland Park",
-    "addressLine": "Holland Villas Road",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "rentPcm": 7400,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1850,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "summary": "An exceptionally private house in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
+    "title": "A recently updated mews house on Old Church Street, Chelsea",
+    "addressLine": "Old Church Street",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW3",
+    "price": 7390000,
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "receptions": 2,
+    "sizeSqft": 3740,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "summary": "A recently updated mews house in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
     "description": [
-      "An exceptionally private house on Holland Villas Road, set close to the Design Museum and Holland Park's kyoto garden.",
-      "Set back from the road, the house offers reception rooms across the ground floor and 2 bedrooms above, each with good natural light.",
-      "Available from next month, furnished or unfurnished."
+      "A recently updated mews house on Old Church Street, set moments from Duke of York Square and the Saatchi Gallery.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 6 bedrooms on the floors above.",
+      "A rare instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Off-street parking",
+      "Skylights throughout",
       "Integral garage",
-      "Underfloor heating",
-      "Swimming pool"
+      "Roof terrace",
+      "Cobbled mews setting"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-01.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -1755,1234 +1758,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-24",
+    "dateListed": "2026-09-02",
     "featured": false
   },
   {
     "id": "man-0038",
-    "slug": "green-street-mayfair-w1",
+    "slug": "royal-crescent-holland-park-w14",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "mews-house",
-    "tenure": "freehold",
-    "title": "A compact, well-lit mews house on Green Street, Mayfair",
-    "addressLine": "Green Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 9135000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 3330,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "summary": "A compact, well-lit mews house in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-    "description": [
-      "A compact, well-lit mews house on Green Street, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 5 bedrooms above.",
-      "A considered instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Skylights throughout",
-      "Roof terrace",
-      "Integral garage",
-      "Own front door"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-mews-house-02.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-24",
-    "featured": false
-  },
-  {
-    "id": "man-0039",
-    "slug": "mount-row-mayfair-w1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "mews-house",
-    "tenure": "leasehold",
-    "title": "A cobbled mews house on Mount Row, Mayfair",
-    "addressLine": "Mount Row",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "rentPcm": 12050,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1640,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9900,
-    "leaseYearsRemaining": 87,
-    "summary": "A cobbled mews house in Mayfair, a short walk from Berkeley Square and the Connaught.",
-    "description": [
-      "A cobbled mews house on Mount Row, set a short walk from Berkeley Square and the Connaught.",
-      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 2 bedrooms on the floors above.",
-      "Available immediately, furnished to a high standard."
-    ],
-    "features": [
-      "Skylights throughout",
-      "Own front door",
-      "Roof terrace",
-      "Cobbled mews setting",
-      "87-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-mews-house-01.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-03.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-06",
-    "featured": false
-  },
-  {
-    "id": "man-0040",
-    "slug": "wilton-place-belgravia-sw1",
-    "purpose": "sale",
-    "status": "for-sale",
+    "status": "sstc",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A lateral apartment on Wilton Place, Belgravia",
-    "addressLine": "Wilton Place",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 5525000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2270,
-    "epcRating": "D",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 15700,
-    "leaseYearsRemaining": 122,
-    "summary": "A lateral apartment in Belgravia, close to Wilton Crescent and the embassies along Belgrave Square.",
-    "description": [
-      "A lateral apartment on Wilton Place, set close to Wilton Crescent and the embassies along Belgrave Square.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 5 bedrooms arranged away from the entertaining space.",
-      "A rare instruction, offered to the market with no onward chain."
-    ],
-    "features": [
-      "Air conditioning",
-      "High ceilings",
-      "Lift access",
-      "Period cornicing retained",
-      "122-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-11",
-    "featured": false
-  },
-  {
-    "id": "man-0041",
-    "slug": "ilchester-place-kensington-w8",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Ilchester Place, Kensington",
-    "addressLine": "Ilchester Place",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 5510000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2410,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 16200,
-    "leaseYearsRemaining": 99,
-    "summary": "A stucco-fronted townhouse in Kensington, between Holland Park and Kensington High Street.",
-    "description": [
-      "A stucco-fronted townhouse on Ilchester Place, set between Holland Park and Kensington High Street.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "A considered instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Underfloor heating",
-      "Private rear garden",
-      "Off-street parking permit eligible",
-      "Wine cellar",
-      "99-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-03.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-09",
-    "featured": false
-  },
-  {
-    "id": "man-0042",
-    "slug": "holland-park-avenue-holland-park-w14",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A stucco-fronted townhouse on Holland Park Avenue, Holland Park",
-    "addressLine": "Holland Park Avenue",
+    "title": "A remodelled apartment on Royal Crescent, Holland Park",
+    "addressLine": "Royal Crescent",
     "area": "Holland Park",
     "postcodeDistrict": "W14",
-    "rentPcm": 7850,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1680,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "summary": "A stucco-fronted townhouse in Holland Park, a short walk from Holland Park Avenue's restaurants.",
-    "description": [
-      "A stucco-fronted townhouse on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
-      "The house rises across its full height with reception rooms on the lower floors and 2 bedrooms above, each with its own character.",
-      "Available for a minimum twelve-month term, furnished or unfurnished."
-    ],
-    "features": [
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "Home cinema room",
-      "Wine cellar"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-02.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-08",
-    "featured": false
-  },
-  {
-    "id": "man-0043",
-    "slug": "clifton-villas-little-venice-w9",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A garden maisonette on Clifton Villas, Little Venice",
-    "addressLine": "Clifton Villas",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 4145000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 1720,
-    "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 9200,
-    "leaseYearsRemaining": 940,
-    "summary": "A garden maisonette in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
-    "description": [
-      "A garden maisonette on Clifton Villas, set a short walk from Warwick Avenue's cafés and the towpath.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "A straightforward instruction, offered to the market with flexible completion."
-    ],
-    "features": [
-      "Original shutters and fireplaces",
-      "Own front door",
-      "Private garden",
-      "Underfloor heating",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-02",
-    "featured": false
-  },
-  {
-    "id": "man-0044",
-    "slug": "elgin-crescent-notting-hill-w11",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "detached-house",
-    "tenure": "leasehold",
-    "title": "A substantial house on Elgin Crescent, Notting Hill",
-    "addressLine": "Elgin Crescent",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "rentPcm": 16900,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2940,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 12300,
-    "leaseYearsRemaining": 118,
-    "summary": "A substantial house in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
-    "description": [
-      "A substantial house on Elgin Crescent, set a few minutes from Holland Park and the Electric Cinema.",
-      "The house stands alone on its plot, with reception rooms front and back and 4 bedrooms arranged across a mix of family and guest configurations.",
-      "Available on a company or private let, furnished to a high standard."
-    ],
-    "features": [
-      "Landscaped grounds",
-      "Swimming pool",
-      "Lower ground leisure floor",
-      "Private garden",
-      "118-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-09-15",
-    "featured": false
-  },
-  {
-    "id": "man-0045",
-    "slug": "loudoun-road-st-john-s-wood-nw8",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "An immaculately presented apartment on Loudoun Road, St John's Wood",
-    "addressLine": "Loudoun Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 12650,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2200,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 8800,
-    "leaseYearsRemaining": 78,
-    "summary": "An immaculately presented apartment in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
-    "description": [
-      "An immaculately presented apartment on Loudoun Road, set moments from Lord's Cricket Ground and Regent's Park.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 5 bedrooms arranged away from the entertaining space.",
-      "Available for a minimum twelve-month term, unfurnished."
-    ],
-    "features": [
-      "High ceilings",
-      "Secure underground parking",
-      "Engineered oak flooring",
-      "Recently renovated kitchen",
-      "78-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-01.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-16",
-    "featured": false
-  },
-  {
-    "id": "man-0046",
-    "slug": "holland-park-avenue-holland-park-w14-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A beautifully maintained house on Holland Park Avenue, Holland Park",
-    "addressLine": "Holland Park Avenue",
-    "area": "Holland Park",
-    "postcodeDistrict": "W14",
-    "price": 3445000,
+    "price": 3160000,
     "bedrooms": 2,
     "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1820,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "summary": "A beautifully maintained house in Holland Park, a short walk from Holland Park Avenue's restaurants.",
-    "description": [
-      "A beautifully maintained house on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
-      "The house stands alone on its plot, with reception rooms front and back and 2 bedrooms arranged across a mix of family and guest configurations.",
-      "A straightforward instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Swimming pool",
-      "Lower ground leisure floor",
-      "Off-street parking",
-      "Private garden"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-15",
-    "featured": false
-  },
-  {
-    "id": "man-0047",
-    "slug": "mount-row-mayfair-w1-1",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A quietly grand townhouse on Mount Row, Mayfair",
-    "addressLine": "Mount Row",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "rentPcm": 18200,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 2870,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "summary": "A quietly grand townhouse in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-    "description": [
-      "A quietly grand townhouse on Mount Row, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "Available for a minimum twelve-month term, unfurnished."
-    ],
-    "features": [
-      "Garden square access",
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "Original staircase retained"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-15",
-    "featured": false
-  },
-  {
-    "id": "man-0048",
-    "slug": "maida-avenue-little-venice-w9",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A beautifully proportioned maisonette on Maida Avenue, Little Venice",
-    "addressLine": "Maida Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "rentPcm": 10100,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2520,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 13900,
-    "leaseYearsRemaining": 115,
-    "summary": "A beautifully proportioned maisonette in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
-    "description": [
-      "A beautifully proportioned maisonette on Maida Avenue, set a short walk from Warwick Avenue's cafés and the towpath.",
-      "A private front door leads straight into the reception, with 5 bedrooms arranged over the floor above.",
-      "Available on a company or private let, furnished to a high standard."
-    ],
-    "features": [
-      "Underfloor heating",
-      "Private garden",
-      "Two reception rooms",
-      "Own front door",
-      "115-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-04.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-04",
-    "featured": false
-  },
-  {
-    "id": "man-0049",
-    "slug": "stanwick-road-kensington-w8",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A raised ground-floor maisonette on Stanwick Road, Kensington",
-    "addressLine": "Stanwick Road",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "rentPcm": 8950,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 2,
-    "sizeSqft": 2030,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 900,
-    "summary": "A raised ground-floor maisonette in Kensington, between Holland Park and Kensington High Street.",
-    "description": [
-      "A raised ground-floor maisonette on Stanwick Road, set between Holland Park and Kensington High Street.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "Available for a minimum twelve-month term, furnished to a high standard."
-    ],
-    "features": [
-      "Underfloor heating",
-      "Bespoke fitted joinery",
-      "Private garden",
-      "Two reception rooms",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-04",
-    "featured": false
-  },
-  {
-    "id": "man-0050",
-    "slug": "blomfield-road-little-venice-w9-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A quietly grand townhouse on Blomfield Road, Little Venice",
-    "addressLine": "Blomfield Road",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 5720000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 3140,
+    "sizeSqft": 1530,
     "epcRating": "C",
     "councilTaxBand": "H",
-    "summary": "A quietly grand townhouse in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
+    "serviceChargeAnnual": 9700,
+    "leaseYearsRemaining": 97,
+    "summary": "A remodelled apartment in Holland Park, a short walk from Holland Park Avenue's restaurants.",
     "description": [
-      "A quietly grand townhouse on Blomfield Road, set a short walk from Warwick Avenue's cafés and the towpath.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 4 bedrooms above.",
-      "A considered instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Wine cellar",
-      "Home cinema room",
-      "Underfloor heating",
-      "Off-street parking permit eligible"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-09-08",
-    "featured": false
-  },
-  {
-    "id": "man-0051",
-    "slug": "onslow-square-south-kensington-sw7",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A handsomely proportioned townhouse on Onslow Square, South Kensington",
-    "addressLine": "Onslow Square",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "rentPcm": 19900,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 3560,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 14300,
-    "leaseYearsRemaining": 98,
-    "summary": "A handsomely proportioned townhouse in South Kensington, moments from South Kensington's garden squares.",
-    "description": [
-      "A handsomely proportioned townhouse on Onslow Square, set moments from South Kensington's garden squares.",
-      "The principal reception rooms sit on the raised ground and first floors, with 5 bedrooms arranged across the upper storeys.",
-      "Available from next month, furnished or unfurnished."
-    ],
-    "features": [
-      "Wine cellar",
-      "Home cinema room",
-      "Off-street parking permit eligible",
-      "Garden square access",
-      "98-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-03.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-18",
-    "featured": false
-  },
-  {
-    "id": "man-0052",
-    "slug": "royal-crescent-holland-park-w11-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "An immaculately kept townhouse on Royal Crescent, Holland Park",
-    "addressLine": "Royal Crescent",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 4315000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 3,
-    "sizeSqft": 2530,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 13000,
-    "leaseYearsRemaining": 116,
-    "summary": "An immaculately kept townhouse in Holland Park, a short walk from Holland Park Avenue's restaurants.",
-    "description": [
-      "An immaculately kept townhouse on Royal Crescent, set a short walk from Holland Park Avenue's restaurants.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "An honest instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Garden square access",
-      "Private rear garden",
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "116-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-12",
-    "featured": false
-  },
-  {
-    "id": "man-0053",
-    "slug": "trevor-square-knightsbridge-sw3",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A quietly grand apartment on Trevor Square, Knightsbridge",
-    "addressLine": "Trevor Square",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 14550,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 2460,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 11400,
-    "leaseYearsRemaining": 987,
-    "summary": "A quietly grand apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
-    "description": [
-      "A quietly grand apartment on Trevor Square, set within easy reach of Harrods and Hyde Park's south side.",
-      "Rooms keep the building's original proportions and ceiling height, with 5 bedrooms and a kitchen updated within recent years.",
-      "Available immediately, furnished or unfurnished."
-    ],
-    "features": [
-      "Secure underground parking",
-      "Period cornicing retained",
-      "High ceilings",
-      "Lift access",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-04",
-    "featured": false
-  },
-  {
-    "id": "man-0054",
-    "slug": "ilchester-place-kensington-w8-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A remodelled apartment on Ilchester Place, Kensington",
-    "addressLine": "Ilchester Place",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 3285000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1930,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 8100,
-    "leaseYearsRemaining": 95,
-    "summary": "A remodelled apartment in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
-    "description": [
-      "A remodelled apartment on Ilchester Place, set a short walk from the Design Museum and Holland Park's tennis courts.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
+      "A remodelled apartment on Royal Crescent, set a short walk from Holland Park Avenue's restaurants.",
+      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
       "A straightforward instruction, offered to the market with flexible completion."
-    ],
-    "features": [
-      "Recently renovated kitchen",
-      "Porterage",
-      "Period cornicing retained",
-      "Secure underground parking",
-      "95-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-02.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-18",
-    "featured": false
-  },
-  {
-    "id": "man-0055",
-    "slug": "glebe-place-chelsea-sw3",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A recently refurbished apartment on Glebe Place, Chelsea",
-    "addressLine": "Glebe Place",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "price": 4670000,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 2550,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 15400,
-    "leaseYearsRemaining": 114,
-    "summary": "A recently refurbished apartment in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
-    "description": [
-      "A recently refurbished apartment on Glebe Place, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 5 well-proportioned bedrooms.",
-      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
       "Recently renovated kitchen",
       "Video entry system",
-      "Secure underground parking",
-      "Lift access",
-      "114-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-01",
-    "featured": false
-  },
-  {
-    "id": "man-0056",
-    "slug": "wimpole-street-marylebone-w1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "penthouse",
-    "tenure": "leasehold",
-    "title": "A discreetly renovated penthouse on Wimpole Street, Marylebone",
-    "addressLine": "Wimpole Street",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "rentPcm": 10250,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2320,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 14600,
-    "leaseYearsRemaining": 99,
-    "summary": "A discreetly renovated penthouse in Marylebone, two minutes from Marylebone High Street's shops and cafés.",
-    "description": [
-      "A discreetly renovated penthouse on Wimpole Street, set two minutes from Marylebone High Street's shops and cafés.",
-      "The reception spans the width of the top floor, with 4 bedrooms opening onto private terrace space of its own.",
-      "Available on a company or private let, furnished to a high standard."
-    ],
-    "features": [
-      "Lift access",
-      "Air conditioning",
-      "Home automation system",
-      "Panoramic outlook",
-      "99-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-penthouse-02.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-01",
-    "featured": false
-  },
-  {
-    "id": "man-0057",
-    "slug": "foley-street-fitzrovia-w1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "An immaculately presented apartment on Foley Street, Fitzrovia",
-    "addressLine": "Foley Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 4505000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2130,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 14100,
-    "leaseYearsRemaining": 986,
-    "summary": "An immaculately presented apartment in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
-    "description": [
-      "An immaculately presented apartment on Foley Street, set close to Fitzroy Square's garden and the BT Tower.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
-      "An honest instruction, offered to the market with no onward chain."
-    ],
-    "features": [
-      "Period cornicing retained",
-      "Porterage",
-      "Recently renovated kitchen",
-      "Secure underground parking",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-01.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-09-16",
-    "featured": false
-  },
-  {
-    "id": "man-0058",
-    "slug": "royal-crescent-holland-park-w14",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A lateral apartment on Royal Crescent, Holland Park",
-    "addressLine": "Royal Crescent",
-    "area": "Holland Park",
-    "postcodeDistrict": "W14",
-    "price": 4440000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2140,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 941,
-    "summary": "A lateral apartment in Holland Park, a short walk from Holland Park Avenue's restaurants.",
-    "description": [
-      "A lateral apartment on Royal Crescent, set a short walk from Holland Park Avenue's restaurants.",
-      "Rooms keep the building's original proportions and ceiling height, with 4 bedrooms and a kitchen updated within recent years.",
-      "An honest instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Engineered oak flooring",
       "High ceilings",
-      "Lift access",
-      "Recently renovated kitchen",
-      "Share of freehold"
+      "Porterage",
+      "97-year lease"
     ],
     "images": [
       {
@@ -3006,40 +1816,40 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-07",
+    "dateListed": "2026-09-21",
     "featured": false
   },
   {
-    "id": "man-0059",
-    "slug": "portland-place-marylebone-w1-1",
-    "purpose": "sale",
-    "status": "for-sale",
+    "id": "man-0039",
+    "slug": "lowndes-square-knightsbridge-sw1",
+    "purpose": "let",
+    "status": "to-let",
     "propertyType": "penthouse",
     "tenure": "leasehold",
-    "title": "A discreetly renovated penthouse on Portland Place, Marylebone",
-    "addressLine": "Portland Place",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 4115000,
+    "title": "A discreetly renovated penthouse on Lowndes Square, Knightsbridge",
+    "addressLine": "Lowndes Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "rentPcm": 11500,
     "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1910,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1700,
     "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 9400,
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8300,
     "leaseYearsRemaining": 68,
-    "summary": "A discreetly renovated penthouse in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "summary": "A discreetly renovated penthouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
     "description": [
-      "A discreetly renovated penthouse on Portland Place, set close to Regent's Park and the Wallace Collection.",
-      "The reception spans the width of the top floor, with 3 bedrooms opening onto private terrace space of its own.",
-      "A straightforward instruction, offered to the market with flexible completion."
+      "A discreetly renovated penthouse on Lowndes Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
+      "Available immediately, part-furnished."
     ],
     "features": [
+      "Recently reconfigured layout",
       "Concierge",
       "Air conditioning",
-      "Wraparound terrace",
-      "Lift access",
+      "Panoramic outlook",
       "68-year lease"
     ],
     "images": [
@@ -3064,50 +1874,1245 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       },
       {
+        "src": "/photos/interior-dining-03.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
         "src": "/photos/interior-hallway-01.jpg",
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-18",
+    "dateListed": "2026-08-04",
     "featured": false
   },
   {
-    "id": "man-0060",
-    "slug": "lowndes-square-knightsbridge-sw3",
+    "id": "man-0040",
+    "slug": "colville-terrace-notting-hill-w11",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "detached-house",
+    "tenure": "freehold",
+    "title": "A fully detached house on Colville Terrace, Notting Hill",
+    "addressLine": "Colville Terrace",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 5575000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 3,
+    "sizeSqft": 2660,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "summary": "A fully detached house in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
+    "description": [
+      "A fully detached house on Colville Terrace, set close to the communal gardens Notting Hill's crescents are built around.",
+      "The house stands alone on its plot, with reception rooms front and back and 3 bedrooms arranged across a mix of family and guest configurations.",
+      "A rare instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Underfloor heating",
+      "Landscaped grounds",
+      "Lower ground leisure floor",
+      "Swimming pool"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-09-21",
+    "featured": false
+  },
+  {
+    "id": "man-0041",
+    "slug": "maida-avenue-little-venice-w9",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A five-storey townhouse on Maida Avenue, Little Venice",
+    "addressLine": "Maida Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "price": 3670000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 2010,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "summary": "A five-storey townhouse in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
+    "description": [
+      "A five-storey townhouse on Maida Avenue, set a short walk from Warwick Avenue's cafés and the towpath.",
+      "The principal reception rooms sit on the raised ground and first floors, with 2 bedrooms arranged across the upper storeys.",
+      "An honest instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Home cinema room",
+      "Private rear garden",
+      "Wine cellar",
+      "Garden square access"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-03.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-04",
+    "featured": false
+  },
+  {
+    "id": "man-0042",
+    "slug": "newman-street-fitzrovia-w1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A raised ground-floor maisonette on Newman Street, Fitzrovia",
+    "addressLine": "Newman Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 2870000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1220,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 7700,
+    "leaseYearsRemaining": 135,
+    "summary": "A raised ground-floor maisonette in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "description": [
+      "A raised ground-floor maisonette on Newman Street, set moments from Charlotte Street's restaurants.",
+      "The raised ground floor holds the principal reception rooms, with 1 bedroom and a family bathroom on the floor below.",
+      "An honest instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Original shutters and fireplaces",
+      "Own front door",
+      "Underfloor heating",
+      "Private garden",
+      "135-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-02.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-12",
+    "featured": false
+  },
+  {
+    "id": "man-0043",
+    "slug": "harley-street-marylebone-w1-1",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "penthouse",
     "tenure": "share-of-freehold",
-    "title": "A dual-aspect penthouse on Lowndes Square, Knightsbridge",
-    "addressLine": "Lowndes Square",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "price": 6600000,
-    "bedrooms": 4,
+    "title": "A dual-aspect penthouse on Harley Street, Marylebone",
+    "addressLine": "Harley Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 3755000,
+    "bedrooms": 3,
     "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 2130,
+    "sizeSqft": 1650,
     "epcRating": "E",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 13200,
-    "leaseYearsRemaining": 900,
-    "summary": "A dual-aspect penthouse in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "serviceChargeAnnual": 7600,
+    "leaseYearsRemaining": 926,
+    "summary": "A dual-aspect penthouse in Marylebone, two minutes from Marylebone High Street's shops and cafés.",
     "description": [
-      "A dual-aspect penthouse on Lowndes Square, set within easy reach of Harrods and Hyde Park's south side.",
-      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 4 bedrooms each with fitted storage.",
-      "A rare instruction, offered to the market with an early exchange preferred."
+      "A dual-aspect penthouse on Harley Street, set two minutes from Marylebone High Street's shops and cafés.",
+      "The reception spans the width of the top floor, with 3 bedrooms opening onto private terrace space of its own.",
+      "A considered instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Air conditioning",
+      "Concierge",
+      "Home automation system",
       "Lift access",
       "Private roof terrace",
-      "Wraparound terrace",
       "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-01.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-09-26",
+    "featured": false
+  },
+  {
+    "id": "man-0044",
+    "slug": "dorset-street-marylebone-w1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A full-floor penthouse on Dorset Street, Marylebone",
+    "addressLine": "Dorset Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "rentPcm": 7200,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1440,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9400,
+    "leaseYearsRemaining": 113,
+    "summary": "A full-floor penthouse in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "description": [
+      "A full-floor penthouse on Dorset Street, set close to Regent's Park and the Wallace Collection.",
+      "The reception spans the width of the top floor, with 2 bedrooms opening onto private terrace space of its own.",
+      "Available for a minimum twelve-month term, furnished to a high standard."
+    ],
+    "features": [
+      "Lift access",
+      "Recently reconfigured layout",
+      "Private roof terrace",
+      "Wraparound terrace",
+      "113-year lease"
     ],
     "images": [
       {
         "src": "/photos/exterior-penthouse-02.jpg",
         "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-02.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-09-02",
+    "featured": false
+  },
+  {
+    "id": "man-0045",
+    "slug": "stanwick-road-kensington-w8",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "A quietly grand apartment on Stanwick Road, Kensington",
+    "addressLine": "Stanwick Road",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3125000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1300,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 6100,
+    "leaseYearsRemaining": 911,
+    "summary": "A quietly grand apartment in Kensington, between Holland Park and Kensington High Street.",
+    "description": [
+      "A quietly grand apartment on Stanwick Road, set between Holland Park and Kensington High Street.",
+      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
+      "A straightforward instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Video entry system",
+      "Period cornicing retained",
+      "Engineered oak flooring",
+      "Lift access",
+      "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-01.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-07",
+    "featured": false
+  },
+  {
+    "id": "man-0046",
+    "slug": "warwick-avenue-little-venice-w9",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A quietly grand townhouse on Warwick Avenue, Little Venice",
+    "addressLine": "Warwick Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 11000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 2440,
+    "epcRating": "B",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 10400,
+    "leaseYearsRemaining": 101,
+    "summary": "A quietly grand townhouse in Little Venice, close to Paddington Basin and the Regent's Canal.",
+    "description": [
+      "A quietly grand townhouse on Warwick Avenue, set close to Paddington Basin and the Regent's Canal.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
+      "Available on a company or private let, part-furnished."
+    ],
+    "features": [
+      "Home cinema room",
+      "Private rear garden",
+      "Garden square access",
+      "Off-street parking permit eligible",
+      "101-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-01",
+    "featured": false
+  },
+  {
+    "id": "man-0047",
+    "slug": "hamilton-terrace-st-john-s-wood-nw8",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A quietly grand townhouse on Hamilton Terrace, St John's Wood",
+    "addressLine": "Hamilton Terrace",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 5125000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 3,
+    "sizeSqft": 2350,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12200,
+    "leaseYearsRemaining": 124,
+    "summary": "A quietly grand townhouse in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
+    "description": [
+      "A quietly grand townhouse on Hamilton Terrace, set a short walk from Primrose Hill and the Regent's Canal towpath.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "A rare instruction, offered to the market with an early exchange preferred."
+    ],
+    "features": [
+      "Off-street parking permit eligible",
+      "Original staircase retained",
+      "Wine cellar",
+      "Underfloor heating",
+      "124-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-15",
+    "featured": false
+  },
+  {
+    "id": "man-0048",
+    "slug": "ladbroke-grove-notting-hill-w11",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A handsomely proportioned townhouse on Ladbroke Grove, Notting Hill",
+    "addressLine": "Ladbroke Grove",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "rentPcm": 9900,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 2580,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "summary": "A handsomely proportioned townhouse in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
+    "description": [
+      "A handsomely proportioned townhouse on Ladbroke Grove, set close to the communal gardens Notting Hill's crescents are built around.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "Available immediately, unfurnished."
+    ],
+    "features": [
+      "Private rear garden",
+      "Home cinema room",
+      "Off-street parking permit eligible",
+      "Original staircase retained"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-04.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-04",
+    "featured": false
+  },
+  {
+    "id": "man-0049",
+    "slug": "weymouth-street-marylebone-w1",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An exceptionally quiet apartment on Weymouth Street, Marylebone",
+    "addressLine": "Weymouth Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 4795000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2520,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 17200,
+    "leaseYearsRemaining": 915,
+    "summary": "An exceptionally quiet apartment in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "description": [
+      "An exceptionally quiet apartment on Weymouth Street, set close to Regent's Park and the Wallace Collection.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 5 bedrooms arranged away from the entertaining space.",
+      "A rare instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "High ceilings",
+      "Engineered oak flooring",
+      "Recently renovated kitchen",
+      "Porterage",
+      "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-01.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-12",
+    "featured": false
+  },
+  {
+    "id": "man-0050",
+    "slug": "holland-park-avenue-holland-park-w11",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A five-storey townhouse on Holland Park Avenue, Holland Park",
+    "addressLine": "Holland Park Avenue",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "price": 6005000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 3,
+    "sizeSqft": 2440,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 16300,
+    "leaseYearsRemaining": 141,
+    "summary": "A five-storey townhouse in Holland Park, a short walk from Holland Park Avenue's restaurants.",
+    "description": [
+      "A five-storey townhouse on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "A rare instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Garden square access",
+      "Home cinema room",
+      "Private rear garden",
+      "Off-street parking permit eligible",
+      "141-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-28",
+    "featured": false
+  },
+  {
+    "id": "man-0051",
+    "slug": "warwick-avenue-little-venice-w9-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An exceptionally quiet apartment on Warwick Avenue, Little Venice",
+    "addressLine": "Warwick Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "price": 6430000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 2,
+    "sizeSqft": 2860,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 15700,
+    "leaseYearsRemaining": 927,
+    "summary": "An exceptionally quiet apartment in Little Venice, close to Paddington Basin and the Regent's Canal.",
+    "description": [
+      "An exceptionally quiet apartment on Warwick Avenue, set close to Paddington Basin and the Regent's Canal.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 6 bedrooms arranged away from the entertaining space.",
+      "A considered instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Porterage",
+      "Engineered oak flooring",
+      "Recently renovated kitchen",
+      "High ceilings",
+      "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-03.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-09",
+    "featured": false
+  },
+  {
+    "id": "man-0052",
+    "slug": "marlborough-place-st-john-s-wood-nw8",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A quietly grand townhouse on Marlborough Place, St John's Wood",
+    "addressLine": "Marlborough Place",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "rentPcm": 8100,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1940,
+    "epcRating": "E",
+    "councilTaxBand": "F",
+    "summary": "A quietly grand townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "description": [
+      "A quietly grand townhouse on Marlborough Place, set close to St John's Wood High Street's boutiques and cafés.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
+      "Available from next month, unfurnished."
+    ],
+    "features": [
+      "Wine cellar",
+      "Private rear garden",
+      "Garden square access",
+      "Original staircase retained"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-17",
+    "featured": false
+  },
+  {
+    "id": "man-0053",
+    "slug": "circus-road-st-john-s-wood-nw8-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "detached-house",
+    "tenure": "freehold",
+    "title": "An exceptionally private house on Circus Road, St John's Wood",
+    "addressLine": "Circus Road",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 3305000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1690,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "summary": "An exceptionally private house in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "description": [
+      "An exceptionally private house on Circus Road, set close to St John's Wood High Street's boutiques and cafés.",
+      "The house stands alone on its plot, with reception rooms front and back and 2 bedrooms arranged across a mix of family and guest configurations.",
+      "A considered instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Underfloor heating",
+      "Integral garage",
+      "Swimming pool",
+      "Private garden"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-detached-house-01.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-03.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-17",
+    "featured": false
+  },
+  {
+    "id": "man-0054",
+    "slug": "ilchester-place-kensington-w8",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A light-filled apartment on Ilchester Place, Kensington",
+    "addressLine": "Ilchester Place",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3105000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1550,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 7900,
+    "leaseYearsRemaining": 135,
+    "summary": "A light-filled apartment in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
+    "description": [
+      "A light-filled apartment on Ilchester Place, set a short walk from the Design Museum and Holland Park's tennis courts.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
+      "A rare instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Lift access",
+      "Air conditioning",
+      "Secure underground parking",
+      "High ceilings",
+      "135-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-02.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-02.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-03",
+    "featured": false
+  },
+  {
+    "id": "man-0055",
+    "slug": "clifton-villas-little-venice-w9-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A lateral apartment on Clifton Villas, Little Venice",
+    "addressLine": "Clifton Villas",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 7650,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1480,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 7300,
+    "leaseYearsRemaining": 138,
+    "summary": "A lateral apartment in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
+    "description": [
+      "A lateral apartment on Clifton Villas, set a short walk from Warwick Avenue's cafés and the towpath.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
+      "Available for a minimum twelve-month term, unfurnished."
+    ],
+    "features": [
+      "Video entry system",
+      "Recently renovated kitchen",
+      "Air conditioning",
+      "Porterage",
+      "138-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-25",
+    "featured": false
+  },
+  {
+    "id": "man-0056",
+    "slug": "cavendish-avenue-st-john-s-wood-nw8-1",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A stucco-fronted townhouse on Cavendish Avenue, St John's Wood",
+    "addressLine": "Cavendish Avenue",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 5410000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2540,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "summary": "A stucco-fronted townhouse in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
+    "description": [
+      "A stucco-fronted townhouse on Cavendish Avenue, set moments from Lord's Cricket Ground and Regent's Park.",
+      "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
+      "A considered instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Underfloor heating",
+      "Garden square access",
+      "Private rear garden",
+      "Wine cellar"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-03",
+    "featured": false
+  },
+  {
+    "id": "man-0057",
+    "slug": "paultons-square-chelsea-sw10",
+    "purpose": "let",
+    "status": "let-agreed",
+    "propertyType": "mews-house",
+    "tenure": "freehold",
+    "title": "A self-contained mews house on Paultons Square, Chelsea",
+    "addressLine": "Paultons Square",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "rentPcm": 10900,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1980,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "summary": "A self-contained mews house in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
+    "description": [
+      "A self-contained mews house on Paultons Square, set moments from Duke of York Square and the Saatchi Gallery.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 2 bedrooms on the floors above.",
+      "Available for a minimum twelve-month term, unfurnished."
+    ],
+    "features": [
+      "Cobbled mews setting",
+      "Roof terrace",
+      "Integral garage",
+      "Own front door"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-01.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-01.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-25",
+    "featured": false
+  },
+  {
+    "id": "man-0058",
+    "slug": "addison-road-holland-park-w11-1",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A recently refurbished apartment on Addison Road, Holland Park",
+    "addressLine": "Addison Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "price": 2915000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1690,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 6800,
+    "leaseYearsRemaining": 62,
+    "summary": "A recently refurbished apartment in Holland Park, a short walk from Holland Park Avenue's restaurants.",
+    "description": [
+      "A recently refurbished apartment on Addison Road, set a short walk from Holland Park Avenue's restaurants.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
+      "A straightforward instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Video entry system",
+      "Engineered oak flooring",
+      "Recently renovated kitchen",
+      "Lift access",
+      "62-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-24",
+    "featured": false
+  },
+  {
+    "id": "man-0059",
+    "slug": "percy-street-fitzrovia-w1-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A beautifully proportioned maisonette on Percy Street, Fitzrovia",
+    "addressLine": "Percy Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 2435000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1130,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 5500,
+    "leaseYearsRemaining": 68,
+    "summary": "A beautifully proportioned maisonette in Fitzrovia, a short walk from Soho and the British Museum.",
+    "description": [
+      "A beautifully proportioned maisonette on Percy Street, set a short walk from Soho and the British Museum.",
+      "A private front door leads straight into the reception, with 1 bedroom arranged over the floor above.",
+      "A straightforward instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Two reception rooms",
+      "Own front door",
+      "Underfloor heating",
+      "Private garden",
+      "68-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-01.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-25",
+    "featured": false
+  },
+  {
+    "id": "man-0060",
+    "slug": "stanley-gardens-notting-hill-w11-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A stucco-fronted townhouse on Stanley Gardens, Notting Hill",
+    "addressLine": "Stanley Gardens",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 4480000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2550,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 12300,
+    "leaseYearsRemaining": 143,
+    "summary": "A stucco-fronted townhouse in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
+    "description": [
+      "A stucco-fronted townhouse on Stanley Gardens, set a few minutes from Holland Park and the Electric Cinema.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "A considered instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Private rear garden",
+      "Home cinema room",
+      "Off-street parking permit eligible",
+      "Underfloor heating",
+      "143-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -3130,41 +3135,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-11",
+    "dateListed": "2026-06-19",
     "featured": false
   },
   {
     "id": "man-0061",
-    "slug": "dorset-street-marylebone-w1",
-    "purpose": "sale",
-    "status": "for-sale",
+    "slug": "the-boltons-south-kensington-sw7",
+    "purpose": "let",
+    "status": "to-let",
     "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A rarely available maisonette on Dorset Street, Marylebone",
-    "addressLine": "Dorset Street",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 3885000,
-    "bedrooms": 3,
-    "bathrooms": 2,
+    "tenure": "leasehold",
+    "title": "A rarely available maisonette on The Boltons, South Kensington",
+    "addressLine": "The Boltons",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "rentPcm": 10500,
+    "bedrooms": 5,
+    "bathrooms": 5,
     "receptions": 1,
-    "sizeSqft": 1580,
+    "sizeSqft": 2290,
     "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 10600,
-    "leaseYearsRemaining": 987,
-    "summary": "A rarely available maisonette in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 16000,
+    "leaseYearsRemaining": 114,
+    "summary": "A rarely available maisonette in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A rarely available maisonette on Dorset Street, set close to Regent's Park and the Wallace Collection.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "A rare instruction, offered to the market with flexible completion."
+      "A rarely available maisonette on The Boltons, set moments from South Kensington's garden squares.",
+      "A private front door leads straight into the reception, with 5 bedrooms arranged over the floor above.",
+      "Available for a minimum twelve-month term, unfurnished."
     ],
     "features": [
+      "Two reception rooms",
+      "Private garden",
       "Original shutters and fireplaces",
       "Own front door",
-      "Two reception rooms",
-      "Bespoke fitted joinery",
-      "Share of freehold"
+      "114-year lease"
     ],
     "images": [
       {
@@ -3188,46 +3193,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-28",
+    "dateListed": "2026-07-03",
     "featured": false
   },
   {
     "id": "man-0062",
-    "slug": "phillimore-gardens-kensington-w8",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "An immaculately presented apartment on Phillimore Gardens, Kensington",
-    "addressLine": "Phillimore Gardens",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 3795000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1540,
-    "epcRating": "D",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 991,
-    "summary": "An immaculately presented apartment in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
+    "slug": "montpelier-square-knightsbridge-sw3",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A quietly grand townhouse on Montpelier Square, Knightsbridge",
+    "addressLine": "Montpelier Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW3",
+    "rentPcm": 21700,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2830,
+    "epcRating": "E",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 11600,
+    "leaseYearsRemaining": 123,
+    "summary": "A quietly grand townhouse in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
     "description": [
-      "An immaculately presented apartment on Phillimore Gardens, set a short walk from the Design Museum and Holland Park's tennis courts.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
-      "A straightforward instruction, offered to the market with no onward chain."
+      "A quietly grand townhouse on Montpelier Square, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
+      "Available from next month, furnished or unfurnished."
     ],
     "features": [
-      "Period cornicing retained",
-      "Porterage",
-      "Air conditioning",
-      "Lift access",
-      "Share of freehold"
+      "Private rear garden",
+      "Original staircase retained",
+      "Garden square access",
+      "Home cinema room",
+      "123-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -3246,41 +3251,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-01",
+    "dateListed": "2026-06-17",
     "featured": false
   },
   {
     "id": "man-0063",
-    "slug": "dorset-street-marylebone-w1-1",
+    "slug": "wimpole-street-marylebone-w1",
     "purpose": "sale",
-    "status": "for-sale",
+    "status": "under-offer",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A recently refurbished apartment on Dorset Street, Marylebone",
-    "addressLine": "Dorset Street",
+    "title": "A lateral apartment on Wimpole Street, Marylebone",
+    "addressLine": "Wimpole Street",
     "area": "Marylebone",
     "postcodeDistrict": "W1",
-    "price": 4165000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1910,
+    "price": 2480000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1230,
     "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 124,
-    "summary": "A recently refurbished apartment in Marylebone, a short walk from Marylebone Village.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 7900,
+    "leaseYearsRemaining": 109,
+    "summary": "A lateral apartment in Marylebone, a short walk from Marylebone Village.",
     "description": [
-      "A recently refurbished apartment on Dorset Street, set a short walk from Marylebone Village.",
-      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
-      "A straightforward instruction, offered to the market with an early exchange preferred."
+      "A lateral apartment on Wimpole Street, set a short walk from Marylebone Village.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
+      "A rare instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Secure underground parking",
+      "Period cornicing retained",
       "Porterage",
-      "Video entry system",
-      "High ceilings",
-      "124-year lease"
+      "Lift access",
+      "Recently renovated kitchen",
+      "109-year lease"
     ],
     "images": [
       {
@@ -3308,41 +3313,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-27",
+    "dateListed": "2026-09-24",
     "featured": false
   },
   {
     "id": "man-0064",
-    "slug": "cadogan-lane-belgravia-sw1",
+    "slug": "phillimore-gardens-kensington-w8",
     "purpose": "let",
-    "status": "to-let",
+    "status": "let-agreed",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A rarely available apartment on Cadogan Lane, Belgravia",
-    "addressLine": "Cadogan Lane",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 9650,
+    "title": "An immaculately presented apartment on Phillimore Gardens, Kensington",
+    "addressLine": "Phillimore Gardens",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "rentPcm": 8950,
     "bedrooms": 3,
     "bathrooms": 3,
     "receptions": 2,
-    "sizeSqft": 1650,
-    "epcRating": "B",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 7900,
-    "leaseYearsRemaining": 106,
-    "summary": "A rarely available apartment in Belgravia, close to Wilton Crescent and the embassies along Belgrave Square.",
+    "sizeSqft": 1950,
+    "epcRating": "D",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 8800,
+    "leaseYearsRemaining": 93,
+    "summary": "An immaculately presented apartment in Kensington, between Holland Park and Kensington High Street.",
     "description": [
-      "A rarely available apartment on Cadogan Lane, set close to Wilton Crescent and the embassies along Belgrave Square.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
-      "Available for a minimum twelve-month term, furnished or unfurnished."
+      "An immaculately presented apartment on Phillimore Gardens, set between Holland Park and Kensington High Street.",
+      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
+      "Available on a company or private let, unfurnished."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Video entry system",
       "Air conditioning",
-      "High ceilings",
-      "106-year lease"
+      "Lift access",
+      "Period cornicing retained",
+      "Recently renovated kitchen",
+      "93-year lease"
     ],
     "images": [
       {
@@ -3370,46 +3375,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-17",
+    "dateListed": "2026-05-09",
     "featured": false
   },
   {
     "id": "man-0065",
-    "slug": "cadogan-lane-belgravia-sw1-1",
+    "slug": "holland-villas-road-holland-park-w14",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A remodelled apartment on Cadogan Lane, Belgravia",
-    "addressLine": "Cadogan Lane",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 7290000,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 2530,
+    "propertyType": "detached-house",
+    "tenure": "freehold",
+    "title": "A fully detached house on Holland Villas Road, Holland Park",
+    "addressLine": "Holland Villas Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "price": 4310000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2490,
     "epcRating": "D",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 16300,
-    "leaseYearsRemaining": 104,
-    "summary": "A remodelled apartment in Belgravia, the private garden squares Belgravia is built around.",
+    "summary": "A fully detached house in Holland Park, a short walk from Holland Park Avenue's restaurants.",
     "description": [
-      "A remodelled apartment on Cadogan Lane, set the private garden squares Belgravia is built around.",
-      "An open-plan kitchen and reception take up the front of the flat, with 5 bedrooms arranged quietly to the rear.",
-      "A rare instruction, offered to the market with an early exchange preferred."
+      "A fully detached house on Holland Villas Road, set a short walk from Holland Park Avenue's restaurants.",
+      "The house stands alone on its plot, with reception rooms front and back and 3 bedrooms arranged across a mix of family and guest configurations.",
+      "A straightforward instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Engineered oak flooring",
-      "Porterage",
-      "Lift access",
-      "High ceilings",
-      "104-year lease"
+      "Landscaped grounds",
+      "Integral garage",
+      "Private garden",
+      "Swimming pool"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-01.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -3426,48 +3428,52 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-03.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-06",
+    "dateListed": "2026-07-15",
     "featured": false
   },
   {
     "id": "man-0066",
-    "slug": "holland-villas-road-holland-park-w11-1",
+    "slug": "upper-wimpole-street-marylebone-w1",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "detached-house",
+    "status": "sstc",
+    "propertyType": "maisonette",
     "tenure": "leasehold",
-    "title": "A rare detached house on Holland Villas Road, Holland Park",
-    "addressLine": "Holland Villas Road",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 4675000,
-    "bedrooms": 4,
+    "title": "A garden maisonette on Upper Wimpole Street, Marylebone",
+    "addressLine": "Upper Wimpole Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 4125000,
+    "bedrooms": 3,
     "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 2610,
-    "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 15700,
-    "leaseYearsRemaining": 119,
-    "summary": "A rare detached house in Holland Park, a short walk from Holland Park Avenue's restaurants.",
+    "sizeSqft": 1760,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 10900,
+    "leaseYearsRemaining": 130,
+    "summary": "A garden maisonette in Marylebone, close to Regent's Park and the Wallace Collection.",
     "description": [
-      "A rare detached house on Holland Villas Road, set a short walk from Holland Park Avenue's restaurants.",
-      "Set back from the road, the house offers reception rooms across the ground floor and 4 bedrooms above, each with good natural light.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A garden maisonette on Upper Wimpole Street, set close to Regent's Park and the Wallace Collection.",
+      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
+      "A rare instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Swimming pool",
-      "Private garden",
-      "Integral garage",
+      "Bespoke fitted joinery",
       "Underfloor heating",
-      "119-year lease"
+      "Own front door",
+      "Original shutters and fireplaces",
+      "130-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -3490,43 +3496,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-20",
+    "dateListed": "2026-09-24",
     "featured": false
   },
   {
     "id": "man-0067",
-    "slug": "farm-street-mayfair-w1",
+    "slug": "the-vale-chelsea-sw10",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A handsomely proportioned townhouse on Farm Street, Mayfair",
-    "addressLine": "Farm Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 7650000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2660,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "summary": "A handsomely proportioned townhouse in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
+    "propertyType": "mews-house",
+    "tenure": "leasehold",
+    "title": "A self-contained mews house on The Vale, Chelsea",
+    "addressLine": "The Vale",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "price": 4385000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1950,
+    "epcRating": "E",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9800,
+    "leaseYearsRemaining": 56,
+    "summary": "A self-contained mews house in Chelsea, close to the river and Albert Bridge.",
     "description": [
-      "A handsomely proportioned townhouse on Farm Street, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "A rare instruction, offered to the market with flexible completion."
+      "A self-contained mews house on The Vale, set close to the river and Albert Bridge.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 2 bedrooms on the floors above.",
+      "A considered instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "Original staircase retained",
-      "Home cinema room"
+      "Cobbled mews setting",
+      "Roof terrace",
+      "Own front door",
+      "Skylights throughout",
+      "56-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -3545,41 +3554,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-13",
+    "dateListed": "2026-09-07",
     "featured": false
   },
   {
     "id": "man-0068",
-    "slug": "upper-phillimore-gardens-kensington-w8-1",
+    "slug": "lansdowne-road-notting-hill-w11",
     "purpose": "let",
     "status": "to-let",
     "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "An immaculately presented apartment on Upper Phillimore Gardens, Kensington",
-    "addressLine": "Upper Phillimore Gardens",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "rentPcm": 5650,
+    "tenure": "share-of-freehold",
+    "title": "A quietly grand apartment on Lansdowne Road, Notting Hill",
+    "addressLine": "Lansdowne Road",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "rentPcm": 7200,
     "bedrooms": 2,
     "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1190,
+    "sizeSqft": 1540,
     "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 5800,
-    "leaseYearsRemaining": 78,
-    "summary": "An immaculately presented apartment in Kensington, close to Kensington Palace Gardens.",
+    "serviceChargeAnnual": 9300,
+    "leaseYearsRemaining": 918,
+    "summary": "A quietly grand apartment in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
     "description": [
-      "An immaculately presented apartment on Upper Phillimore Gardens, set close to Kensington Palace Gardens.",
-      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
-      "Available on a company or private let, part-furnished."
+      "A quietly grand apartment on Lansdowne Road, set within walking distance of Portobello Market and Westbourne Grove.",
+      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
+      "Available immediately, furnished to a high standard."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Air conditioning",
-      "Engineered oak flooring",
-      "Period cornicing retained",
-      "78-year lease"
+      "Porterage",
+      "Secure underground parking",
+      "High ceilings",
+      "Video entry system",
+      "Share of freehold"
     ],
     "images": [
       {
@@ -3603,46 +3612,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-13",
+    "dateListed": "2026-07-15",
     "featured": false
   },
   {
     "id": "man-0069",
-    "slug": "rutland-gate-knightsbridge-sw1",
+    "slug": "holland-villas-road-holland-park-w11",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A rarely available apartment on Rutland Gate, Knightsbridge",
-    "addressLine": "Rutland Gate",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "price": 4585000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1680,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 6800,
-    "leaseYearsRemaining": 145,
-    "summary": "A rarely available apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "title": "An immaculately kept townhouse on Holland Villas Road, Holland Park",
+    "addressLine": "Holland Villas Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "price": 4035000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1710,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 10100,
+    "leaseYearsRemaining": 82,
+    "summary": "An immaculately kept townhouse in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
     "description": [
-      "A rarely available apartment on Rutland Gate, set within easy reach of Harrods and Hyde Park's south side.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 3 well-proportioned bedrooms.",
-      "A considered instruction, offered to the market with an early exchange preferred."
+      "An immaculately kept townhouse on Holland Villas Road, set close to the Design Museum and Holland Park's kyoto garden.",
+      "The principal reception rooms sit on the raised ground and first floors, with 2 bedrooms arranged across the upper storeys.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Secure underground parking",
-      "Lift access",
-      "Recently renovated kitchen",
-      "High ceilings",
-      "145-year lease"
+      "Underfloor heating",
+      "Home cinema room",
+      "Off-street parking permit eligible",
+      "Garden square access",
+      "82-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -3665,44 +3674,48 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       },
       {
+        "src": "/photos/interior-study-01.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      },
+      {
         "src": "/photos/interior-hallway-01.jpg",
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-04",
+    "dateListed": "2026-09-01",
     "featured": false
   },
   {
     "id": "man-0070",
-    "slug": "chester-square-belgravia-sw1",
+    "slug": "fitzroy-square-fitzrovia-w1",
     "purpose": "sale",
-    "status": "for-sale",
+    "status": "under-offer",
     "propertyType": "apartment",
     "tenure": "share-of-freehold",
-    "title": "A rarely available apartment on Chester Square, Belgravia",
-    "addressLine": "Chester Square",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 8500000,
-    "bedrooms": 5,
-    "bathrooms": 5,
+    "title": "A light-filled apartment on Fitzroy Square, Fitzrovia",
+    "addressLine": "Fitzroy Square",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 3945000,
+    "bedrooms": 3,
+    "bathrooms": 3,
     "receptions": 2,
-    "sizeSqft": 2650,
+    "sizeSqft": 1680,
     "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 15900,
-    "leaseYearsRemaining": 935,
-    "summary": "A rarely available apartment in Belgravia, the private garden squares Belgravia is built around.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 9000,
+    "leaseYearsRemaining": 912,
+    "summary": "A light-filled apartment in Fitzrovia, moments from Charlotte Street's restaurants.",
     "description": [
-      "A rarely available apartment on Chester Square, set the private garden squares Belgravia is built around.",
-      "Rooms keep the building's original proportions and ceiling height, with 5 bedrooms and a kitchen updated within recent years.",
-      "An honest instruction, offered to the market with vacant possession."
+      "A light-filled apartment on Fitzroy Square, set moments from Charlotte Street's restaurants.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
+      "A rare instruction, offered to the market with no onward chain."
     ],
     "features": [
+      "Recently renovated kitchen",
+      "Video entry system",
       "Lift access",
-      "Period cornicing retained",
-      "High ceilings",
-      "Secure underground parking",
+      "Porterage",
       "Share of freehold"
     ],
     "images": [
@@ -3727,41 +3740,38 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-11",
+    "dateListed": "2026-09-19",
     "featured": false
   },
   {
     "id": "man-0071",
-    "slug": "evelyn-gardens-south-kensington-sw7-1",
+    "slug": "hamilton-terrace-st-john-s-wood-nw8-1",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "An immaculately kept townhouse on Evelyn Gardens, South Kensington",
-    "addressLine": "Evelyn Gardens",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 4765000,
+    "tenure": "freehold",
+    "title": "An immaculately kept townhouse on Hamilton Terrace, St John's Wood",
+    "addressLine": "Hamilton Terrace",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 4115000,
     "bedrooms": 2,
     "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 2010,
-    "epcRating": "E",
+    "sizeSqft": 1970,
+    "epcRating": "C",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 139,
-    "summary": "An immaculately kept townhouse in South Kensington, a short walk from Brompton Cross and the Natural History Museum.",
+    "summary": "An immaculately kept townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
     "description": [
-      "An immaculately kept townhouse on Evelyn Gardens, set a short walk from Brompton Cross and the Natural History Museum.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
-      "A straightforward instruction, offered to the market with an early exchange preferred."
+      "An immaculately kept townhouse on Hamilton Terrace, set close to St John's Wood High Street's boutiques and cafés.",
+      "The house rises across its full height with reception rooms on the lower floors and 2 bedrooms above, each with its own character.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Original staircase retained",
-      "Home cinema room",
-      "Off-street parking permit eligible",
+      "Wine cellar",
       "Underfloor heating",
-      "139-year lease"
+      "Original staircase retained",
+      "Garden square access"
     ],
     "images": [
       {
@@ -3785,46 +3795,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-06",
+    "dateListed": "2026-09-17",
     "featured": false
   },
   {
     "id": "man-0072",
-    "slug": "flood-street-chelsea-sw3",
+    "slug": "cranley-gardens-south-kensington-sw7-1",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "mews-house",
-    "tenure": "leasehold",
-    "title": "A recently updated mews house on Flood Street, Chelsea",
-    "addressLine": "Flood Street",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 13250,
-    "bedrooms": 5,
-    "bathrooms": 5,
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A handsomely proportioned townhouse on Cranley Gardens, South Kensington",
+    "addressLine": "Cranley Gardens",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "rentPcm": 9600,
+    "bedrooms": 3,
+    "bathrooms": 2,
     "receptions": 2,
-    "sizeSqft": 3310,
-    "epcRating": "B",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 22300,
-    "leaseYearsRemaining": 100,
-    "summary": "A recently updated mews house in Chelsea, close to the river and Albert Bridge.",
+    "sizeSqft": 2560,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "summary": "A handsomely proportioned townhouse in South Kensington, close to the museums along Exhibition Road.",
     "description": [
-      "A recently updated mews house on Flood Street, set close to the river and Albert Bridge.",
-      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 5 bedrooms on the floors above.",
-      "Available immediately, unfurnished."
+      "A handsomely proportioned townhouse on Cranley Gardens, set close to the museums along Exhibition Road.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
+      "Available on a company or private let, furnished or unfurnished."
     ],
     "features": [
-      "Cobbled mews setting",
-      "Own front door",
-      "Integral garage",
-      "Skylights throughout",
-      "100-year lease"
+      "Private rear garden",
+      "Home cinema room",
+      "Garden square access",
+      "Off-street parking permit eligible"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-02.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -3847,46 +3854,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-07",
+    "dateListed": "2026-05-20",
     "featured": false
   },
   {
     "id": "man-0073",
-    "slug": "oakley-street-chelsea-sw3",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "mews-house",
+    "slug": "thackeray-street-kensington-w8-1",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "maisonette",
     "tenure": "leasehold",
-    "title": "A garaged mews house on Oakley Street, Chelsea",
-    "addressLine": "Oakley Street",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 10200,
-    "bedrooms": 3,
+    "title": "A sunny maisonette on Thackeray Street, Kensington",
+    "addressLine": "Thackeray Street",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 4070000,
+    "bedrooms": 4,
     "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2230,
+    "receptions": 2,
+    "sizeSqft": 2000,
     "epcRating": "B",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 14900,
-    "leaseYearsRemaining": 91,
-    "summary": "A garaged mews house in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
+    "serviceChargeAnnual": 12900,
+    "leaseYearsRemaining": 76,
+    "summary": "A sunny maisonette in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
     "description": [
-      "A garaged mews house on Oakley Street, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 3 bedrooms above.",
-      "Available for a minimum twelve-month term, part-furnished."
+      "A sunny maisonette on Thackeray Street, set a short walk from the Design Museum and Holland Park's tennis courts.",
+      "The raised ground floor holds the principal reception rooms, with 4 bedrooms and a family bathroom on the floor below.",
+      "A rare instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Roof terrace",
-      "Cobbled mews setting",
-      "Integral garage",
       "Own front door",
-      "91-year lease"
+      "Bespoke fitted joinery",
+      "Two reception rooms",
+      "Underfloor heating",
+      "76-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-01.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -3903,47 +3910,43 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-02.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-19",
+    "dateListed": "2026-09-12",
     "featured": false
   },
   {
     "id": "man-0074",
-    "slug": "flood-street-chelsea-sw10",
+    "slug": "elgin-crescent-notting-hill-w11",
     "purpose": "let",
     "status": "to-let",
     "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "An immaculately kept townhouse on Flood Street, Chelsea",
-    "addressLine": "Flood Street",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW10",
-    "rentPcm": 20250,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 3,
-    "sizeSqft": 3470,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 22700,
-    "leaseYearsRemaining": 109,
-    "summary": "An immaculately kept townhouse in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
+    "title": "A five-storey townhouse on Elgin Crescent, Notting Hill",
+    "addressLine": "Elgin Crescent",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "rentPcm": 10900,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1950,
+    "epcRating": "B",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 10000,
+    "leaseYearsRemaining": 114,
+    "summary": "A five-storey townhouse in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
     "description": [
-      "An immaculately kept townhouse on Flood Street, set moments from Duke of York Square and the Saatchi Gallery.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 5 bedrooms above.",
-      "Available immediately, part-furnished."
+      "A five-storey townhouse on Elgin Crescent, set within walking distance of Portobello Market and Westbourne Grove.",
+      "The house rises across its full height with reception rooms on the lower floors and 2 bedrooms above, each with its own character.",
+      "Available on a company or private let, unfurnished."
     ],
     "features": [
+      "Original staircase retained",
+      "Off-street parking permit eligible",
       "Home cinema room",
-      "Private rear garden",
-      "Wine cellar",
-      "Garden square access",
-      "109-year lease"
+      "Underfloor heating",
+      "114-year lease"
     ],
     "images": [
       {
@@ -3971,43 +3974,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-22",
+    "dateListed": "2026-07-25",
     "featured": false
   },
   {
     "id": "man-0075",
-    "slug": "phillimore-gardens-kensington-w8-1",
+    "slug": "holland-park-avenue-holland-park-w14-1",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A stucco-fronted townhouse on Phillimore Gardens, Kensington",
-    "addressLine": "Phillimore Gardens",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "rentPcm": 12250,
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An exceptionally quiet apartment on Holland Park Avenue, Holland Park",
+    "addressLine": "Holland Park Avenue",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "rentPcm": 7350,
     "bedrooms": 3,
     "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2130,
+    "receptions": 2,
+    "sizeSqft": 1760,
     "epcRating": "D",
-    "councilTaxBand": "H",
-    "summary": "A stucco-fronted townhouse in Kensington, close to Kensington Palace Gardens.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 11300,
+    "leaseYearsRemaining": 977,
+    "summary": "An exceptionally quiet apartment in Holland Park, a short walk from Holland Park Avenue's restaurants.",
     "description": [
-      "A stucco-fronted townhouse on Phillimore Gardens, set close to Kensington Palace Gardens.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "Available immediately, part-furnished."
+      "An exceptionally quiet apartment on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
+      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
+      "Available for a minimum twelve-month term, unfurnished."
     ],
     "features": [
-      "Wine cellar",
-      "Home cinema room",
-      "Private rear garden",
-      "Underfloor heating"
+      "Porterage",
+      "Video entry system",
+      "Engineered oak flooring",
+      "High ceilings",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4030,46 +4036,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-01",
+    "dateListed": "2026-05-22",
     "featured": false
   },
   {
     "id": "man-0076",
-    "slug": "cranley-gardens-south-kensington-sw7",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
+    "slug": "balfour-place-mayfair-w1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A quietly grand apartment on Cranley Gardens, South Kensington",
-    "addressLine": "Cranley Gardens",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 3420000,
+    "title": "A five-storey townhouse on Balfour Place, Mayfair",
+    "addressLine": "Balfour Place",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 12500,
     "bedrooms": 3,
     "bathrooms": 2,
     "receptions": 2,
-    "sizeSqft": 1820,
+    "sizeSqft": 2310,
     "epcRating": "C",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 8600,
-    "leaseYearsRemaining": 113,
-    "summary": "A quietly grand apartment in South Kensington, moments from South Kensington's garden squares.",
+    "serviceChargeAnnual": 12100,
+    "leaseYearsRemaining": 130,
+    "summary": "A five-storey townhouse in Mayfair, a short walk from Berkeley Square and the Connaught.",
     "description": [
-      "A quietly grand apartment on Cranley Gardens, set moments from South Kensington's garden squares.",
-      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
-      "A considered instruction, offered to the market with no onward chain."
+      "A five-storey townhouse on Balfour Place, set a short walk from Berkeley Square and the Connaught.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "Available for a minimum twelve-month term, unfurnished."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Engineered oak flooring",
-      "Lift access",
-      "Video entry system",
-      "113-year lease"
+      "Garden square access",
+      "Underfloor heating",
+      "Wine cellar",
+      "Home cinema room",
+      "130-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -4088,46 +4094,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-23",
-    "featured": true
+    "dateListed": "2026-07-07",
+    "featured": false
   },
   {
     "id": "man-0077",
-    "slug": "addison-road-holland-park-w14",
+    "slug": "balfour-place-mayfair-w1-1",
     "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A freshly restored townhouse on Addison Road, Holland Park",
-    "addressLine": "Addison Road",
-    "area": "Holland Park",
-    "postcodeDistrict": "W14",
-    "price": 6895000,
+    "status": "for-sale",
+    "propertyType": "mews-house",
+    "tenure": "freehold",
+    "title": "A compact, well-lit mews house on Balfour Place, Mayfair",
+    "addressLine": "Balfour Place",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "price": 8890000,
     "bedrooms": 4,
     "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2990,
+    "receptions": 1,
+    "sizeSqft": 2800,
     "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 13600,
-    "leaseYearsRemaining": 76,
-    "summary": "A freshly restored townhouse in Holland Park, directly opposite Holland Park itself.",
+    "summary": "A compact, well-lit mews house in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
     "description": [
-      "A freshly restored townhouse on Addison Road, set directly opposite Holland Park itself.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A compact, well-lit mews house on Balfour Place, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 4 bedrooms on the floors above.",
+      "A straightforward instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Underfloor heating",
-      "Private rear garden",
-      "Off-street parking permit eligible",
-      "Garden square access",
-      "76-year lease"
+      "Integral garage",
+      "Cobbled mews setting",
+      "Roof terrace",
+      "Skylights throughout"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -4150,43 +4153,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-18",
+    "dateListed": "2026-07-22",
     "featured": false
   },
   {
     "id": "man-0078",
-    "slug": "avenue-road-st-john-s-wood-nw8",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A handsomely proportioned townhouse on Avenue Road, St John's Wood",
-    "addressLine": "Avenue Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 8600,
-    "bedrooms": 2,
-    "bathrooms": 1,
+    "slug": "foley-street-fitzrovia-w1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "share-of-freehold",
+    "title": "A beautifully proportioned maisonette on Foley Street, Fitzrovia",
+    "addressLine": "Foley Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 3445000,
+    "bedrooms": 3,
+    "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 2020,
+    "sizeSqft": 1610,
     "epcRating": "D",
-    "councilTaxBand": "F",
-    "summary": "A handsomely proportioned townhouse in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8300,
+    "leaseYearsRemaining": 941,
+    "summary": "A beautifully proportioned maisonette in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
     "description": [
-      "A handsomely proportioned townhouse on Avenue Road, set a short walk from Primrose Hill and the Regent's Canal towpath.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
-      "Available from next month, furnished to a high standard."
+      "A beautifully proportioned maisonette on Foley Street, set close to Fitzroy Square's garden and the BT Tower.",
+      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
+      "A rare instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Original staircase retained",
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "Garden square access"
+      "Own front door",
+      "Two reception rooms",
+      "Original shutters and fireplaces",
+      "Private garden",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -4209,46 +4215,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-12",
-    "featured": false
+    "dateListed": "2026-06-25",
+    "featured": true
   },
   {
     "id": "man-0079",
-    "slug": "belgrave-mews-north-belgravia-sw1",
+    "slug": "acacia-road-st-john-s-wood-nw8",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
+    "status": "sstc",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A quietly grand apartment on Belgrave Mews North, Belgravia",
-    "addressLine": "Belgrave Mews North",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 5615000,
+    "title": "An immaculately kept townhouse on Acacia Road, St John's Wood",
+    "addressLine": "Acacia Road",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 6725000,
     "bedrooms": 3,
     "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1900,
+    "receptions": 3,
+    "sizeSqft": 2710,
     "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 11900,
-    "leaseYearsRemaining": 94,
-    "summary": "A quietly grand apartment in Belgravia, close to Wilton Crescent and the embassies along Belgrave Square.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 10900,
+    "leaseYearsRemaining": 91,
+    "summary": "An immaculately kept townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
     "description": [
-      "A quietly grand apartment on Belgrave Mews North, set close to Wilton Crescent and the embassies along Belgrave Square.",
-      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
-      "A straightforward instruction, offered to the market with vacant possession."
+      "An immaculately kept townhouse on Acacia Road, set close to St John's Wood High Street's boutiques and cafés.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Lift access",
-      "Air conditioning",
-      "Period cornicing retained",
-      "94-year lease"
+      "Home cinema room",
+      "Underfloor heating",
+      "Off-street parking permit eligible",
+      "Original staircase retained",
+      "91-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -4271,46 +4277,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-09",
+    "dateListed": "2026-07-07",
     "featured": false
   },
   {
     "id": "man-0080",
-    "slug": "cadogan-gardens-chelsea-sw3",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A handsomely proportioned townhouse on Cadogan Gardens, Chelsea",
-    "addressLine": "Cadogan Gardens",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 7550,
-    "bedrooms": 1,
-    "bathrooms": 1,
+    "slug": "upper-phillimore-gardens-kensington-w8-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An immaculately presented apartment on Upper Phillimore Gardens, Kensington",
+    "addressLine": "Upper Phillimore Gardens",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 4755000,
+    "bedrooms": 4,
+    "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 1420,
+    "sizeSqft": 1980,
     "epcRating": "D",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 8200,
-    "leaseYearsRemaining": 118,
-    "summary": "A handsomely proportioned townhouse in Chelsea, close to the river and Albert Bridge.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 12900,
+    "leaseYearsRemaining": 927,
+    "summary": "An immaculately presented apartment in Kensington, between Holland Park and Kensington High Street.",
     "description": [
-      "A handsomely proportioned townhouse on Cadogan Gardens, set close to the river and Albert Bridge.",
-      "The house rises across its full height with reception rooms on the lower floors and 1 bedroom above, each with its own character.",
-      "Available on a company or private let, part-furnished."
+      "An immaculately presented apartment on Upper Phillimore Gardens, set between Holland Park and Kensington High Street.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
+      "A considered instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Private rear garden",
-      "Original staircase retained",
-      "Off-street parking permit eligible",
-      "Wine cellar",
-      "118-year lease"
+      "Secure underground parking",
+      "Lift access",
+      "Period cornicing retained",
+      "High ceilings",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4329,46 +4335,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-19",
+    "dateListed": "2026-05-17",
     "featured": false
   },
   {
     "id": "man-0081",
-    "slug": "dorset-street-marylebone-w1-2",
+    "slug": "royal-crescent-holland-park-w11",
     "purpose": "sale",
     "status": "under-offer",
-    "propertyType": "penthouse",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A wraparound-terraced penthouse on Dorset Street, Marylebone",
-    "addressLine": "Dorset Street",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 3920000,
-    "bedrooms": 3,
+    "title": "A light-filled apartment on Royal Crescent, Holland Park",
+    "addressLine": "Royal Crescent",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "price": 5250000,
+    "bedrooms": 4,
     "bathrooms": 3,
     "receptions": 2,
-    "sizeSqft": 1990,
+    "sizeSqft": 2280,
     "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 10100,
-    "leaseYearsRemaining": 55,
-    "summary": "A wraparound-terraced penthouse in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 13700,
+    "leaseYearsRemaining": 58,
+    "summary": "A light-filled apartment in Holland Park, directly opposite Holland Park itself.",
     "description": [
-      "A wraparound-terraced penthouse on Dorset Street, set close to Regent's Park and the Wallace Collection.",
-      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
-      "A rare instruction, offered to the market with an early exchange preferred."
+      "A light-filled apartment on Royal Crescent, set directly opposite Holland Park itself.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Home automation system",
-      "Panoramic outlook",
-      "Recently reconfigured layout",
-      "Air conditioning",
-      "55-year lease"
+      "Lift access",
+      "Video entry system",
+      "Engineered oak flooring",
+      "Period cornicing retained",
+      "58-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-01.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -4389,52 +4395,48 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-dining-01.jpg",
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-01.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-18",
+    "dateListed": "2026-06-01",
     "featured": false
   },
   {
     "id": "man-0082",
-    "slug": "cheyne-row-chelsea-sw3",
+    "slug": "cadogan-square-knightsbridge-sw1-1",
     "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
+    "status": "to-let",
+    "propertyType": "penthouse",
     "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Cheyne Row, Chelsea",
-    "addressLine": "Cheyne Row",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 13900,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 3,
-    "sizeSqft": 2450,
-    "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 11200,
-    "leaseYearsRemaining": 144,
-    "summary": "A stucco-fronted townhouse in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
+    "title": "A top-floor penthouse on Cadogan Square, Knightsbridge",
+    "addressLine": "Cadogan Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "rentPcm": 14350,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 1,
+    "sizeSqft": 1850,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8300,
+    "leaseYearsRemaining": 63,
+    "summary": "A top-floor penthouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
     "description": [
-      "A stucco-fronted townhouse on Cheyne Row, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "Available from next month, furnished to a high standard."
+      "A top-floor penthouse on Cadogan Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
+      "The reception spans the width of the top floor, with 4 bedrooms opening onto private terrace space of its own.",
+      "Available from next month, unfurnished."
     ],
     "features": [
-      "Home cinema room",
-      "Wine cellar",
-      "Private rear garden",
-      "Off-street parking permit eligible",
-      "144-year lease"
+      "Lift access",
+      "Recently reconfigured layout",
+      "Air conditioning",
+      "Concierge",
+      "63-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -4453,40 +4455,40 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-19",
+    "dateListed": "2026-05-28",
     "featured": false
   },
   {
     "id": "man-0083",
-    "slug": "cranley-gardens-south-kensington-sw7-1",
+    "slug": "onslow-square-south-kensington-sw7",
     "purpose": "sale",
     "status": "under-offer",
     "propertyType": "apartment",
     "tenure": "share-of-freehold",
-    "title": "A rarely available apartment on Cranley Gardens, South Kensington",
-    "addressLine": "Cranley Gardens",
+    "title": "A remodelled apartment on Onslow Square, South Kensington",
+    "addressLine": "Onslow Square",
     "area": "South Kensington",
     "postcodeDistrict": "SW7",
-    "price": 3380000,
+    "price": 3310000,
     "bedrooms": 3,
     "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1580,
-    "epcRating": "C",
+    "receptions": 2,
+    "sizeSqft": 1740,
+    "epcRating": "B",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 6500,
-    "leaseYearsRemaining": 942,
-    "summary": "A rarely available apartment in South Kensington, a short walk from Brompton Cross and the Natural History Museum.",
+    "serviceChargeAnnual": 11600,
+    "leaseYearsRemaining": 908,
+    "summary": "A remodelled apartment in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A rarely available apartment on Cranley Gardens, set a short walk from Brompton Cross and the Natural History Museum.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
-      "An honest instruction, offered to the market with flexible completion."
+      "A remodelled apartment on Onslow Square, set moments from South Kensington's garden squares.",
+      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Video entry system",
-      "Air conditioning",
-      "Engineered oak flooring",
+      "Secure underground parking",
       "Porterage",
+      "High ceilings",
+      "Video entry system",
       "Share of freehold"
     ],
     "images": [
@@ -4511,46 +4513,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-03",
+    "dateListed": "2026-06-25",
     "featured": false
   },
   {
     "id": "man-0084",
-    "slug": "royal-avenue-chelsea-sw10",
+    "slug": "cavendish-avenue-st-john-s-wood-nw8-2",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "townhouse",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A five-storey townhouse on Royal Avenue, Chelsea",
-    "addressLine": "Royal Avenue",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW10",
-    "price": 3260000,
-    "bedrooms": 2,
-    "bathrooms": 1,
+    "title": "A remodelled apartment on Cavendish Avenue, St John's Wood",
+    "addressLine": "Cavendish Avenue",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 2780000,
+    "bedrooms": 3,
+    "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 1750,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 10900,
-    "leaseYearsRemaining": 111,
-    "summary": "A five-storey townhouse in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
+    "sizeSqft": 1580,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9100,
+    "leaseYearsRemaining": 56,
+    "summary": "A remodelled apartment in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
     "description": [
-      "A five-storey townhouse on Royal Avenue, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
-      "A rare instruction, offered to the market with no onward chain."
+      "A remodelled apartment on Cavendish Avenue, set close to St John's Wood High Street's boutiques and cafés.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 3 well-proportioned bedrooms.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Off-street parking permit eligible",
-      "Original staircase retained",
-      "Home cinema room",
-      "Private rear garden",
-      "111-year lease"
+      "Porterage",
+      "Secure underground parking",
+      "High ceilings",
+      "Recently renovated kitchen",
+      "56-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -4577,46 +4579,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-26",
+    "dateListed": "2026-07-01",
     "featured": false
   },
   {
     "id": "man-0085",
-    "slug": "paultons-square-chelsea-sw3",
+    "slug": "glebe-place-chelsea-sw10",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "mews-house",
-    "tenure": "leasehold",
-    "title": "A compact, well-lit mews house on Paultons Square, Chelsea",
-    "addressLine": "Paultons Square",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An exceptionally quiet apartment on Glebe Place, Chelsea",
+    "addressLine": "Glebe Place",
     "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "rentPcm": 13100,
-    "bedrooms": 5,
-    "bathrooms": 5,
+    "postcodeDistrict": "SW10",
+    "rentPcm": 7300,
+    "bedrooms": 2,
+    "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 2910,
-    "epcRating": "E",
+    "sizeSqft": 1370,
+    "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 16600,
-    "leaseYearsRemaining": 113,
-    "summary": "A compact, well-lit mews house in Chelsea, close to the river and Albert Bridge.",
+    "serviceChargeAnnual": 6100,
+    "leaseYearsRemaining": 988,
+    "summary": "An exceptionally quiet apartment in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
     "description": [
-      "A compact, well-lit mews house on Paultons Square, set close to the river and Albert Bridge.",
-      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 5 bedrooms above.",
-      "Available on a company or private let, part-furnished."
+      "An exceptionally quiet apartment on Glebe Place, set a short stroll from the King's Road and Chelsea Physic Garden.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
+      "Available immediately, furnished or unfurnished."
     ],
     "features": [
-      "Integral garage",
-      "Own front door",
-      "Skylights throughout",
-      "Cobbled mews setting",
-      "113-year lease"
+      "Porterage",
+      "Period cornicing retained",
+      "Lift access",
+      "Engineered oak flooring",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-01.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4633,52 +4635,48 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-02.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-20",
+    "dateListed": "2026-07-11",
     "featured": false
   },
   {
     "id": "man-0086",
-    "slug": "holland-villas-road-holland-park-w11-2",
+    "slug": "sumner-place-south-kensington-sw7",
     "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Holland Villas Road, Holland Park",
-    "addressLine": "Holland Villas Road",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 4630000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 2360,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 13600,
-    "leaseYearsRemaining": 57,
-    "summary": "A stucco-fronted townhouse in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "An immaculately presented apartment on Sumner Place, South Kensington",
+    "addressLine": "Sumner Place",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 4790000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2350,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 14900,
+    "leaseYearsRemaining": 912,
+    "summary": "An immaculately presented apartment in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A stucco-fronted townhouse on Holland Villas Road, set close to the Design Museum and Holland Park's kyoto garden.",
-      "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
-      "A considered instruction, offered to the market with vacant possession."
+      "An immaculately presented apartment on Sumner Place, set moments from South Kensington's garden squares.",
+      "An open-plan kitchen and reception take up the front of the flat, with 4 bedrooms arranged quietly to the rear.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Private rear garden",
-      "Underfloor heating",
-      "Wine cellar",
-      "Off-street parking permit eligible",
-      "57-year lease"
+      "Lift access",
+      "Recently renovated kitchen",
+      "Engineered oak flooring",
+      "Secure underground parking",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -4697,46 +4695,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-24",
+    "dateListed": "2026-07-26",
     "featured": false
   },
   {
     "id": "man-0087",
-    "slug": "loudoun-road-st-john-s-wood-nw8-1",
+    "slug": "warwick-avenue-little-venice-w9-2",
     "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A lateral apartment on Loudoun Road, St John's Wood",
-    "addressLine": "Loudoun Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 10150,
-    "bedrooms": 3,
-    "bathrooms": 2,
+    "status": "let-agreed",
+    "propertyType": "maisonette",
+    "tenure": "share-of-freehold",
+    "title": "A garden maisonette on Warwick Avenue, Little Venice",
+    "addressLine": "Warwick Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 11750,
+    "bedrooms": 5,
+    "bathrooms": 5,
     "receptions": 2,
-    "sizeSqft": 1900,
+    "sizeSqft": 2660,
     "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 10300,
-    "leaseYearsRemaining": 64,
-    "summary": "A lateral apartment in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 16500,
+    "leaseYearsRemaining": 923,
+    "summary": "A garden maisonette in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
     "description": [
-      "A lateral apartment on Loudoun Road, set moments from Lord's Cricket Ground and Regent's Park.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
-      "Available from next month, furnished or unfurnished."
+      "A garden maisonette on Warwick Avenue, set a short walk from Warwick Avenue's cafés and the towpath.",
+      "The raised ground floor holds the principal reception rooms, with 5 bedrooms and a family bathroom on the floor below.",
+      "Available immediately, unfurnished."
     ],
     "features": [
-      "Period cornicing retained",
-      "Video entry system",
-      "Lift access",
-      "Engineered oak flooring",
-      "64-year lease"
+      "Original shutters and fireplaces",
+      "Bespoke fitted joinery",
+      "Own front door",
+      "Underfloor heating",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -4759,43 +4757,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-27",
+    "dateListed": "2026-05-25",
     "featured": false
   },
   {
     "id": "man-0088",
-    "slug": "circus-road-st-john-s-wood-nw8-2",
-    "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A stucco-fronted townhouse on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "price": 4855000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2690,
-    "epcRating": "D",
+    "slug": "randolph-avenue-little-venice-w9",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A two-storey maisonette on Randolph Avenue, Little Venice",
+    "addressLine": "Randolph Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 4900,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 900,
+    "epcRating": "C",
     "councilTaxBand": "H",
-    "summary": "A stucco-fronted townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "serviceChargeAnnual": 4100,
+    "leaseYearsRemaining": 121,
+    "summary": "A two-storey maisonette in Little Venice, overlooking the canal basin Little Venice is named for.",
     "description": [
-      "A stucco-fronted townhouse on Circus Road, set close to St John's Wood High Street's boutiques and cafés.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 4 bedrooms above.",
-      "A considered instruction, offered to the market with an early exchange preferred."
+      "A two-storey maisonette on Randolph Avenue, set overlooking the canal basin Little Venice is named for.",
+      "The raised ground floor holds the principal reception rooms, with 1 bedroom and a family bathroom on the floor below.",
+      "Available from next month, furnished or unfurnished."
     ],
     "features": [
-      "Underfloor heating",
-      "Private rear garden",
-      "Home cinema room",
-      "Off-street parking permit eligible"
+      "Original shutters and fireplaces",
+      "Bespoke fitted joinery",
+      "Two reception rooms",
+      "Private garden",
+      "121-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -4814,46 +4815,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-07",
+    "dateListed": "2026-08-07",
     "featured": false
   },
   {
     "id": "man-0089",
-    "slug": "randolph-avenue-little-venice-w9",
+    "slug": "oakley-street-chelsea-sw10",
     "purpose": "sale",
     "status": "sstc",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A raised ground-floor maisonette on Randolph Avenue, Little Venice",
-    "addressLine": "Randolph Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 4380000,
-    "bedrooms": 4,
-    "bathrooms": 3,
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A lateral apartment on Oakley Street, Chelsea",
+    "addressLine": "Oakley Street",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "price": 2920000,
+    "bedrooms": 2,
+    "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 2210,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 13900,
-    "leaseYearsRemaining": 972,
-    "summary": "A raised ground-floor maisonette in Little Venice, overlooking the canal basin Little Venice is named for.",
+    "sizeSqft": 1330,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8200,
+    "leaseYearsRemaining": 121,
+    "summary": "A lateral apartment in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
     "description": [
-      "A raised ground-floor maisonette on Randolph Avenue, set overlooking the canal basin Little Venice is named for.",
-      "The raised ground floor holds the principal reception rooms, with 4 bedrooms and a family bathroom on the floor below.",
-      "A considered instruction, offered to the market with no onward chain."
+      "A lateral apartment on Oakley Street, set moments from Duke of York Square and the Saatchi Gallery.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
+      "A straightforward instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Original shutters and fireplaces",
-      "Private garden",
-      "Underfloor heating",
-      "Bespoke fitted joinery",
-      "Share of freehold"
+      "Video entry system",
+      "Secure underground parking",
+      "Porterage",
+      "Air conditioning",
+      "121-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -4876,46 +4877,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-20",
+    "dateListed": "2026-06-14",
     "featured": false
   },
   {
     "id": "man-0090",
-    "slug": "culross-street-mayfair-w1-1",
+    "slug": "foley-street-fitzrovia-w1-1",
     "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "penthouse",
+    "status": "under-offer",
+    "propertyType": "maisonette",
     "tenure": "share-of-freehold",
-    "title": "A dual-aspect penthouse on Culross Street, Mayfair",
-    "addressLine": "Culross Street",
-    "area": "Mayfair",
+    "title": "A beautifully proportioned maisonette on Foley Street, Fitzrovia",
+    "addressLine": "Foley Street",
+    "area": "Fitzrovia",
     "postcodeDistrict": "W1",
-    "price": 5995000,
-    "bedrooms": 4,
+    "price": 3730000,
+    "bedrooms": 3,
     "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2210,
+    "receptions": 1,
+    "sizeSqft": 1720,
     "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 12600,
-    "leaseYearsRemaining": 976,
-    "summary": "A dual-aspect penthouse in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8500,
+    "leaseYearsRemaining": 961,
+    "summary": "A beautifully proportioned maisonette in Fitzrovia, a short walk from Soho and the British Museum.",
     "description": [
-      "A dual-aspect penthouse on Culross Street, set moments from Mount Street's galleries and Shepherd Market.",
-      "The reception spans the width of the top floor, with 4 bedrooms opening onto private terrace space of its own.",
-      "A rare instruction, offered to the market with vacant possession."
+      "A beautifully proportioned maisonette on Foley Street, set a short walk from Soho and the British Museum.",
+      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Recently reconfigured layout",
-      "Home automation system",
-      "Concierge",
-      "Private roof terrace",
+      "Private garden",
+      "Underfloor heating",
+      "Original shutters and fireplaces",
+      "Two reception rooms",
       "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-02.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4938,38 +4939,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-09",
+    "dateListed": "2026-08-01",
     "featured": false
   },
   {
     "id": "man-0091",
-    "slug": "loudoun-road-st-john-s-wood-nw8-2",
-    "purpose": "let",
-    "status": "to-let",
+    "slug": "montpelier-square-knightsbridge-sw1-1",
+    "purpose": "sale",
+    "status": "for-sale",
     "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A quietly grand townhouse on Loudoun Road, St John's Wood",
-    "addressLine": "Loudoun Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 6900,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1690,
+    "tenure": "leasehold",
+    "title": "A quietly grand townhouse on Montpelier Square, Knightsbridge",
+    "addressLine": "Montpelier Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "price": 10800000,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "receptions": 2,
+    "sizeSqft": 3320,
     "epcRating": "C",
-    "councilTaxBand": "G",
-    "summary": "A quietly grand townhouse in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 14800,
+    "leaseYearsRemaining": 99,
+    "summary": "A quietly grand townhouse in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
     "description": [
-      "A quietly grand townhouse on Loudoun Road, set close to St John's Wood High Street's boutiques and cafés.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
-      "Available immediately, furnished or unfurnished."
+      "A quietly grand townhouse on Montpelier Square, set within easy reach of Harrods and Hyde Park's south side.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 5 bedrooms above.",
+      "An honest instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Private rear garden",
-      "Wine cellar",
       "Original staircase retained",
-      "Home cinema room"
+      "Underfloor heating",
+      "Home cinema room",
+      "Private rear garden",
+      "99-year lease"
     ],
     "images": [
       {
@@ -4993,43 +4997,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-04",
+    "dateListed": "2026-06-22",
     "featured": false
   },
   {
     "id": "man-0092",
-    "slug": "the-boltons-south-kensington-sw7-1",
+    "slug": "pembridge-square-notting-hill-w11",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A five-storey townhouse on The Boltons, South Kensington",
-    "addressLine": "The Boltons",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 6000000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 3,
-    "sizeSqft": 2540,
-    "epcRating": "B",
-    "councilTaxBand": "H",
-    "summary": "A five-storey townhouse in South Kensington, close to the museums along Exhibition Road.",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A remodelled apartment on Pembridge Square, Notting Hill",
+    "addressLine": "Pembridge Square",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 3275000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 1860,
+    "epcRating": "E",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8500,
+    "leaseYearsRemaining": 130,
+    "summary": "A remodelled apartment in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
     "description": [
-      "A five-storey townhouse on The Boltons, set close to the museums along Exhibition Road.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "An honest instruction, offered to the market with no onward chain."
+      "A remodelled apartment on Pembridge Square, set within walking distance of Portobello Market and Westbourne Grove.",
+      "Rooms keep the building's original proportions and ceiling height, with 4 bedrooms and a kitchen updated within recent years.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Underfloor heating",
-      "Garden square access",
-      "Wine cellar",
-      "Off-street parking permit eligible"
+      "Secure underground parking",
+      "Engineered oak flooring",
+      "Lift access",
+      "Air conditioning",
+      "130-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -5048,46 +5055,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-24",
+    "dateListed": "2026-09-15",
     "featured": false
   },
   {
     "id": "man-0093",
-    "slug": "sumner-place-south-kensington-sw7",
+    "slug": "trevor-square-knightsbridge-sw1",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A recently refurbished apartment on Sumner Place, South Kensington",
-    "addressLine": "Sumner Place",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 4995000,
-    "bedrooms": 5,
-    "bathrooms": 4,
+    "title": "A handsomely proportioned townhouse on Trevor Square, Knightsbridge",
+    "addressLine": "Trevor Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "price": 8620000,
+    "bedrooms": 4,
+    "bathrooms": 3,
     "receptions": 2,
-    "sizeSqft": 2510,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 11800,
-    "leaseYearsRemaining": 97,
-    "summary": "A recently refurbished apartment in South Kensington, moments from South Kensington's garden squares.",
+    "sizeSqft": 2910,
+    "epcRating": "C",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 15700,
+    "leaseYearsRemaining": 102,
+    "summary": "A handsomely proportioned townhouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
     "description": [
-      "A recently refurbished apartment on Sumner Place, set moments from South Kensington's garden squares.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 5 bedrooms arranged away from the entertaining space.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A handsomely proportioned townhouse on Trevor Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "An honest instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Air conditioning",
-      "Porterage",
-      "High ceilings",
-      "Lift access",
-      "97-year lease"
+      "Home cinema room",
+      "Private rear garden",
+      "Underfloor heating",
+      "Original staircase retained",
+      "102-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -5108,48 +5115,52 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-dining-01.jpg",
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-01.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-06",
+    "dateListed": "2026-07-14",
     "featured": false
   },
   {
     "id": "man-0094",
-    "slug": "foley-street-fitzrovia-w1-1",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "penthouse",
-    "tenure": "share-of-freehold",
-    "title": "A wraparound-terraced penthouse on Foley Street, Fitzrovia",
-    "addressLine": "Foley Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 4245000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 2,
-    "sizeSqft": 1970,
-    "epcRating": "C",
+    "slug": "lansdowne-road-notting-hill-w11-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "detached-house",
+    "tenure": "leasehold",
+    "title": "A rarely available house on Lansdowne Road, Notting Hill",
+    "addressLine": "Lansdowne Road",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "rentPcm": 19050,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "receptions": 3,
+    "sizeSqft": 3310,
+    "epcRating": "D",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 11800,
-    "leaseYearsRemaining": 975,
-    "summary": "A wraparound-terraced penthouse in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "serviceChargeAnnual": 16200,
+    "leaseYearsRemaining": 135,
+    "summary": "A rarely available house in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
     "description": [
-      "A wraparound-terraced penthouse on Foley Street, set moments from Charlotte Street's restaurants.",
-      "Lift access serves the full floor, where 3 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
-      "A straightforward instruction, offered to the market with vacant possession."
+      "A rarely available house on Lansdowne Road, set a few minutes from Holland Park and the Electric Cinema.",
+      "The house stands alone on its plot, with reception rooms front and back and 5 bedrooms arranged across a mix of family and guest configurations.",
+      "Available from next month, furnished or unfurnished."
     ],
     "features": [
-      "Recently reconfigured layout",
-      "Private roof terrace",
-      "Home automation system",
-      "Panoramic outlook",
-      "Share of freehold"
+      "Swimming pool",
+      "Underfloor heating",
+      "Private garden",
+      "Integral garage",
+      "135-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-02.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -5172,46 +5183,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-07",
+    "dateListed": "2026-07-06",
     "featured": false
   },
   {
     "id": "man-0095",
-    "slug": "chepstow-place-notting-hill-w11",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
+    "slug": "lansdowne-crescent-notting-hill-w11",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "detached-house",
     "tenure": "leasehold",
-    "title": "A freshly restored townhouse on Chepstow Place, Notting Hill",
-    "addressLine": "Chepstow Place",
+    "title": "A fully detached house on Lansdowne Crescent, Notting Hill",
+    "addressLine": "Lansdowne Crescent",
     "area": "Notting Hill",
     "postcodeDistrict": "W11",
-    "rentPcm": 11400,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1980,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 12000,
+    "price": 4560000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2580,
+    "epcRating": "E",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 13000,
     "leaseYearsRemaining": 138,
-    "summary": "A freshly restored townhouse in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
+    "summary": "A fully detached house in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
     "description": [
-      "A freshly restored townhouse on Chepstow Place, set close to the communal gardens Notting Hill's crescents are built around.",
-      "The principal reception rooms sit on the raised ground and first floors, with 2 bedrooms arranged across the upper storeys.",
-      "Available from next month, furnished or unfurnished."
+      "A fully detached house on Lansdowne Crescent, set a few minutes from Holland Park and the Electric Cinema.",
+      "Set back from the road, the house offers reception rooms across the ground floor and 3 bedrooms above, each with good natural light.",
+      "An honest instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Original staircase retained",
-      "Garden square access",
-      "Home cinema room",
-      "Wine cellar",
+      "Underfloor heating",
+      "Lower ground leisure floor",
+      "Landscaped grounds",
+      "Swimming pool",
       "138-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-01.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -5230,46 +5241,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-11",
+    "dateListed": "2026-08-03",
     "featured": false
   },
   {
     "id": "man-0096",
-    "slug": "kensington-park-road-notting-hill-w11",
+    "slug": "addison-road-holland-park-w14",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "townhouse",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A five-storey townhouse on Kensington Park Road, Notting Hill",
-    "addressLine": "Kensington Park Road",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "price": 5280000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2230,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 12900,
-    "leaseYearsRemaining": 126,
-    "summary": "A five-storey townhouse in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
+    "title": "An exceptionally quiet apartment on Addison Road, Holland Park",
+    "addressLine": "Addison Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "price": 2770000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1320,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 9100,
+    "leaseYearsRemaining": 62,
+    "summary": "An exceptionally quiet apartment in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
     "description": [
-      "A five-storey townhouse on Kensington Park Road, set a few minutes from Holland Park and the Electric Cinema.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "An exceptionally quiet apartment on Addison Road, set close to the Design Museum and Holland Park's kyoto garden.",
+      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
+      "A straightforward instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Wine cellar",
-      "Private rear garden",
-      "Original staircase retained",
-      "Underfloor heating",
-      "126-year lease"
+      "Porterage",
+      "Engineered oak flooring",
+      "Period cornicing retained",
+      "Secure underground parking",
+      "62-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -5292,41 +5303,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-13",
-    "featured": false
+    "dateListed": "2026-07-25",
+    "featured": true
   },
   {
     "id": "man-0097",
-    "slug": "stanley-gardens-notting-hill-w11",
-    "purpose": "sale",
-    "status": "for-sale",
+    "slug": "lowndes-square-knightsbridge-sw3",
+    "purpose": "let",
+    "status": "let-agreed",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A recently refurbished apartment on Stanley Gardens, Notting Hill",
-    "addressLine": "Stanley Gardens",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "price": 3970000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 1980,
+    "title": "A lateral apartment on Lowndes Square, Knightsbridge",
+    "addressLine": "Lowndes Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW3",
+    "rentPcm": 11050,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 1720,
     "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 11800,
-    "leaseYearsRemaining": 64,
-    "summary": "A recently refurbished apartment in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
+    "serviceChargeAnnual": 8200,
+    "leaseYearsRemaining": 130,
+    "summary": "A lateral apartment in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
     "description": [
-      "A recently refurbished apartment on Stanley Gardens, set a few minutes from Holland Park and the Electric Cinema.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
-      "A rare instruction, offered to the market with flexible completion."
+      "A lateral apartment on Lowndes Square, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
+      "Available for a minimum twelve-month term, unfurnished."
     ],
     "features": [
-      "High ceilings",
-      "Period cornicing retained",
+      "Engineered oak flooring",
       "Recently renovated kitchen",
-      "Video entry system",
-      "64-year lease"
+      "High ceilings",
+      "Porterage",
+      "130-year lease"
     ],
     "images": [
       {
@@ -5350,43 +5361,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-01",
+    "dateListed": "2026-09-26",
     "featured": false
   },
   {
     "id": "man-0098",
-    "slug": "circus-road-st-john-s-wood-nw8-3",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A handsomely proportioned townhouse on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "price": 6300000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 2830,
-    "epcRating": "C",
+    "slug": "holland-park-avenue-holland-park-w14-2",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "detached-house",
+    "tenure": "leasehold",
+    "title": "A substantial house on Holland Park Avenue, Holland Park",
+    "addressLine": "Holland Park Avenue",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "rentPcm": 9300,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 2230,
+    "epcRating": "D",
     "councilTaxBand": "G",
-    "summary": "A handsomely proportioned townhouse in St John's Wood, a short walk from Primrose Hill and the Regent's Canal towpath.",
+    "serviceChargeAnnual": 12700,
+    "leaseYearsRemaining": 87,
+    "summary": "A substantial house in Holland Park, a short walk from Holland Park Avenue's restaurants.",
     "description": [
-      "A handsomely proportioned townhouse on Circus Road, set a short walk from Primrose Hill and the Regent's Canal towpath.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "An honest instruction, offered to the market with vacant possession."
+      "A substantial house on Holland Park Avenue, set a short walk from Holland Park Avenue's restaurants.",
+      "Formal reception rooms occupy the ground floor, with a family kitchen extending into the garden and 3 bedrooms across the upper floors.",
+      "Available from next month, furnished or unfurnished."
     ],
     "features": [
-      "Garden square access",
-      "Original staircase retained",
-      "Off-street parking permit eligible",
-      "Home cinema room"
+      "Lower ground leisure floor",
+      "Private garden",
+      "Integral garage",
+      "Swimming pool",
+      "87-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -5410,15 +5424,15 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0099",
-    "slug": "ilchester-place-kensington-w8-2",
+    "slug": "cavendish-avenue-st-john-s-wood-nw8-3",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "apartment",
     "tenure": "share-of-freehold",
-    "title": "A remodelled apartment on Ilchester Place, Kensington",
-    "addressLine": "Ilchester Place",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
+    "title": "A remodelled apartment on Cavendish Avenue, St John's Wood",
+    "addressLine": "Cavendish Avenue",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
     "price": 2425000,
     "bedrooms": 2,
     "bathrooms": 2,
@@ -5428,9 +5442,9 @@ export const generatedListings: Listing[] = [
     "councilTaxBand": "G",
     "serviceChargeAnnual": 5700,
     "leaseYearsRemaining": 952,
-    "summary": "A remodelled apartment in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
+    "summary": "A remodelled apartment in St John's Wood, close to St John's Wood High Street's boutiques and cafés.",
     "description": [
-      "A remodelled apartment on Ilchester Place, set a short walk from the Design Museum and Holland Park's tennis courts.",
+      "A remodelled apartment on Cavendish Avenue, set close to St John's Wood High Street's boutiques and cafés.",
       "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
       "A straightforward instruction, offered to the market with flexible completion."
     ],
@@ -5476,639 +5490,41 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0100",
-    "slug": "hill-street-mayfair-w1",
+    "slug": "trevor-square-knightsbridge-sw3",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "mews-house",
-    "tenure": "leasehold",
-    "title": "A compact, well-lit mews house on Hill Street, Mayfair",
-    "addressLine": "Hill Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 7640000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 3,
-    "sizeSqft": 2350,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 13800,
-    "leaseYearsRemaining": 125,
-    "summary": "A compact, well-lit mews house in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-    "description": [
-      "A compact, well-lit mews house on Hill Street, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 3 bedrooms on the floors above.",
-      "A considered instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Skylights throughout",
-      "Own front door",
-      "Roof terrace",
-      "Integral garage",
-      "125-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-mews-house-02.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-09-06",
-    "featured": false
-  },
-  {
-    "id": "man-0101",
-    "slug": "circus-road-st-john-s-wood-nw8-4",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A rarely available house on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "rentPcm": 13000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2230,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "summary": "A rarely available house in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
-    "description": [
-      "A rarely available house on Circus Road, set moments from Lord's Cricket Ground and Regent's Park.",
-      "Formal reception rooms occupy the ground floor, with a family kitchen extending into the garden and 3 bedrooms across the upper floors.",
-      "Available from next month, part-furnished."
-    ],
-    "features": [
-      "Swimming pool",
-      "Lower ground leisure floor",
-      "Private garden",
-      "Landscaped grounds"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-detached-house-01.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-03.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-07",
-    "featured": false
-  },
-  {
-    "id": "man-0102",
-    "slug": "thackeray-street-kensington-w8",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A quietly grand apartment on Thackeray Street, Kensington",
-    "addressLine": "Thackeray Street",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 3695000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 1830,
-    "epcRating": "B",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 8800,
-    "leaseYearsRemaining": 83,
-    "summary": "A quietly grand apartment in Kensington, between Holland Park and Kensington High Street.",
-    "description": [
-      "A quietly grand apartment on Thackeray Street, set between Holland Park and Kensington High Street.",
-      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
-      "A rare instruction, offered to the market with no onward chain."
-    ],
-    "features": [
-      "Engineered oak flooring",
-      "Period cornicing retained",
-      "Air conditioning",
-      "Secure underground parking",
-      "83-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-02.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-01",
-    "featured": false
-  },
-  {
-    "id": "man-0103",
-    "slug": "addison-road-holland-park-w14-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "detached-house",
-    "tenure": "leasehold",
-    "title": "An exceptionally private house on Addison Road, Holland Park",
-    "addressLine": "Addison Road",
-    "area": "Holland Park",
-    "postcodeDistrict": "W14",
-    "price": 5935000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 1,
-    "sizeSqft": 2690,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 14100,
-    "leaseYearsRemaining": 108,
-    "summary": "An exceptionally private house in Holland Park, directly opposite Holland Park itself.",
-    "description": [
-      "An exceptionally private house on Addison Road, set directly opposite Holland Park itself.",
-      "Set back from the road, the house offers reception rooms across the ground floor and 4 bedrooms above, each with good natural light.",
-      "A straightforward instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Lower ground leisure floor",
-      "Off-street parking",
-      "Swimming pool",
-      "Private garden",
-      "108-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-detached-house-01.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-21",
-    "featured": false
-  },
-  {
-    "id": "man-0104",
-    "slug": "stanley-gardens-notting-hill-w11-1",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A lateral apartment on Stanley Gardens, Notting Hill",
-    "addressLine": "Stanley Gardens",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "rentPcm": 8550,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1600,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 7300,
-    "leaseYearsRemaining": 110,
-    "summary": "A lateral apartment in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
-    "description": [
-      "A lateral apartment on Stanley Gardens, set within walking distance of Portobello Market and Westbourne Grove.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 3 well-proportioned bedrooms.",
-      "Available from next month, unfurnished."
-    ],
-    "features": [
-      "Lift access",
-      "Video entry system",
-      "Porterage",
-      "Period cornicing retained",
-      "110-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-20",
-    "featured": false
-  },
-  {
-    "id": "man-0105",
-    "slug": "percy-street-fitzrovia-w1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A beautifully proportioned maisonette on Percy Street, Fitzrovia",
-    "addressLine": "Percy Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 4625000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2020,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 8500,
-    "leaseYearsRemaining": 73,
-    "summary": "A beautifully proportioned maisonette in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
-    "description": [
-      "A beautifully proportioned maisonette on Percy Street, set close to Fitzroy Square's garden and the BT Tower.",
-      "The raised ground floor holds the principal reception rooms, with 4 bedrooms and a family bathroom on the floor below.",
-      "A rare instruction, offered to the market with no onward chain."
-    ],
-    "features": [
-      "Two reception rooms",
-      "Underfloor heating",
-      "Original shutters and fireplaces",
-      "Private garden",
-      "73-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-01.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-20",
-    "featured": false
-  },
-  {
-    "id": "man-0106",
-    "slug": "manchester-square-marylebone-w1-1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A lateral apartment on Manchester Square, Marylebone",
-    "addressLine": "Manchester Square",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 3055000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 1590,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 7200,
-    "leaseYearsRemaining": 109,
-    "summary": "A lateral apartment in Marylebone, two minutes from Marylebone High Street's shops and cafés.",
-    "description": [
-      "A lateral apartment on Manchester Square, set two minutes from Marylebone High Street's shops and cafés.",
-      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
-      "A rare instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Porterage",
-      "Recently renovated kitchen",
-      "Engineered oak flooring",
-      "Period cornicing retained",
-      "109-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-02",
-    "featured": false
-  },
-  {
-    "id": "man-0107",
-    "slug": "brompton-square-knightsbridge-sw1",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Brompton Square, Knightsbridge",
-    "addressLine": "Brompton Square",
+    "propertyType": "penthouse",
+    "tenure": "share-of-freehold",
+    "title": "A discreetly renovated penthouse on Trevor Square, Knightsbridge",
+    "addressLine": "Trevor Square",
     "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 14650,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 3,
-    "sizeSqft": 2620,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "summary": "An immaculately kept townhouse in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
-    "description": [
-      "An immaculately kept townhouse on Brompton Square, set within easy reach of Harrods and Hyde Park's south side.",
-      "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
-      "Available on a company or private let, part-furnished."
-    ],
-    "features": [
-      "Garden square access",
-      "Home cinema room",
-      "Original staircase retained",
-      "Underfloor heating"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-26",
-    "featured": false
-  },
-  {
-    "id": "man-0108",
-    "slug": "stanley-gardens-notting-hill-w11-2",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A recently refurbished apartment on Stanley Gardens, Notting Hill",
-    "addressLine": "Stanley Gardens",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "rentPcm": 8950,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 1760,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 12000,
-    "leaseYearsRemaining": 132,
-    "summary": "A recently refurbished apartment in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
-    "description": [
-      "A recently refurbished apartment on Stanley Gardens, set a few minutes from Holland Park and the Electric Cinema.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
-      "Available immediately, unfurnished."
-    ],
-    "features": [
-      "Porterage",
-      "Video entry system",
-      "High ceilings",
-      "Recently renovated kitchen",
-      "132-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-04.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-15",
-    "featured": false
-  },
-  {
-    "id": "man-0109",
-    "slug": "cadogan-gardens-chelsea-sw10",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A sunny maisonette on Cadogan Gardens, Chelsea",
-    "addressLine": "Cadogan Gardens",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW10",
-    "price": 4930000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2360,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 13100,
-    "leaseYearsRemaining": 135,
-    "summary": "A sunny maisonette in Chelsea, moments from Duke of York Square and the Saatchi Gallery.",
-    "description": [
-      "A sunny maisonette on Cadogan Gardens, set moments from Duke of York Square and the Saatchi Gallery.",
-      "The raised ground floor holds the principal reception rooms, with 4 bedrooms and a family bathroom on the floor below.",
-      "A considered instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Bespoke fitted joinery",
-      "Own front door",
-      "Two reception rooms",
-      "Underfloor heating",
-      "135-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-15",
-    "featured": false
-  },
-  {
-    "id": "man-0110",
-    "slug": "pont-street-knightsbridge-sw1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "An exceptionally quiet apartment on Pont Street, Knightsbridge",
-    "addressLine": "Pont Street",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "price": 5510000,
+    "postcodeDistrict": "SW3",
+    "price": 5395000,
     "bedrooms": 3,
     "bathrooms": 3,
     "receptions": 2,
     "sizeSqft": 1660,
-    "epcRating": "E",
+    "epcRating": "C",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 9200,
-    "leaseYearsRemaining": 79,
-    "summary": "An exceptionally quiet apartment in Knightsbridge, within easy reach of Harrods and Hyde Park's south side.",
+    "serviceChargeAnnual": 9800,
+    "leaseYearsRemaining": 977,
+    "summary": "A discreetly renovated penthouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
     "description": [
-      "An exceptionally quiet apartment on Pont Street, set within easy reach of Harrods and Hyde Park's south side.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A discreetly renovated penthouse on Trevor Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
+      "The reception spans the width of the top floor, with 3 bedrooms opening onto private terrace space of its own.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "High ceilings",
-      "Video entry system",
-      "Engineered oak flooring",
-      "Lift access",
-      "79-year lease"
+      "Air conditioning",
+      "Home automation system",
+      "Wraparound terrace",
+      "Concierge",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -6116,123 +5532,6 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-22",
-    "featured": false
-  },
-  {
-    "id": "man-0111",
-    "slug": "wilton-place-belgravia-sw1-1",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Wilton Place, Belgravia",
-    "addressLine": "Wilton Place",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 4425000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1770,
-    "epcRating": "D",
-    "councilTaxBand": "G",
-    "summary": "An immaculately kept townhouse in Belgravia, a short walk from Sloane Square and the shops on Elizabeth Street.",
-    "description": [
-      "An immaculately kept townhouse on Wilton Place, set a short walk from Sloane Square and the shops on Elizabeth Street.",
-      "The principal reception rooms sit on the raised ground and first floors, with 2 bedrooms arranged across the upper storeys.",
-      "A straightforward instruction, offered to the market with flexible completion."
-    ],
-    "features": [
-      "Off-street parking permit eligible",
-      "Underfloor heating",
-      "Original staircase retained",
-      "Home cinema room"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-03.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-17",
-    "featured": false
-  },
-  {
-    "id": "man-0112",
-    "slug": "ilchester-place-kensington-w8-3",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A stucco-fronted townhouse on Ilchester Place, Kensington",
-    "addressLine": "Ilchester Place",
-    "area": "Kensington",
-    "postcodeDistrict": "W8",
-    "price": 2600000,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1210,
-    "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 5200,
-    "leaseYearsRemaining": 135,
-    "summary": "A stucco-fronted townhouse in Kensington, a short walk from the Design Museum and Holland Park's tennis courts.",
-    "description": [
-      "A stucco-fronted townhouse on Ilchester Place, set a short walk from the Design Museum and Holland Park's tennis courts.",
-      "The principal reception rooms sit on the raised ground and first floors, with 1 bedroom arranged across the upper storeys.",
-      "A considered instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Home cinema room",
-      "Garden square access",
-      "Original staircase retained",
-      "Private rear garden",
-      "135-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
         "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
       },
       {
@@ -6248,49 +5547,49 @@ export const generatedListings: Listing[] = [
     "featured": false
   },
   {
-    "id": "man-0113",
-    "slug": "circus-road-st-john-s-wood-nw8-5",
+    "id": "man-0101",
+    "slug": "green-street-mayfair-w1",
     "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
+    "status": "for-sale",
+    "propertyType": "mews-house",
     "tenure": "leasehold",
-    "title": "A freshly restored townhouse on Circus Road, St John's Wood",
-    "addressLine": "Circus Road",
-    "area": "St John's Wood",
-    "postcodeDistrict": "NW8",
-    "price": 6735000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2880,
-    "epcRating": "E",
+    "title": "A compact, well-lit mews house on Green Street, Mayfair",
+    "addressLine": "Green Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "price": 7210000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 2360,
+    "epcRating": "C",
     "councilTaxBand": "F",
-    "serviceChargeAnnual": 12200,
-    "leaseYearsRemaining": 96,
-    "summary": "A freshly restored townhouse in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
+    "serviceChargeAnnual": 16100,
+    "leaseYearsRemaining": 77,
+    "summary": "A compact, well-lit mews house in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A freshly restored townhouse on Circus Road, set moments from Lord's Cricket Ground and Regent's Park.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 4 bedrooms above.",
-      "A rare instruction, offered to the market with vacant possession."
+      "A compact, well-lit mews house on Green Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 3 bedrooms above.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Garden square access",
-      "Off-street parking permit eligible",
-      "Private rear garden",
-      "Home cinema room",
-      "96-year lease"
+      "Skylights throughout",
+      "Roof terrace",
+      "Own front door",
+      "Integral garage",
+      "77-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
-        "src": "/photos/interior-livingroom-05.jpg",
+        "src": "/photos/interior-livingroom-03.jpg",
         "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
       },
       {
-        "src": "/photos/interior-kitchen-01.jpg",
+        "src": "/photos/interior-kitchen-04.jpg",
         "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
       },
       {
@@ -6306,53 +5605,50 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-01",
-    "featured": false
+    "dateListed": "2026-07-17",
+    "featured": true
   },
   {
-    "id": "man-0114",
-    "slug": "tite-street-chelsea-sw10",
+    "id": "man-0102",
+    "slug": "lansdowne-road-notting-hill-w11-2",
     "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A lateral apartment on Tite Street, Chelsea",
-    "addressLine": "Tite Street",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW10",
-    "price": 3880000,
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A handsomely proportioned townhouse on Lansdowne Road, Notting Hill",
+    "addressLine": "Lansdowne Road",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 4440000,
     "bedrooms": 4,
     "bathrooms": 4,
     "receptions": 1,
-    "sizeSqft": 2000,
-    "epcRating": "E",
+    "sizeSqft": 2520,
+    "epcRating": "C",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 13000,
-    "leaseYearsRemaining": 103,
-    "summary": "A lateral apartment in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
+    "summary": "A handsomely proportioned townhouse in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
     "description": [
-      "A lateral apartment on Tite Street, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "Rooms keep the building's original proportions and ceiling height, with 4 bedrooms and a kitchen updated within recent years.",
-      "A considered instruction, offered to the market with flexible completion."
+      "A handsomely proportioned townhouse on Lansdowne Road, set a few minutes from Holland Park and the Electric Cinema.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Air conditioning",
-      "Lift access",
-      "Engineered oak flooring",
-      "Video entry system",
-      "103-year lease"
+      "Garden square access",
+      "Home cinema room",
+      "Wine cellar",
+      "Underfloor heating"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
-        "src": "/photos/interior-livingroom-01.jpg",
+        "src": "/photos/interior-livingroom-04.jpg",
         "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
       },
       {
-        "src": "/photos/interior-kitchen-02.jpg",
+        "src": "/photos/interior-kitchen-05.jpg",
         "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
       },
       {
@@ -6366,529 +5662,48 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-dining-02.jpg",
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-27",
+    "dateListed": "2026-05-27",
     "featured": false
   },
   {
-    "id": "man-0115",
-    "slug": "the-vale-chelsea-sw10",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A sunny maisonette on The Vale, Chelsea",
-    "addressLine": "The Vale",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW10",
-    "price": 3165000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1640,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 9000,
-    "leaseYearsRemaining": 113,
-    "summary": "A sunny maisonette in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
-    "description": [
-      "A sunny maisonette on The Vale, set a short stroll from the King's Road and Chelsea Physic Garden.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "An honest instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Original shutters and fireplaces",
-      "Underfloor heating",
-      "Bespoke fitted joinery",
-      "Two reception rooms",
-      "113-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-16",
-    "featured": false
-  },
-  {
-    "id": "man-0116",
-    "slug": "brompton-square-knightsbridge-sw3",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "An immaculately presented apartment on Brompton Square, Knightsbridge",
-    "addressLine": "Brompton Square",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "price": 6925000,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2190,
-    "epcRating": "C",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 9600,
-    "leaseYearsRemaining": 932,
-    "summary": "An immaculately presented apartment in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
-    "description": [
-      "An immaculately presented apartment on Brompton Square, set close to Harvey Nichols and the Brompton Road boutiques.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
-      "A straightforward instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Period cornicing retained",
-      "High ceilings",
-      "Porterage",
-      "Engineered oak flooring",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-14",
-    "featured": false
-  },
-  {
-    "id": "man-0117",
-    "slug": "cranley-gardens-south-kensington-sw7-2",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A quietly grand apartment on Cranley Gardens, South Kensington",
-    "addressLine": "Cranley Gardens",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "rentPcm": 15400,
-    "bedrooms": 5,
-    "bathrooms": 5,
-    "receptions": 2,
-    "sizeSqft": 2640,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 15200,
-    "leaseYearsRemaining": 982,
-    "summary": "A quietly grand apartment in South Kensington, close to the museums along Exhibition Road.",
-    "description": [
-      "A quietly grand apartment on Cranley Gardens, set close to the museums along Exhibition Road.",
-      "An open-plan kitchen and reception take up the front of the flat, with 5 bedrooms arranged quietly to the rear.",
-      "Available immediately, part-furnished."
-    ],
-    "features": [
-      "Air conditioning",
-      "Lift access",
-      "Secure underground parking",
-      "Recently renovated kitchen",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-01.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-27",
-    "featured": false
-  },
-  {
-    "id": "man-0118",
-    "slug": "cleveland-street-fitzrovia-w1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A rarely available maisonette on Cleveland Street, Fitzrovia",
-    "addressLine": "Cleveland Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 3620000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 2,
-    "sizeSqft": 1890,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 13000,
-    "leaseYearsRemaining": 961,
-    "summary": "A rarely available maisonette in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
-    "description": [
-      "A rarely available maisonette on Cleveland Street, set close to Fitzroy Square's garden and the BT Tower.",
-      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
-      "An honest instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Two reception rooms",
-      "Underfloor heating",
-      "Original shutters and fireplaces",
-      "Own front door",
-      "Share of freehold"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-05.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-01.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-08-28",
-    "featured": true
-  },
-  {
-    "id": "man-0119",
-    "slug": "chester-row-belgravia-sw1",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A light-filled apartment on Chester Row, Belgravia",
-    "addressLine": "Chester Row",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 8250,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1190,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 7800,
-    "leaseYearsRemaining": 139,
-    "summary": "A light-filled apartment in Belgravia, a short walk from Sloane Square and the shops on Elizabeth Street.",
-    "description": [
-      "A light-filled apartment on Chester Row, set a short walk from Sloane Square and the shops on Elizabeth Street.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
-      "Available on a company or private let, unfurnished."
-    ],
-    "features": [
-      "Porterage",
-      "High ceilings",
-      "Lift access",
-      "Period cornicing retained",
-      "139-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-01.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-02.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-03.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-01.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-07-09",
-    "featured": false
-  },
-  {
-    "id": "man-0120",
-    "slug": "chepstow-place-notting-hill-w11-1",
+    "id": "man-0103",
+    "slug": "lansdowne-road-notting-hill-w11-3",
     "purpose": "let",
     "status": "to-let",
     "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A rarely available house on Chepstow Place, Notting Hill",
-    "addressLine": "Chepstow Place",
+    "tenure": "leasehold",
+    "title": "An exceptionally private house on Lansdowne Road, Notting Hill",
+    "addressLine": "Lansdowne Road",
     "area": "Notting Hill",
     "postcodeDistrict": "W11",
-    "rentPcm": 13150,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2630,
+    "rentPcm": 8500,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1730,
     "epcRating": "C",
     "councilTaxBand": "H",
-    "summary": "A rarely available house in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
+    "serviceChargeAnnual": 8300,
+    "leaseYearsRemaining": 58,
+    "summary": "An exceptionally private house in Notting Hill, close to the communal gardens Notting Hill's crescents are built around.",
     "description": [
-      "A rarely available house on Chepstow Place, set a few minutes from Holland Park and the Electric Cinema.",
-      "Set back from the road, the house offers reception rooms across the ground floor and 4 bedrooms above, each with good natural light.",
-      "Available from next month, furnished or unfurnished."
+      "An exceptionally private house on Lansdowne Road, set close to the communal gardens Notting Hill's crescents are built around.",
+      "The house stands alone on its plot, with reception rooms front and back and 2 bedrooms arranged across a mix of family and guest configurations.",
+      "Available from next month, part-furnished."
     ],
     "features": [
+      "Landscaped grounds",
+      "Underfloor heating",
       "Swimming pool",
-      "Underfloor heating",
-      "Off-street parking",
-      "Lower ground leisure floor"
+      "Private garden",
+      "58-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
+        "src": "/photos/exterior-detached-house-01.jpg",
         "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-02.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-03.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-04.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-02.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-04.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-06-28",
-    "featured": false
-  },
-  {
-    "id": "man-0121",
-    "slug": "cadogan-square-knightsbridge-sw1",
-    "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A handsomely proportioned townhouse on Cadogan Square, Knightsbridge",
-    "addressLine": "Cadogan Square",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW1",
-    "price": 5860000,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2190,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 13300,
-    "leaseYearsRemaining": 116,
-    "summary": "A handsomely proportioned townhouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
-    "description": [
-      "A handsomely proportioned townhouse on Cadogan Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
-      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
-      "An honest instruction, offered to the market with an early exchange preferred."
-    ],
-    "features": [
-      "Garden square access",
-      "Wine cellar",
-      "Home cinema room",
-      "Private rear garden",
-      "116-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-03.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-04.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-01.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-03.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-02.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-10",
-    "featured": false
-  },
-  {
-    "id": "man-0122",
-    "slug": "portland-place-marylebone-w1-2",
-    "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A two-storey maisonette on Portland Place, Marylebone",
-    "addressLine": "Portland Place",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 3790000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1620,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9000,
-    "leaseYearsRemaining": 74,
-    "summary": "A two-storey maisonette in Marylebone, a short walk from Marylebone Village.",
-    "description": [
-      "A two-storey maisonette on Portland Place, set a short walk from Marylebone Village.",
-      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
-      "A considered instruction, offered to the market with flexible completion."
-    ],
-    "features": [
-      "Original shutters and fireplaces",
-      "Bespoke fitted joinery",
-      "Own front door",
-      "Two reception rooms",
-      "74-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-livingroom-04.jpg",
-        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-kitchen-05.jpg",
-        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bedroom-02.jpg",
-        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-bathroom-04.jpg",
-        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      }
-    ],
-    "dateListed": "2026-05-11",
-    "featured": false
-  },
-  {
-    "id": "man-0123",
-    "slug": "randolph-avenue-little-venice-w9-1",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "townhouse",
-    "tenure": "leasehold",
-    "title": "A five-storey townhouse on Randolph Avenue, Little Venice",
-    "addressLine": "Randolph Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 3890000,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 2080,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 11300,
-    "leaseYearsRemaining": 106,
-    "summary": "A five-storey townhouse in Little Venice, overlooking the canal basin Little Venice is named for.",
-    "description": [
-      "A five-storey townhouse on Randolph Avenue, set overlooking the canal basin Little Venice is named for.",
-      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
-      "A rare instruction, offered to the market with vacant possession."
-    ],
-    "features": [
-      "Underfloor heating",
-      "Off-street parking permit eligible",
-      "Wine cellar",
-      "Original staircase retained",
-      "106-year lease"
-    ],
-    "images": [
-      {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -6905,47 +5720,43 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-01.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-dining-03.jpg",
-        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-12",
+    "dateListed": "2026-07-16",
     "featured": false
   },
   {
-    "id": "man-0124",
-    "slug": "sumner-place-south-kensington-sw7-1",
-    "purpose": "sale",
-    "status": "sstc",
+    "id": "man-0104",
+    "slug": "loudoun-road-st-john-s-wood-nw8",
+    "purpose": "let",
+    "status": "to-let",
     "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "An exceptionally quiet apartment on Sumner Place, South Kensington",
-    "addressLine": "Sumner Place",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "price": 3100000,
-    "bedrooms": 2,
-    "bathrooms": 2,
+    "tenure": "share-of-freehold",
+    "title": "A quietly grand apartment on Loudoun Road, St John's Wood",
+    "addressLine": "Loudoun Road",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "rentPcm": 9450,
+    "bedrooms": 4,
+    "bathrooms": 3,
     "receptions": 1,
-    "sizeSqft": 1510,
+    "sizeSqft": 2220,
     "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 8600,
-    "leaseYearsRemaining": 136,
-    "summary": "An exceptionally quiet apartment in South Kensington, moments from South Kensington's garden squares.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9900,
+    "leaseYearsRemaining": 903,
+    "summary": "A quietly grand apartment in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
     "description": [
-      "An exceptionally quiet apartment on Sumner Place, set moments from South Kensington's garden squares.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
-      "A rare instruction, offered to the market with flexible completion."
+      "A quietly grand apartment on Loudoun Road, set moments from Lord's Cricket Ground and Regent's Park.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 4 well-proportioned bedrooms.",
+      "Available from next month, furnished or unfurnished."
     ],
     "features": [
-      "Lift access",
-      "High ceilings",
+      "Porterage",
       "Air conditioning",
-      "Recently renovated kitchen",
-      "136-year lease"
+      "Period cornicing retained",
+      "Lift access",
+      "Share of freehold"
     ],
     "images": [
       {
@@ -6973,41 +5784,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-07",
+    "dateListed": "2026-07-07",
     "featured": false
   },
   {
-    "id": "man-0125",
-    "slug": "hans-place-knightsbridge-sw3",
+    "id": "man-0105",
+    "slug": "dorset-street-marylebone-w1-1",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "penthouse",
     "tenure": "leasehold",
-    "title": "A newly reconfigured penthouse on Hans Place, Knightsbridge",
-    "addressLine": "Hans Place",
-    "area": "Knightsbridge",
-    "postcodeDistrict": "SW3",
-    "price": 6000000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2260,
-    "epcRating": "C",
+    "title": "A discreetly renovated penthouse on Dorset Street, Marylebone",
+    "addressLine": "Dorset Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 3370000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1460,
+    "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 13700,
-    "leaseYearsRemaining": 88,
-    "summary": "A newly reconfigured penthouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
+    "serviceChargeAnnual": 6000,
+    "leaseYearsRemaining": 77,
+    "summary": "A discreetly renovated penthouse in Marylebone, two minutes from Marylebone High Street's shops and cafés.",
     "description": [
-      "A newly reconfigured penthouse on Hans Place, set a few minutes from Hyde Park and the Knightsbridge tube.",
-      "Lift access serves the full floor, where 4 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
-      "A straightforward instruction, offered to the market with an early exchange preferred."
+      "A discreetly renovated penthouse on Dorset Street, set two minutes from Marylebone High Street's shops and cafés.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 2 bedrooms each with fitted storage.",
+      "A straightforward instruction, offered to the market with flexible completion."
     ],
     "features": [
       "Recently reconfigured layout",
-      "Panoramic outlook",
+      "Lift access",
       "Home automation system",
-      "Private roof terrace",
-      "88-year lease"
+      "Concierge",
+      "77-year lease"
     ],
     "images": [
       {
@@ -7031,50 +5842,1252 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       },
       {
+        "src": "/photos/interior-dining-01.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-01.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-03",
+    "featured": false
+  },
+  {
+    "id": "man-0106",
+    "slug": "chepstow-place-notting-hill-w11",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "detached-house",
+    "tenure": "freehold",
+    "title": "A beautifully maintained house on Chepstow Place, Notting Hill",
+    "addressLine": "Chepstow Place",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "price": 2430000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1350,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "summary": "A beautifully maintained house in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
+    "description": [
+      "A beautifully maintained house on Chepstow Place, set within walking distance of Portobello Market and Westbourne Grove.",
+      "The house stands alone on its plot, with reception rooms front and back and 1 bedrooms arranged across a mix of family and guest configurations.",
+      "A considered instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Integral garage",
+      "Landscaped grounds",
+      "Underfloor heating",
+      "Private garden"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-06",
+    "featured": false
+  },
+  {
+    "id": "man-0107",
+    "slug": "flood-street-chelsea-sw10-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A garden maisonette on Flood Street, Chelsea",
+    "addressLine": "Flood Street",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "price": 4250000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 1700,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 6800,
+    "leaseYearsRemaining": 120,
+    "summary": "A garden maisonette in Chelsea, close to the river and Albert Bridge.",
+    "description": [
+      "A garden maisonette on Flood Street, set close to the river and Albert Bridge.",
+      "Two floors give a genuine sense of a house rather than a flat, with 3 bedrooms and a garden-facing kitchen at lower ground level.",
+      "An honest instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Bespoke fitted joinery",
+      "Underfloor heating",
+      "Own front door",
+      "Original shutters and fireplaces",
+      "120-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-05",
+    "featured": false
+  },
+  {
+    "id": "man-0108",
+    "slug": "devonshire-place-marylebone-w1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A beautifully proportioned maisonette on Devonshire Place, Marylebone",
+    "addressLine": "Devonshire Place",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "rentPcm": 9600,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 2130,
+    "epcRating": "E",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12500,
+    "leaseYearsRemaining": 59,
+    "summary": "A beautifully proportioned maisonette in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "description": [
+      "A beautifully proportioned maisonette on Devonshire Place, set close to Regent's Park and the Wallace Collection.",
+      "A private front door leads straight into the reception, with 4 bedrooms arranged over the floor above.",
+      "Available for a minimum twelve-month term, part-furnished."
+    ],
+    "features": [
+      "Own front door",
+      "Original shutters and fireplaces",
+      "Private garden",
+      "Two reception rooms",
+      "59-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-04.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-20",
+    "featured": false
+  },
+  {
+    "id": "man-0109",
+    "slug": "royal-crescent-holland-park-w11-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "An immaculately kept townhouse on Royal Crescent, Holland Park",
+    "addressLine": "Royal Crescent",
+    "area": "Holland Park",
+    "postcodeDistrict": "W11",
+    "price": 7020000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "receptions": 1,
+    "sizeSqft": 3050,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "summary": "An immaculately kept townhouse in Holland Park, close to the Design Museum and Holland Park's kyoto garden.",
+    "description": [
+      "An immaculately kept townhouse on Royal Crescent, set close to the Design Museum and Holland Park's kyoto garden.",
+      "The house rises across its full height with reception rooms on the lower floors and 5 bedrooms above, each with its own character.",
+      "An honest instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Private rear garden",
+      "Underfloor heating",
+      "Off-street parking permit eligible",
+      "Garden square access"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-02.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-01.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-28",
+    "featured": false
+  },
+  {
+    "id": "man-0110",
+    "slug": "stanwick-road-kensington-w8-1",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A rarely available maisonette on Stanwick Road, Kensington",
+    "addressLine": "Stanwick Road",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3750000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 1750,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9200,
+    "leaseYearsRemaining": 104,
+    "summary": "A rarely available maisonette in Kensington, between Holland Park and Kensington High Street.",
+    "description": [
+      "A rarely available maisonette on Stanwick Road, set between Holland Park and Kensington High Street.",
+      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
+      "A considered instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Private garden",
+      "Original shutters and fireplaces",
+      "Own front door",
+      "Two reception rooms",
+      "104-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-03",
+    "featured": false
+  },
+  {
+    "id": "man-0111",
+    "slug": "charles-street-mayfair-w1-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "mews-house",
+    "tenure": "freehold",
+    "title": "A cobbled mews house on Charles Street, Mayfair",
+    "addressLine": "Charles Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 18900,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2580,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "summary": "A cobbled mews house in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
+    "description": [
+      "A cobbled mews house on Charles Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 3 bedrooms on the floors above.",
+      "Available immediately, unfurnished."
+    ],
+    "features": [
+      "Cobbled mews setting",
+      "Own front door",
+      "Skylights throughout",
+      "Integral garage"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-03.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-17",
+    "featured": false
+  },
+  {
+    "id": "man-0112",
+    "slug": "farm-street-mayfair-w1",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A newly reconfigured penthouse on Farm Street, Mayfair",
+    "addressLine": "Farm Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "price": 5300000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 1660,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8500,
+    "leaseYearsRemaining": 144,
+    "summary": "A newly reconfigured penthouse in Mayfair, a short walk from Berkeley Square and the Connaught.",
+    "description": [
+      "A newly reconfigured penthouse on Farm Street, set a short walk from Berkeley Square and the Connaught.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
+      "A considered instruction, offered to the market with vacant possession."
+    ],
+    "features": [
+      "Air conditioning",
+      "Recently reconfigured layout",
+      "Wraparound terrace",
+      "Private roof terrace",
+      "144-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-03",
+    "featured": false
+  },
+  {
+    "id": "man-0113",
+    "slug": "cheyne-row-chelsea-sw10",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "An immaculately kept townhouse on Cheyne Row, Chelsea",
+    "addressLine": "Cheyne Row",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "rentPcm": 17850,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 3,
+    "sizeSqft": 3630,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 23800,
+    "leaseYearsRemaining": 89,
+    "summary": "An immaculately kept townhouse in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
+    "description": [
+      "An immaculately kept townhouse on Cheyne Row, set a short stroll from the King's Road and Chelsea Physic Garden.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 6 bedrooms above.",
+      "Available on a company or private let, part-furnished."
+    ],
+    "features": [
+      "Original staircase retained",
+      "Garden square access",
+      "Off-street parking permit eligible",
+      "Private rear garden",
+      "89-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
         "src": "/photos/interior-study-03.jpg",
         "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-10",
+    "featured": false
+  },
+  {
+    "id": "man-0114",
+    "slug": "percy-street-fitzrovia-w1-2",
+    "purpose": "sale",
+    "status": "under-offer",
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A dual-aspect penthouse on Percy Street, Fitzrovia",
+    "addressLine": "Percy Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 3130000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1820,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 11700,
+    "leaseYearsRemaining": 68,
+    "summary": "A dual-aspect penthouse in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "description": [
+      "A dual-aspect penthouse on Percy Street, set moments from Charlotte Street's restaurants.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
+      "An honest instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Lift access",
+      "Private roof terrace",
+      "Home automation system",
+      "Panoramic outlook",
+      "68-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-02.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-02.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-03",
+    "featured": false
+  },
+  {
+    "id": "man-0115",
+    "slug": "weymouth-street-marylebone-w1-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "share-of-freehold",
+    "title": "A beautifully proportioned maisonette on Weymouth Street, Marylebone",
+    "addressLine": "Weymouth Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 4740000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2250,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 12900,
+    "leaseYearsRemaining": 999,
+    "summary": "A beautifully proportioned maisonette in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "description": [
+      "A beautifully proportioned maisonette on Weymouth Street, set close to Regent's Park and the Wallace Collection.",
+      "Two floors give a genuine sense of a house rather than a flat, with 4 bedrooms and a garden-facing kitchen at lower ground level.",
+      "A considered instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Private garden",
+      "Underfloor heating",
+      "Bespoke fitted joinery",
+      "Original shutters and fireplaces",
+      "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-18",
     "featured": false
   },
   {
-    "id": "man-0126",
-    "slug": "colville-terrace-notting-hill-w11",
+    "id": "man-0116",
+    "slug": "bickenhall-street-marylebone-w1",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "An immaculately presented apartment on Colville Terrace, Notting Hill",
-    "addressLine": "Colville Terrace",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "price": 2040000,
-    "bedrooms": 2,
+    "title": "A light-filled apartment on Bickenhall Street, Marylebone",
+    "addressLine": "Bickenhall Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 1885000,
+    "bedrooms": 1,
     "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1190,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 8200,
-    "leaseYearsRemaining": 59,
-    "summary": "An immaculately presented apartment in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
+    "sizeSqft": 1020,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 6300,
+    "leaseYearsRemaining": 81,
+    "summary": "A light-filled apartment in Marylebone, close to Regent's Park and the Wallace Collection.",
     "description": [
-      "An immaculately presented apartment on Colville Terrace, set within walking distance of Portobello Market and Westbourne Grove.",
-      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
-      "A considered instruction, offered to the market with vacant possession."
+      "A light-filled apartment on Bickenhall Street, set close to Regent's Park and the Wallace Collection.",
+      "An open-plan kitchen and reception take up the front of the flat, with 1 bedroom arranged quietly to the rear.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Video entry system",
-      "Secure underground parking",
       "Period cornicing retained",
-      "59-year lease"
+      "Secure underground parking",
+      "High ceilings",
+      "Porterage",
+      "81-year lease"
     ],
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
         "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-07-11",
+    "featured": false
+  },
+  {
+    "id": "man-0117",
+    "slug": "upper-wimpole-street-marylebone-w1-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
+    "tenure": "leasehold",
+    "title": "A rarely available maisonette on Upper Wimpole Street, Marylebone",
+    "addressLine": "Upper Wimpole Street",
+    "area": "Marylebone",
+    "postcodeDistrict": "W1",
+    "price": 3050000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 1790,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8100,
+    "leaseYearsRemaining": 59,
+    "summary": "A rarely available maisonette in Marylebone, a short walk from Marylebone Village.",
+    "description": [
+      "A rarely available maisonette on Upper Wimpole Street, set a short walk from Marylebone Village.",
+      "A private front door leads straight into the reception, with 3 bedrooms arranged over the floor above.",
+      "An honest instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Two reception rooms",
+      "Private garden",
+      "Original shutters and fireplaces",
+      "Own front door",
+      "59-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-01.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-09-13",
+    "featured": false
+  },
+  {
+    "id": "man-0118",
+    "slug": "pont-street-knightsbridge-sw1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "penthouse",
+    "tenure": "share-of-freehold",
+    "title": "A wraparound-terraced penthouse on Pont Street, Knightsbridge",
+    "addressLine": "Pont Street",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "rentPcm": 18300,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2550,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 12700,
+    "leaseYearsRemaining": 995,
+    "summary": "A wraparound-terraced penthouse in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
+    "description": [
+      "A wraparound-terraced penthouse on Pont Street, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 5 bedrooms each with fitted storage.",
+      "Available on a company or private let, furnished or unfurnished."
+    ],
+    "features": [
+      "Private roof terrace",
+      "Wraparound terrace",
+      "Home automation system",
+      "Lift access",
+      "Share of freehold"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-09-13",
+    "featured": false
+  },
+  {
+    "id": "man-0119",
+    "slug": "hans-place-knightsbridge-sw3",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A quietly grand townhouse on Hans Place, Knightsbridge",
+    "addressLine": "Hans Place",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW3",
+    "rentPcm": 17000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 3,
+    "sizeSqft": 2370,
+    "epcRating": "E",
+    "councilTaxBand": "H",
+    "summary": "A quietly grand townhouse in Knightsbridge, close to Harvey Nichols and the Brompton Road boutiques.",
+    "description": [
+      "A quietly grand townhouse on Hans Place, set close to Harvey Nichols and the Brompton Road boutiques.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 3 bedrooms above.",
+      "Available for a minimum twelve-month term, part-furnished."
+    ],
+    "features": [
+      "Original staircase retained",
+      "Garden square access",
+      "Wine cellar",
+      "Underfloor heating"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-01.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-12",
+    "featured": false
+  },
+  {
+    "id": "man-0120",
+    "slug": "argyll-road-kensington-w8",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A five-storey townhouse on Argyll Road, Kensington",
+    "addressLine": "Argyll Road",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 5640000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 2320,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 11400,
+    "leaseYearsRemaining": 133,
+    "summary": "A five-storey townhouse in Kensington, close to Kensington Palace Gardens.",
+    "description": [
+      "A five-storey townhouse on Argyll Road, set close to Kensington Palace Gardens.",
+      "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
+      "A considered instruction, offered to the market with flexible completion."
+    ],
+    "features": [
+      "Garden square access",
+      "Original staircase retained",
+      "Home cinema room",
+      "Off-street parking permit eligible",
+      "133-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-04.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-17",
+    "featured": false
+  },
+  {
+    "id": "man-0121",
+    "slug": "fitzroy-square-fitzrovia-w1-1",
+    "purpose": "let",
+    "status": "let-agreed",
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A dual-aspect penthouse on Fitzroy Square, Fitzrovia",
+    "addressLine": "Fitzroy Square",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "rentPcm": 9850,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 1760,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 8800,
+    "leaseYearsRemaining": 83,
+    "summary": "A dual-aspect penthouse in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "description": [
+      "A dual-aspect penthouse on Fitzroy Square, set moments from Charlotte Street's restaurants.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 3 bedrooms each with fitted storage.",
+      "Available from next month, furnished to a high standard."
+    ],
+    "features": [
+      "Recently reconfigured layout",
+      "Home automation system",
+      "Air conditioning",
+      "Panoramic outlook",
+      "83-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-01.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-03.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-04.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-02.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-08-15",
+    "featured": false
+  },
+  {
+    "id": "man-0122",
+    "slug": "flood-street-chelsea-sw10-2",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A five-storey townhouse on Flood Street, Chelsea",
+    "addressLine": "Flood Street",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW10",
+    "rentPcm": 17500,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 3000,
+    "epcRating": "C",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 19100,
+    "leaseYearsRemaining": 108,
+    "summary": "A five-storey townhouse in Chelsea, close to the river and Albert Bridge.",
+    "description": [
+      "A five-storey townhouse on Flood Street, set close to the river and Albert Bridge.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "Available from next month, furnished to a high standard."
+    ],
+    "features": [
+      "Private rear garden",
+      "Wine cellar",
+      "Home cinema room",
+      "Garden square access",
+      "108-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-04.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-05.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-02.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-04.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-06-15",
+    "featured": false
+  },
+  {
+    "id": "man-0123",
+    "slug": "ilchester-place-kensington-w8-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "A quietly grand apartment on Ilchester Place, Kensington",
+    "addressLine": "Ilchester Place",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "rentPcm": 7950,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 2,
+    "sizeSqft": 2120,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12700,
+    "leaseYearsRemaining": 124,
+    "summary": "A quietly grand apartment in Kensington, close to Kensington Palace Gardens.",
+    "description": [
+      "A quietly grand apartment on Ilchester Place, set close to Kensington Palace Gardens.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
+      "Available for a minimum twelve-month term, furnished or unfurnished."
+    ],
+    "features": [
+      "Recently renovated kitchen",
+      "Video entry system",
+      "High ceilings",
+      "Secure underground parking",
+      "124-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-05.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-01.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-03.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-01.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-dining-03.jpg",
+        "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-17",
+    "featured": false
+  },
+  {
+    "id": "man-0124",
+    "slug": "newman-street-fitzrovia-w1-1",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "penthouse",
+    "tenure": "leasehold",
+    "title": "A full-floor penthouse on Newman Street, Fitzrovia",
+    "addressLine": "Newman Street",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 2765000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1160,
+    "epcRating": "D",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 6000,
+    "leaseYearsRemaining": 98,
+    "summary": "A full-floor penthouse in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "description": [
+      "A full-floor penthouse on Newman Street, set moments from Charlotte Street's restaurants.",
+      "The top-floor layout opens the kitchen into the main reception room, with a wraparound terrace and 1 bedroom each with fitted storage.",
+      "A rare instruction, offered to the market with no onward chain."
+    ],
+    "features": [
+      "Concierge",
+      "Wraparound terrace",
+      "Home automation system",
+      "Panoramic outlook",
+      "98-year lease"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-penthouse-02.jpg",
+        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-01.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-02.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-04.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-02.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-hallway-02.jpg",
+        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-26",
+    "featured": false
+  },
+  {
+    "id": "man-0125",
+    "slug": "maida-avenue-little-venice-w9-1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A freshly restored townhouse on Maida Avenue, Little Venice",
+    "addressLine": "Maida Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 6500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1470,
+    "epcRating": "C",
+    "councilTaxBand": "H",
+    "summary": "A freshly restored townhouse in Little Venice, close to Paddington Basin and the Regent's Canal.",
+    "description": [
+      "A freshly restored townhouse on Maida Avenue, set close to Paddington Basin and the Regent's Canal.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 1 bedroom above.",
+      "Available immediately, furnished to a high standard."
+    ],
+    "features": [
+      "Original staircase retained",
+      "Private rear garden",
+      "Underfloor heating",
+      "Off-street parking permit eligible"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-livingroom-02.jpg",
+        "alt": "Stock photograph illustrating a living room of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-kitchen-03.jpg",
+        "alt": "Stock photograph illustrating a kitchen of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bedroom-01.jpg",
+        "alt": "Stock photograph illustrating a bedroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-bathroom-03.jpg",
+        "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
+      },
+      {
+        "src": "/photos/interior-study-03.jpg",
+        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
+      }
+    ],
+    "dateListed": "2026-05-12",
+    "featured": false
+  },
+  {
+    "id": "man-0126",
+    "slug": "clarges-street-mayfair-w1",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "mews-house",
+    "tenure": "freehold",
+    "title": "A self-contained mews house on Clarges Street, Mayfair",
+    "addressLine": "Clarges Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 16600,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 2590,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "summary": "A self-contained mews house in Mayfair, a short walk from Berkeley Square and the Connaught.",
+    "description": [
+      "A self-contained mews house on Clarges Street, set a short walk from Berkeley Square and the Connaught.",
+      "The scale is intimate rather than grand — a kitchen and reception on the first floor, 4 bedrooms on the floors above.",
+      "Available for a minimum twelve-month term, part-furnished."
+    ],
+    "features": [
+      "Own front door",
+      "Roof terrace",
+      "Skylights throughout",
+      "Cobbled mews setting"
+    ],
+    "images": [
+      {
+        "src": "/photos/exterior-mews-house-02.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -7097,46 +7110,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-12",
+    "dateListed": "2026-05-01",
     "featured": false
   },
   {
     "id": "man-0127",
-    "slug": "blomfield-road-little-venice-w9-2",
+    "slug": "fitzroy-square-fitzrovia-w1-2",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
+    "propertyType": "maisonette",
     "tenure": "share-of-freehold",
-    "title": "A remodelled apartment on Blomfield Road, Little Venice",
-    "addressLine": "Blomfield Road",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 2745000,
-    "bedrooms": 2,
-    "bathrooms": 1,
+    "title": "A sunny maisonette on Fitzroy Square, Fitzrovia",
+    "addressLine": "Fitzroy Square",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 5145000,
+    "bedrooms": 6,
+    "bathrooms": 6,
     "receptions": 1,
-    "sizeSqft": 1540,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 9000,
-    "leaseYearsRemaining": 998,
-    "summary": "A remodelled apartment in Little Venice, close to Paddington Basin and the Regent's Canal.",
+    "sizeSqft": 2840,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 16900,
+    "leaseYearsRemaining": 991,
+    "summary": "A sunny maisonette in Fitzrovia, moments from Charlotte Street's restaurants.",
     "description": [
-      "A remodelled apartment on Blomfield Road, set close to Paddington Basin and the Regent's Canal.",
-      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
-      "A considered instruction, offered to the market with vacant possession."
+      "A sunny maisonette on Fitzroy Square, set moments from Charlotte Street's restaurants.",
+      "A private front door leads straight into the reception, with 6 bedrooms arranged over the floor above.",
+      "An honest instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "High ceilings",
-      "Secure underground parking",
-      "Video entry system",
-      "Engineered oak flooring",
+      "Own front door",
+      "Original shutters and fireplaces",
+      "Bespoke fitted joinery",
+      "Underfloor heating",
       "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -7155,41 +7168,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-17",
+    "dateListed": "2026-07-09",
     "featured": false
   },
   {
     "id": "man-0128",
-    "slug": "warwick-avenue-little-venice-w9",
-    "purpose": "sale",
-    "status": "under-offer",
+    "slug": "mount-row-mayfair-w1",
+    "purpose": "let",
+    "status": "let-agreed",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A quietly grand apartment on Warwick Avenue, Little Venice",
-    "addressLine": "Warwick Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 2600000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1260,
-    "epcRating": "E",
+    "title": "A light-filled apartment on Mount Row, Mayfair",
+    "addressLine": "Mount Row",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 19000,
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "receptions": 2,
+    "sizeSqft": 2680,
+    "epcRating": "B",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 7600,
-    "leaseYearsRemaining": 104,
-    "summary": "A quietly grand apartment in Little Venice, close to Paddington Basin and the Regent's Canal.",
+    "serviceChargeAnnual": 13300,
+    "leaseYearsRemaining": 101,
+    "summary": "A light-filled apartment in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A quietly grand apartment on Warwick Avenue, set close to Paddington Basin and the Regent's Canal.",
-      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
-      "A considered instruction, offered to the market with an early exchange preferred."
+      "A light-filled apartment on Mount Row, set moments from Mount Street's galleries and Shepherd Market.",
+      "Rooms keep the building's original proportions and ceiling height, with 6 bedrooms and a kitchen updated within recent years.",
+      "Available from next month, unfurnished."
     ],
     "features": [
-      "Engineered oak flooring",
-      "Video entry system",
+      "Period cornicing retained",
       "Secure underground parking",
-      "Porterage",
-      "104-year lease"
+      "Recently renovated kitchen",
+      "Video entry system",
+      "101-year lease"
     ],
     "images": [
       {
@@ -7213,38 +7226,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-21",
+    "dateListed": "2026-06-10",
     "featured": false
   },
   {
     "id": "man-0129",
-    "slug": "belgrave-mews-north-belgravia-sw1-1",
-    "purpose": "sale",
-    "status": "for-sale",
+    "slug": "curzon-street-mayfair-w1",
+    "purpose": "let",
+    "status": "to-let",
     "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "A stucco-fronted townhouse on Belgrave Mews North, Belgravia",
-    "addressLine": "Belgrave Mews North",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 4295000,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1670,
-    "epcRating": "E",
-    "councilTaxBand": "H",
-    "summary": "A stucco-fronted townhouse in Belgravia, close to Wilton Crescent and the embassies along Belgrave Square.",
+    "tenure": "leasehold",
+    "title": "A freshly restored townhouse on Curzon Street, Mayfair",
+    "addressLine": "Curzon Street",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 14000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 2,
+    "sizeSqft": 2580,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 14700,
+    "leaseYearsRemaining": 119,
+    "summary": "A freshly restored townhouse in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A stucco-fronted townhouse on Belgrave Mews North, set close to Wilton Crescent and the embassies along Belgrave Square.",
-      "The house rises across its full height with reception rooms on the lower floors and 2 bedrooms above, each with its own character.",
-      "A rare instruction, offered to the market with vacant possession."
+      "A freshly restored townhouse on Curzon Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "The house rises across its full height with reception rooms on the lower floors and 3 bedrooms above, each with its own character.",
+      "Available for a minimum twelve-month term, furnished to a high standard."
     ],
     "features": [
-      "Underfloor heating",
-      "Home cinema room",
       "Wine cellar",
-      "Off-street parking permit eligible"
+      "Home cinema room",
+      "Garden square access",
+      "Off-street parking permit eligible",
+      "119-year lease"
     ],
     "images": [
       {
@@ -7280,46 +7296,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-28",
+    "dateListed": "2026-08-07",
     "featured": false
   },
   {
     "id": "man-0130",
-    "slug": "motcomb-street-belgravia-sw1-1",
+    "slug": "onslow-square-south-kensington-sw7-1",
     "purpose": "sale",
-    "status": "for-sale",
-    "propertyType": "townhouse",
+    "status": "sstc",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A five-storey townhouse on Motcomb Street, Belgravia",
-    "addressLine": "Motcomb Street",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "price": 10495000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 3,
-    "sizeSqft": 3540,
-    "epcRating": "D",
+    "title": "An immaculately presented apartment on Onslow Square, South Kensington",
+    "addressLine": "Onslow Square",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 7105000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 2,
+    "sizeSqft": 2990,
+    "epcRating": "C",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 16100,
-    "leaseYearsRemaining": 99,
-    "summary": "A five-storey townhouse in Belgravia, a short walk from Sloane Square and the shops on Elizabeth Street.",
+    "serviceChargeAnnual": 12200,
+    "leaseYearsRemaining": 94,
+    "summary": "An immaculately presented apartment in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A five-storey townhouse on Motcomb Street, set a short walk from Sloane Square and the shops on Elizabeth Street.",
-      "The house rises across its full height with reception rooms on the lower floors and 5 bedrooms above, each with its own character.",
-      "A rare instruction, offered to the market with flexible completion."
+      "An immaculately presented apartment on Onslow Square, set moments from South Kensington's garden squares.",
+      "Rooms keep the building's original proportions and ceiling height, with 6 bedrooms and a kitchen updated within recent years.",
+      "A straightforward instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Off-street parking permit eligible",
-      "Garden square access",
-      "Home cinema room",
-      "Wine cellar",
-      "99-year lease"
+      "Video entry system",
+      "Lift access",
+      "Recently renovated kitchen",
+      "Air conditioning",
+      "94-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-02.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -7338,46 +7354,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-27",
+    "dateListed": "2026-09-18",
     "featured": false
   },
   {
     "id": "man-0131",
-    "slug": "bickenhall-street-marylebone-w1-1",
+    "slug": "maida-avenue-little-venice-w9-2",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "maisonette",
+    "propertyType": "townhouse",
     "tenure": "leasehold",
-    "title": "A raised ground-floor maisonette on Bickenhall Street, Marylebone",
-    "addressLine": "Bickenhall Street",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "price": 2500000,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1390,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 9200,
-    "leaseYearsRemaining": 62,
-    "summary": "A raised ground-floor maisonette in Marylebone, close to Regent's Park and the Wallace Collection.",
+    "title": "A quietly grand townhouse on Maida Avenue, Little Venice",
+    "addressLine": "Maida Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "price": 6880000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 3,
+    "sizeSqft": 3140,
+    "epcRating": "D",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 21500,
+    "leaseYearsRemaining": 70,
+    "summary": "A quietly grand townhouse in Little Venice, close to Paddington Basin and the Regent's Canal.",
     "description": [
-      "A raised ground-floor maisonette on Bickenhall Street, set close to Regent's Park and the Wallace Collection.",
-      "Two floors give a genuine sense of a house rather than a flat, with 2 bedrooms and a garden-facing kitchen at lower ground level.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A quietly grand townhouse on Maida Avenue, set close to Paddington Basin and the Regent's Canal.",
+      "The house rises across its full height with reception rooms on the lower floors and 4 bedrooms above, each with its own character.",
+      "An honest instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Private garden",
-      "Original shutters and fireplaces",
-      "Bespoke fitted joinery",
-      "Own front door",
-      "62-year lease"
+      "Off-street parking permit eligible",
+      "Underfloor heating",
+      "Home cinema room",
+      "Original staircase retained",
+      "70-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -7396,46 +7412,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-27",
+    "dateListed": "2026-06-09",
     "featured": false
   },
   {
     "id": "man-0132",
-    "slug": "newman-street-fitzrovia-w1-1",
+    "slug": "formosa-street-little-venice-w9",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "maisonette",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A two-storey maisonette on Newman Street, Fitzrovia",
-    "addressLine": "Newman Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 2700000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1550,
-    "epcRating": "C",
+    "title": "A quietly grand apartment on Formosa Street, Little Venice",
+    "addressLine": "Formosa Street",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "price": 4235000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 1750,
+    "epcRating": "D",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 8400,
+    "serviceChargeAnnual": 12100,
     "leaseYearsRemaining": 126,
-    "summary": "A two-storey maisonette in Fitzrovia, a short walk from Soho and the British Museum.",
+    "summary": "A quietly grand apartment in Little Venice, close to Paddington Basin and the Regent's Canal.",
     "description": [
-      "A two-storey maisonette on Newman Street, set a short walk from Soho and the British Museum.",
-      "Two floors give a genuine sense of a house rather than a flat, with 2 bedrooms and a garden-facing kitchen at lower ground level.",
-      "A straightforward instruction, offered to the market with flexible completion."
+      "A quietly grand apartment on Formosa Street, set close to Paddington Basin and the Regent's Canal.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
+      "An honest instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Private garden",
-      "Two reception rooms",
-      "Original shutters and fireplaces",
-      "Bespoke fitted joinery",
+      "Air conditioning",
+      "High ceilings",
+      "Period cornicing retained",
+      "Lift access",
       "126-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -7458,41 +7474,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-27",
+    "dateListed": "2026-07-14",
     "featured": false
   },
   {
     "id": "man-0133",
-    "slug": "percy-street-fitzrovia-w1-1",
+    "slug": "acacia-road-st-john-s-wood-nw8-1",
     "purpose": "let",
     "status": "to-let",
     "propertyType": "apartment",
-    "tenure": "share-of-freehold",
-    "title": "A light-filled apartment on Percy Street, Fitzrovia",
-    "addressLine": "Percy Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "rentPcm": 7550,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1390,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 6500,
-    "leaseYearsRemaining": 997,
-    "summary": "A light-filled apartment in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
+    "tenure": "leasehold",
+    "title": "An immaculately presented apartment on Acacia Road, St John's Wood",
+    "addressLine": "Acacia Road",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "rentPcm": 11000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 2280,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12200,
+    "leaseYearsRemaining": 115,
+    "summary": "An immaculately presented apartment in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
     "description": [
-      "A light-filled apartment on Percy Street, set close to Fitzroy Square's garden and the BT Tower.",
-      "Rooms keep the building's original proportions and ceiling height, with 2 bedrooms and a kitchen updated within recent years.",
-      "Available from next month, part-furnished."
+      "An immaculately presented apartment on Acacia Road, set moments from Lord's Cricket Ground and Regent's Park.",
+      "Rooms keep the building's original proportions and ceiling height, with 4 bedrooms and a kitchen updated within recent years.",
+      "Available on a company or private let, part-furnished."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Secure underground parking",
       "Porterage",
       "High ceilings",
-      "Share of freehold"
+      "Recently renovated kitchen",
+      "Period cornicing retained",
+      "115-year lease"
     ],
     "images": [
       {
@@ -7516,43 +7532,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-06",
+    "dateListed": "2026-09-09",
     "featured": false
   },
   {
     "id": "man-0134",
-    "slug": "farm-street-mayfair-w1-1",
+    "slug": "hill-street-mayfair-w1-2",
     "purpose": "let",
-    "status": "to-let",
-    "propertyType": "mews-house",
-    "tenure": "freehold",
-    "title": "A self-contained mews house on Farm Street, Mayfair",
-    "addressLine": "Farm Street",
+    "status": "let-agreed",
+    "propertyType": "townhouse",
+    "tenure": "leasehold",
+    "title": "A handsomely proportioned townhouse on Hill Street, Mayfair",
+    "addressLine": "Hill Street",
     "area": "Mayfair",
     "postcodeDistrict": "W1",
-    "rentPcm": 13900,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2250,
-    "epcRating": "E",
-    "councilTaxBand": "G",
-    "summary": "A self-contained mews house in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
+    "rentPcm": 22550,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "receptions": 2,
+    "sizeSqft": 3110,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 17400,
+    "leaseYearsRemaining": 98,
+    "summary": "A handsomely proportioned townhouse in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
     "description": [
-      "A self-contained mews house on Farm Street, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 3 bedrooms above.",
-      "Available from next month, furnished or unfurnished."
+      "A handsomely proportioned townhouse on Hill Street, set moments from Mount Street's galleries and Shepherd Market.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 5 bedrooms above.",
+      "Available immediately, unfurnished."
     ],
     "features": [
-      "Roof terrace",
-      "Own front door",
-      "Integral garage",
-      "Skylights throughout"
+      "Wine cellar",
+      "Private rear garden",
+      "Garden square access",
+      "Underfloor heating",
+      "98-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-mews-house-02.jpg",
-        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -7575,43 +7594,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-11",
+    "dateListed": "2026-05-09",
     "featured": false
   },
   {
     "id": "man-0135",
-    "slug": "onslow-square-south-kensington-sw7-1",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Onslow Square, South Kensington",
-    "addressLine": "Onslow Square",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "rentPcm": 11900,
+    "slug": "the-vale-chelsea-sw3-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "mews-house",
+    "tenure": "leasehold",
+    "title": "A cobbled mews house on The Vale, Chelsea",
+    "addressLine": "The Vale",
+    "area": "Chelsea",
+    "postcodeDistrict": "SW3",
+    "price": 6565000,
     "bedrooms": 4,
     "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2910,
+    "receptions": 3,
+    "sizeSqft": 2770,
     "epcRating": "C",
     "councilTaxBand": "G",
-    "summary": "An immaculately kept townhouse in South Kensington, close to the museums along Exhibition Road.",
+    "serviceChargeAnnual": 13900,
+    "leaseYearsRemaining": 123,
+    "summary": "A cobbled mews house in Chelsea, a short stroll from the King's Road and Chelsea Physic Garden.",
     "description": [
-      "An immaculately kept townhouse on Onslow Square, set close to the museums along Exhibition Road.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "Available on a company or private let, unfurnished."
+      "A cobbled mews house on The Vale, set a short stroll from the King's Road and Chelsea Physic Garden.",
+      "Living space sits above an integral garage, with a kitchen and dining room on the first floor and 4 bedrooms above.",
+      "An honest instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Home cinema room",
-      "Garden square access",
-      "Original staircase retained",
-      "Off-street parking permit eligible"
+      "Cobbled mews setting",
+      "Integral garage",
+      "Own front door",
+      "Skylights throughout",
+      "123-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-mews-house-01.jpg",
+        "alt": "Stock photograph illustrating a mews house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -7634,46 +7656,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-06",
+    "dateListed": "2026-05-04",
     "featured": false
   },
   {
     "id": "man-0136",
-    "slug": "portland-place-marylebone-w1-3",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "apartment",
+    "slug": "sumner-place-south-kensington-sw7-1",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "maisonette",
     "tenure": "share-of-freehold",
-    "title": "A light-filled apartment on Portland Place, Marylebone",
-    "addressLine": "Portland Place",
-    "area": "Marylebone",
-    "postcodeDistrict": "W1",
-    "rentPcm": 6800,
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "receptions": 2,
-    "sizeSqft": 1730,
-    "epcRating": "B",
+    "title": "A beautifully proportioned maisonette on Sumner Place, South Kensington",
+    "addressLine": "Sumner Place",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 1665000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 980,
+    "epcRating": "D",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 9000,
-    "leaseYearsRemaining": 946,
-    "summary": "A light-filled apartment in Marylebone, a short walk from Marylebone Village.",
+    "serviceChargeAnnual": 4600,
+    "leaseYearsRemaining": 958,
+    "summary": "A beautifully proportioned maisonette in South Kensington, close to the museums along Exhibition Road.",
     "description": [
-      "A light-filled apartment on Portland Place, set a short walk from Marylebone Village.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 3 well-proportioned bedrooms.",
-      "Available on a company or private let, part-furnished."
+      "A beautifully proportioned maisonette on Sumner Place, set close to the museums along Exhibition Road.",
+      "Two floors give a genuine sense of a house rather than a flat, with 1 bedroom and a garden-facing kitchen at lower ground level.",
+      "A considered instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Air conditioning",
-      "Period cornicing retained",
-      "High ceilings",
+      "Own front door",
+      "Private garden",
+      "Underfloor heating",
+      "Two reception rooms",
       "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-02.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -7692,41 +7714,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-05-25",
+    "dateListed": "2026-09-16",
     "featured": false
   },
   {
     "id": "man-0137",
-    "slug": "warwick-avenue-little-venice-w9-1",
+    "slug": "onslow-square-south-kensington-sw7-2",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A rarely available apartment on Warwick Avenue, Little Venice",
-    "addressLine": "Warwick Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 2960000,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "receptions": 1,
-    "sizeSqft": 1540,
-    "epcRating": "B",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 7700,
-    "leaseYearsRemaining": 71,
-    "summary": "A rarely available apartment in Little Venice, overlooking the canal basin Little Venice is named for.",
+    "title": "A quietly grand apartment on Onslow Square, South Kensington",
+    "addressLine": "Onslow Square",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 5460000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "receptions": 2,
+    "sizeSqft": 2940,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 12700,
+    "leaseYearsRemaining": 85,
+    "summary": "A quietly grand apartment in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A rarely available apartment on Warwick Avenue, set overlooking the canal basin Little Venice is named for.",
-      "An open-plan kitchen and reception take up the front of the flat, with 2 bedrooms arranged quietly to the rear.",
-      "An honest instruction, offered to the market with an early exchange preferred."
+      "A quietly grand apartment on Onslow Square, set moments from South Kensington's garden squares.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 6 bedrooms arranged away from the entertaining space.",
+      "An honest instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Period cornicing retained",
-      "Recently renovated kitchen",
-      "Porterage",
+      "High ceilings",
+      "Video entry system",
+      "Secure underground parking",
       "Air conditioning",
-      "71-year lease"
+      "85-year lease"
     ],
     "images": [
       {
@@ -7750,46 +7772,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-25",
+    "dateListed": "2026-05-16",
     "featured": false
   },
   {
     "id": "man-0138",
-    "slug": "maida-avenue-little-venice-w9-1",
+    "slug": "montpelier-square-knightsbridge-sw1-2",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A light-filled apartment on Maida Avenue, Little Venice",
-    "addressLine": "Maida Avenue",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 3850000,
-    "bedrooms": 5,
-    "bathrooms": 5,
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A five-storey townhouse on Montpelier Square, Knightsbridge",
+    "addressLine": "Montpelier Square",
+    "area": "Knightsbridge",
+    "postcodeDistrict": "SW1",
+    "price": 6465000,
+    "bedrooms": 2,
+    "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 2200,
+    "sizeSqft": 1980,
     "epcRating": "D",
     "councilTaxBand": "G",
-    "serviceChargeAnnual": 11800,
-    "leaseYearsRemaining": 119,
-    "summary": "A light-filled apartment in Little Venice, overlooking the canal basin Little Venice is named for.",
+    "summary": "A five-storey townhouse in Knightsbridge, a few minutes from Hyde Park and the Knightsbridge tube.",
     "description": [
-      "A light-filled apartment on Maida Avenue, set overlooking the canal basin Little Venice is named for.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 5 well-proportioned bedrooms.",
+      "A five-storey townhouse on Montpelier Square, set a few minutes from Hyde Park and the Knightsbridge tube.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 2 bedrooms above.",
       "A considered instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Secure underground parking",
-      "Engineered oak flooring",
-      "Lift access",
-      "Recently renovated kitchen",
-      "119-year lease"
+      "Home cinema room",
+      "Original staircase retained",
+      "Off-street parking permit eligible",
+      "Garden square access"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-02.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -7812,41 +7831,41 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-10",
+    "dateListed": "2026-06-13",
     "featured": false
   },
   {
     "id": "man-0139",
-    "slug": "kensington-park-road-notting-hill-w11-1",
-    "purpose": "let",
-    "status": "to-let",
+    "slug": "fitzroy-square-fitzrovia-w1-3",
+    "purpose": "sale",
+    "status": "sstc",
     "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "An exceptionally quiet apartment on Kensington Park Road, Notting Hill",
-    "addressLine": "Kensington Park Road",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "rentPcm": 9500,
-    "bedrooms": 4,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2240,
+    "title": "A remodelled apartment on Fitzroy Square, Fitzrovia",
+    "addressLine": "Fitzroy Square",
+    "area": "Fitzrovia",
+    "postcodeDistrict": "W1",
+    "price": 4210000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 1,
+    "sizeSqft": 1840,
     "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9500,
-    "leaseYearsRemaining": 90,
-    "summary": "An exceptionally quiet apartment in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 12300,
+    "leaseYearsRemaining": 79,
+    "summary": "A remodelled apartment in Fitzrovia, close to Fitzroy Square's garden and the BT Tower.",
     "description": [
-      "An exceptionally quiet apartment on Kensington Park Road, set within walking distance of Portobello Market and Westbourne Grove.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 4 bedrooms arranged away from the entertaining space.",
-      "Available on a company or private let, furnished or unfurnished."
+      "A remodelled apartment on Fitzroy Square, set close to Fitzroy Square's garden and the BT Tower.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 3 well-proportioned bedrooms.",
+      "A straightforward instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Engineered oak flooring",
-      "Secure underground parking",
-      "Video entry system",
+      "High ceilings",
+      "Period cornicing retained",
       "Porterage",
-      "90-year lease"
+      "Secure underground parking",
+      "79-year lease"
     ],
     "images": [
       {
@@ -7874,43 +7893,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-17",
-    "featured": true
+    "dateListed": "2026-09-03",
+    "featured": false
   },
   {
     "id": "man-0140",
-    "slug": "stanley-gardens-notting-hill-w11-3",
+    "slug": "onslow-square-south-kensington-sw7-3",
     "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "detached-house",
-    "tenure": "freehold",
-    "title": "A beautifully maintained house on Stanley Gardens, Notting Hill",
-    "addressLine": "Stanley Gardens",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "price": 3645000,
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "An immaculately presented apartment on Onslow Square, South Kensington",
+    "addressLine": "Onslow Square",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 3200000,
     "bedrooms": 2,
-    "bathrooms": 2,
+    "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1730,
-    "epcRating": "C",
+    "sizeSqft": 1350,
+    "epcRating": "D",
     "councilTaxBand": "G",
-    "summary": "A beautifully maintained house in Notting Hill, within walking distance of Portobello Market and Westbourne Grove.",
+    "serviceChargeAnnual": 7900,
+    "leaseYearsRemaining": 84,
+    "summary": "An immaculately presented apartment in South Kensington, close to the museums along Exhibition Road.",
     "description": [
-      "A beautifully maintained house on Stanley Gardens, set within walking distance of Portobello Market and Westbourne Grove.",
-      "Formal reception rooms occupy the ground floor, with a family kitchen extending into the garden and 2 bedrooms across the upper floors.",
+      "An immaculately presented apartment on Onslow Square, set close to the museums along Exhibition Road.",
+      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
       "A rare instruction, offered to the market with vacant possession."
     ],
     "features": [
-      "Private garden",
-      "Off-street parking",
-      "Landscaped grounds",
-      "Swimming pool"
+      "Secure underground parking",
+      "Lift access",
+      "Air conditioning",
+      "Period cornicing retained",
+      "84-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -7929,46 +7951,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-05",
+    "dateListed": "2026-06-08",
     "featured": false
   },
   {
     "id": "man-0141",
-    "slug": "glebe-place-chelsea-sw3-1",
-    "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "maisonette",
-    "tenure": "leasehold",
-    "title": "A beautifully proportioned maisonette on Glebe Place, Chelsea",
-    "addressLine": "Glebe Place",
-    "area": "Chelsea",
-    "postcodeDistrict": "SW3",
-    "price": 3065000,
-    "bedrooms": 2,
-    "bathrooms": 2,
+    "slug": "balfour-place-mayfair-w1-2",
+    "purpose": "let",
+    "status": "to-let",
+    "propertyType": "apartment",
+    "tenure": "share-of-freehold",
+    "title": "A light-filled apartment on Balfour Place, Mayfair",
+    "addressLine": "Balfour Place",
+    "area": "Mayfair",
+    "postcodeDistrict": "W1",
+    "rentPcm": 19100,
+    "bedrooms": 6,
+    "bathrooms": 6,
     "receptions": 1,
-    "sizeSqft": 1390,
-    "epcRating": "D",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 5800,
-    "leaseYearsRemaining": 63,
-    "summary": "A beautifully proportioned maisonette in Chelsea, close to the river and Albert Bridge.",
+    "sizeSqft": 2520,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 10800,
+    "leaseYearsRemaining": 990,
+    "summary": "A light-filled apartment in Mayfair, a short walk from Berkeley Square and the Connaught.",
     "description": [
-      "A beautifully proportioned maisonette on Glebe Place, set close to the river and Albert Bridge.",
-      "A private front door leads straight into the reception, with 2 bedrooms arranged over the floor above.",
-      "A rare instruction, offered to the market with vacant possession."
+      "A light-filled apartment on Balfour Place, set a short walk from Berkeley Square and the Connaught.",
+      "Rooms keep the building's original proportions and ceiling height, with 6 bedrooms and a kitchen updated within recent years.",
+      "Available on a company or private let, furnished to a high standard."
     ],
     "features": [
-      "Own front door",
-      "Original shutters and fireplaces",
-      "Two reception rooms",
-      "Underfloor heating",
-      "63-year lease"
+      "Secure underground parking",
+      "Lift access",
+      "Period cornicing retained",
+      "Recently renovated kitchen",
+      "Share of freehold"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-01.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-01.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -7991,46 +8013,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-24",
+    "dateListed": "2026-09-05",
     "featured": false
   },
   {
     "id": "man-0142",
-    "slug": "lansdowne-crescent-notting-hill-w11",
-    "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "detached-house",
+    "slug": "blomfield-road-little-venice-w9-1",
+    "purpose": "let",
+    "status": "let-agreed",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A fully detached house on Lansdowne Crescent, Notting Hill",
-    "addressLine": "Lansdowne Crescent",
-    "area": "Notting Hill",
-    "postcodeDistrict": "W11",
-    "price": 2985000,
-    "bedrooms": 1,
-    "bathrooms": 1,
+    "title": "A rarely available apartment on Blomfield Road, Little Venice",
+    "addressLine": "Blomfield Road",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 8450,
+    "bedrooms": 3,
+    "bathrooms": 2,
     "receptions": 1,
-    "sizeSqft": 1460,
-    "epcRating": "C",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 9100,
-    "leaseYearsRemaining": 68,
-    "summary": "A fully detached house in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
+    "sizeSqft": 1580,
+    "epcRating": "B",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 9300,
+    "leaseYearsRemaining": 94,
+    "summary": "A rarely available apartment in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
     "description": [
-      "A fully detached house on Lansdowne Crescent, set a few minutes from Holland Park and the Electric Cinema.",
-      "Formal reception rooms occupy the ground floor, with a family kitchen extending into the garden and 1 bedrooms across the upper floors.",
-      "An honest instruction, offered to the market with no onward chain."
+      "A rarely available apartment on Blomfield Road, set a short walk from Warwick Avenue's cafés and the towpath.",
+      "Rooms keep the building's original proportions and ceiling height, with 3 bedrooms and a kitchen updated within recent years.",
+      "Available immediately, part-furnished."
     ],
     "features": [
-      "Lower ground leisure floor",
-      "Private garden",
-      "Integral garage",
-      "Underfloor heating",
-      "68-year lease"
+      "Lift access",
+      "Video entry system",
+      "Porterage",
+      "High ceilings",
+      "94-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-detached-house-02.jpg",
-        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -8049,46 +8071,43 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-26",
+    "dateListed": "2026-07-06",
     "featured": false
   },
   {
     "id": "man-0143",
-    "slug": "chester-row-belgravia-sw1-1",
+    "slug": "randolph-avenue-little-venice-w9-1",
     "purpose": "let",
     "status": "to-let",
-    "propertyType": "apartment",
-    "tenure": "leasehold",
-    "title": "A rarely available apartment on Chester Row, Belgravia",
-    "addressLine": "Chester Row",
-    "area": "Belgravia",
-    "postcodeDistrict": "SW1",
-    "rentPcm": 11650,
-    "bedrooms": 2,
-    "bathrooms": 2,
+    "propertyType": "townhouse",
+    "tenure": "freehold",
+    "title": "A stucco-fronted townhouse on Randolph Avenue, Little Venice",
+    "addressLine": "Randolph Avenue",
+    "area": "Little Venice",
+    "postcodeDistrict": "W9",
+    "rentPcm": 15750,
+    "bedrooms": 5,
+    "bathrooms": 4,
     "receptions": 1,
-    "sizeSqft": 1470,
-    "epcRating": "B",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 7700,
-    "leaseYearsRemaining": 93,
-    "summary": "A rarely available apartment in Belgravia, close to Wilton Crescent and the embassies along Belgrave Square.",
+    "sizeSqft": 3000,
+    "epcRating": "E",
+    "councilTaxBand": "G",
+    "summary": "A stucco-fronted townhouse in Little Venice, overlooking the canal basin Little Venice is named for.",
     "description": [
-      "A rarely available apartment on Chester Row, set close to Wilton Crescent and the embassies along Belgrave Square.",
-      "A broad reception room runs the width of the building, with a separate dining kitchen and 2 well-proportioned bedrooms.",
-      "Available from next month, furnished to a high standard."
+      "A stucco-fronted townhouse on Randolph Avenue, set overlooking the canal basin Little Venice is named for.",
+      "A run of interconnecting reception rooms opens onto the garden at the rear, with 5 bedrooms above.",
+      "Available from next month, part-furnished."
     ],
     "features": [
-      "Period cornicing retained",
-      "Air conditioning",
-      "Engineered oak flooring",
-      "Video entry system",
-      "93-year lease"
+      "Wine cellar",
+      "Garden square access",
+      "Underfloor heating",
+      "Original staircase retained"
     ],
     "images": [
       {
-        "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-townhouse-01.jpg",
+        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -8107,39 +8126,39 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-13",
+    "dateListed": "2026-07-06",
     "featured": false
   },
   {
     "id": "man-0144",
-    "slug": "farm-street-mayfair-w1-2",
-    "purpose": "sale",
-    "status": "for-sale",
+    "slug": "lansdowne-road-notting-hill-w11-4",
+    "purpose": "let",
+    "status": "to-let",
     "propertyType": "apartment",
     "tenure": "share-of-freehold",
-    "title": "A recently refurbished apartment on Farm Street, Mayfair",
-    "addressLine": "Farm Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 7555000,
-    "bedrooms": 5,
-    "bathrooms": 4,
-    "receptions": 2,
-    "sizeSqft": 2650,
-    "epcRating": "E",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 13800,
-    "leaseYearsRemaining": 970,
-    "summary": "A recently refurbished apartment in Mayfair, moments from Mount Street's galleries and Shepherd Market.",
+    "title": "An exceptionally quiet apartment on Lansdowne Road, Notting Hill",
+    "addressLine": "Lansdowne Road",
+    "area": "Notting Hill",
+    "postcodeDistrict": "W11",
+    "rentPcm": 8700,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "receptions": 1,
+    "sizeSqft": 1770,
+    "epcRating": "D",
+    "councilTaxBand": "H",
+    "serviceChargeAnnual": 9500,
+    "leaseYearsRemaining": 992,
+    "summary": "An exceptionally quiet apartment in Notting Hill, a few minutes from Holland Park and the Electric Cinema.",
     "description": [
-      "A recently refurbished apartment on Farm Street, set moments from Mount Street's galleries and Shepherd Market.",
-      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 5 bedrooms arranged away from the entertaining space.",
-      "A considered instruction, offered to the market with no onward chain."
+      "An exceptionally quiet apartment on Lansdowne Road, set a few minutes from Holland Park and the Electric Cinema.",
+      "An open-plan kitchen and reception take up the front of the flat, with 3 bedrooms arranged quietly to the rear.",
+      "Available immediately, furnished to a high standard."
     ],
     "features": [
-      "Recently renovated kitchen",
-      "Air conditioning",
-      "High ceilings",
+      "Period cornicing retained",
+      "Secure underground parking",
+      "Video entry system",
       "Lift access",
       "Share of freehold"
     ],
@@ -8173,46 +8192,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-16",
+    "dateListed": "2026-05-21",
     "featured": false
   },
   {
     "id": "man-0145",
-    "slug": "royal-crescent-holland-park-w11-2",
+    "slug": "phillimore-gardens-kensington-w8-1",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "townhouse",
+    "propertyType": "maisonette",
     "tenure": "leasehold",
-    "title": "A five-storey townhouse on Royal Crescent, Holland Park",
-    "addressLine": "Royal Crescent",
-    "area": "Holland Park",
-    "postcodeDistrict": "W11",
-    "price": 4725000,
-    "bedrooms": 3,
+    "title": "A two-storey maisonette on Phillimore Gardens, Kensington",
+    "addressLine": "Phillimore Gardens",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 4570000,
+    "bedrooms": 4,
     "bathrooms": 3,
-    "receptions": 1,
-    "sizeSqft": 2250,
-    "epcRating": "E",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 9800,
-    "leaseYearsRemaining": 134,
-    "summary": "A five-storey townhouse in Holland Park, directly opposite Holland Park itself.",
+    "receptions": 2,
+    "sizeSqft": 2150,
+    "epcRating": "C",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 11800,
+    "leaseYearsRemaining": 99,
+    "summary": "A two-storey maisonette in Kensington, close to Kensington Palace Gardens.",
     "description": [
-      "A five-storey townhouse on Royal Crescent, set directly opposite Holland Park itself.",
-      "The principal reception rooms sit on the raised ground and first floors, with 3 bedrooms arranged across the upper storeys.",
-      "A rare instruction, offered to the market with an early exchange preferred."
+      "A two-storey maisonette on Phillimore Gardens, set close to Kensington Palace Gardens.",
+      "A private front door leads straight into the reception, with 4 bedrooms arranged over the floor above.",
+      "A considered instruction, offered to the market with flexible completion."
     ],
     "features": [
-      "Wine cellar",
-      "Garden square access",
-      "Private rear garden",
-      "Home cinema room",
-      "134-year lease"
+      "Underfloor heating",
+      "Two reception rooms",
+      "Own front door",
+      "Bespoke fitted joinery",
+      "99-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -8229,52 +8248,48 @@ export const generatedListings: Listing[] = [
       {
         "src": "/photos/interior-bathroom-03.jpg",
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
-      },
-      {
-        "src": "/photos/interior-study-02.jpg",
-        "alt": "Stock photograph illustrating a study of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-08-05",
+    "dateListed": "2026-08-18",
     "featured": false
   },
   {
     "id": "man-0146",
-    "slug": "hill-street-mayfair-w1-1",
+    "slug": "cranley-gardens-south-kensington-sw7-2",
     "purpose": "sale",
     "status": "for-sale",
-    "propertyType": "penthouse",
+    "propertyType": "apartment",
     "tenure": "leasehold",
-    "title": "A wraparound-terraced penthouse on Hill Street, Mayfair",
-    "addressLine": "Hill Street",
-    "area": "Mayfair",
-    "postcodeDistrict": "W1",
-    "price": 3640000,
+    "title": "A lateral apartment on Cranley Gardens, South Kensington",
+    "addressLine": "Cranley Gardens",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 2655000,
     "bedrooms": 2,
-    "bathrooms": 2,
+    "bathrooms": 1,
     "receptions": 1,
-    "sizeSqft": 1510,
-    "epcRating": "C",
-    "councilTaxBand": "H",
-    "serviceChargeAnnual": 7600,
-    "leaseYearsRemaining": 100,
-    "summary": "A wraparound-terraced penthouse in Mayfair, close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
+    "sizeSqft": 1280,
+    "epcRating": "D",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 8200,
+    "leaseYearsRemaining": 63,
+    "summary": "A lateral apartment in South Kensington, close to the museums along Exhibition Road.",
     "description": [
-      "A wraparound-terraced penthouse on Hill Street, set close to Curzon Street's cinema and Hyde Park's Mayfair corner.",
-      "The reception spans the width of the top floor, with 2 bedrooms opening onto private terrace space of its own.",
-      "A considered instruction, offered to the market with vacant possession."
+      "A lateral apartment on Cranley Gardens, set close to the museums along Exhibition Road.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 2 bedrooms arranged away from the entertaining space.",
+      "An honest instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Lift access",
       "Air conditioning",
-      "Panoramic outlook",
-      "Private roof terrace",
-      "100-year lease"
+      "Lift access",
+      "Engineered oak flooring",
+      "Porterage",
+      "63-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-02.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -8293,46 +8308,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-07-14",
+    "dateListed": "2026-07-12",
     "featured": false
   },
   {
     "id": "man-0147",
-    "slug": "fitzroy-square-fitzrovia-w1",
+    "slug": "ilchester-place-kensington-w8-2",
     "purpose": "sale",
-    "status": "sstc",
-    "propertyType": "penthouse",
+    "status": "for-sale",
+    "propertyType": "maisonette",
     "tenure": "leasehold",
-    "title": "A wraparound-terraced penthouse on Fitzroy Square, Fitzrovia",
-    "addressLine": "Fitzroy Square",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "price": 2450000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1420,
-    "epcRating": "E",
-    "councilTaxBand": "F",
-    "serviceChargeAnnual": 8400,
+    "title": "A raised ground-floor maisonette on Ilchester Place, Kensington",
+    "addressLine": "Ilchester Place",
+    "area": "Kensington",
+    "postcodeDistrict": "W8",
+    "price": 3585000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "receptions": 2,
+    "sizeSqft": 1780,
+    "epcRating": "B",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 10900,
     "leaseYearsRemaining": 57,
-    "summary": "A wraparound-terraced penthouse in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "summary": "A raised ground-floor maisonette in Kensington, close to Kensington Palace Gardens.",
     "description": [
-      "A wraparound-terraced penthouse on Fitzroy Square, set moments from Charlotte Street's restaurants.",
-      "Lift access serves the full floor, where 2 bedrooms and an open-plan reception both take in the terrace and the rooftops beyond.",
-      "A considered instruction, offered to the market with no onward chain."
+      "A raised ground-floor maisonette on Ilchester Place, set close to Kensington Palace Gardens.",
+      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Air conditioning",
-      "Recently reconfigured layout",
-      "Private roof terrace",
-      "Panoramic outlook",
+      "Own front door",
+      "Bespoke fitted joinery",
+      "Private garden",
+      "Underfloor heating",
       "57-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-penthouse-01.jpg",
-        "alt": "Stock photograph illustrating a penthouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-maisonette-01.jpg",
+        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -8355,46 +8370,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-22",
+    "dateListed": "2026-06-06",
     "featured": false
   },
   {
     "id": "man-0148",
-    "slug": "formosa-street-little-venice-w9",
+    "slug": "cavendish-avenue-st-john-s-wood-nw8-4",
     "purpose": "sale",
-    "status": "under-offer",
-    "propertyType": "maisonette",
+    "status": "for-sale",
+    "propertyType": "detached-house",
     "tenure": "leasehold",
-    "title": "A beautifully proportioned maisonette on Formosa Street, Little Venice",
-    "addressLine": "Formosa Street",
-    "area": "Little Venice",
-    "postcodeDistrict": "W9",
-    "price": 2870000,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "receptions": 1,
-    "sizeSqft": 1330,
-    "epcRating": "B",
-    "councilTaxBand": "G",
-    "serviceChargeAnnual": 7100,
-    "leaseYearsRemaining": 114,
-    "summary": "A beautifully proportioned maisonette in Little Venice, a short walk from Warwick Avenue's cafés and the towpath.",
+    "title": "A fully detached house on Cavendish Avenue, St John's Wood",
+    "addressLine": "Cavendish Avenue",
+    "area": "St John's Wood",
+    "postcodeDistrict": "NW8",
+    "price": 6815000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "receptions": 3,
+    "sizeSqft": 2990,
+    "epcRating": "C",
+    "councilTaxBand": "F",
+    "serviceChargeAnnual": 17100,
+    "leaseYearsRemaining": 89,
+    "summary": "A fully detached house in St John's Wood, moments from Lord's Cricket Ground and Regent's Park.",
     "description": [
-      "A beautifully proportioned maisonette on Formosa Street, set a short walk from Warwick Avenue's cafés and the towpath.",
-      "A private front door leads straight into the reception, with 2 bedrooms arranged over the floor above.",
-      "A straightforward instruction, offered to the market with vacant possession."
+      "A fully detached house on Cavendish Avenue, set moments from Lord's Cricket Ground and Regent's Park.",
+      "Formal reception rooms occupy the ground floor, with a family kitchen extending into the garden and 4 bedrooms across the upper floors.",
+      "A considered instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Bespoke fitted joinery",
-      "Two reception rooms",
-      "Private garden",
-      "Own front door",
-      "114-year lease"
+      "Underfloor heating",
+      "Off-street parking",
+      "Integral garage",
+      "Swimming pool",
+      "89-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-02.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -8413,43 +8428,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a bathroom of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-09-02",
+    "dateListed": "2026-07-19",
     "featured": false
   },
   {
     "id": "man-0149",
-    "slug": "stanhope-gardens-south-kensington-sw7",
-    "purpose": "let",
-    "status": "let-agreed",
-    "propertyType": "townhouse",
-    "tenure": "freehold",
-    "title": "An immaculately kept townhouse on Stanhope Gardens, South Kensington",
-    "addressLine": "Stanhope Gardens",
-    "area": "South Kensington",
-    "postcodeDistrict": "SW7",
-    "rentPcm": 12050,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "receptions": 2,
-    "sizeSqft": 2830,
+    "slug": "holland-villas-road-holland-park-w14-1",
+    "purpose": "sale",
+    "status": "sstc",
+    "propertyType": "detached-house",
+    "tenure": "leasehold",
+    "title": "A substantial house on Holland Villas Road, Holland Park",
+    "addressLine": "Holland Villas Road",
+    "area": "Holland Park",
+    "postcodeDistrict": "W14",
+    "price": 4135000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "receptions": 1,
+    "sizeSqft": 1720,
     "epcRating": "D",
-    "councilTaxBand": "H",
-    "summary": "An immaculately kept townhouse in South Kensington, moments from South Kensington's garden squares.",
+    "councilTaxBand": "G",
+    "serviceChargeAnnual": 9500,
+    "leaseYearsRemaining": 103,
+    "summary": "A substantial house in Holland Park, directly opposite Holland Park itself.",
     "description": [
-      "An immaculately kept townhouse on Stanhope Gardens, set moments from South Kensington's garden squares.",
-      "The principal reception rooms sit on the raised ground and first floors, with 4 bedrooms arranged across the upper storeys.",
-      "Available immediately, part-furnished."
+      "A substantial house on Holland Villas Road, set directly opposite Holland Park itself.",
+      "The house stands alone on its plot, with reception rooms front and back and 2 bedrooms arranged across a mix of family and guest configurations.",
+      "A rare instruction, offered to the market with an early exchange preferred."
     ],
     "features": [
-      "Wine cellar",
-      "Private rear garden",
-      "Home cinema room",
-      "Garden square access"
+      "Integral garage",
+      "Private garden",
+      "Landscaped grounds",
+      "Lower ground leisure floor",
+      "103-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-townhouse-01.jpg",
-        "alt": "Stock photograph illustrating a townhouse exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-detached-house-01.jpg",
+        "alt": "Stock photograph illustrating a detached house exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -8476,46 +8494,46 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-03",
+    "dateListed": "2026-09-27",
     "featured": false
   },
   {
     "id": "man-0150",
-    "slug": "charlotte-street-fitzrovia-w1-2",
-    "purpose": "let",
-    "status": "to-let",
-    "propertyType": "maisonette",
-    "tenure": "share-of-freehold",
-    "title": "A two-storey maisonette on Charlotte Street, Fitzrovia",
-    "addressLine": "Charlotte Street",
-    "area": "Fitzrovia",
-    "postcodeDistrict": "W1",
-    "rentPcm": 7700,
+    "slug": "sumner-place-south-kensington-sw7-2",
+    "purpose": "sale",
+    "status": "for-sale",
+    "propertyType": "apartment",
+    "tenure": "leasehold",
+    "title": "An exceptionally quiet apartment on Sumner Place, South Kensington",
+    "addressLine": "Sumner Place",
+    "area": "South Kensington",
+    "postcodeDistrict": "SW7",
+    "price": 3680000,
     "bedrooms": 3,
     "bathrooms": 3,
     "receptions": 2,
-    "sizeSqft": 1740,
-    "epcRating": "E",
+    "sizeSqft": 1750,
+    "epcRating": "C",
     "councilTaxBand": "H",
-    "serviceChargeAnnual": 7800,
-    "leaseYearsRemaining": 930,
-    "summary": "A two-storey maisonette in Fitzrovia, moments from Charlotte Street's restaurants.",
+    "serviceChargeAnnual": 12000,
+    "leaseYearsRemaining": 86,
+    "summary": "An exceptionally quiet apartment in South Kensington, moments from South Kensington's garden squares.",
     "description": [
-      "A two-storey maisonette on Charlotte Street, set moments from Charlotte Street's restaurants.",
-      "The raised ground floor holds the principal reception rooms, with 3 bedrooms and a family bathroom on the floor below.",
-      "Available from next month, part-furnished."
+      "An exceptionally quiet apartment on Sumner Place, set moments from South Kensington's garden squares.",
+      "The principal reception opens onto a dining kitchen finished in a considered, understated palette, with 3 bedrooms arranged away from the entertaining space.",
+      "A considered instruction, offered to the market with no onward chain."
     ],
     "features": [
-      "Underfloor heating",
-      "Own front door",
-      "Two reception rooms",
-      "Private garden",
-      "Share of freehold"
+      "High ceilings",
+      "Engineered oak flooring",
+      "Secure underground parking",
+      "Lift access",
+      "86-year lease"
     ],
     "images": [
       {
-        "src": "/photos/exterior-maisonette-02.jpg",
-        "alt": "Stock photograph illustrating a maisonette exterior of this style — not a photograph of this specific property."
+        "src": "/photos/exterior-apartment-02.jpg",
+        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -8538,7 +8556,7 @@ export const generatedListings: Listing[] = [
         "alt": "Stock photograph illustrating a dining room of this style — not a photograph of this specific property."
       }
     ],
-    "dateListed": "2026-06-21",
+    "dateListed": "2026-08-04",
     "featured": false
   }
 ];

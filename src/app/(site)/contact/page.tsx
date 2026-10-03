@@ -26,6 +26,7 @@ export default async function ContactPage({
   const params = await searchParams;
   const listing = typeof params.listing === "string" ? params.listing : undefined;
   const ref = typeof params.ref === "string" ? params.ref : undefined;
+  const valuation = params.valuation === "1";
 
   return (
     <div className="container-page py-12 md:py-16">
@@ -33,16 +34,15 @@ export default async function ContactPage({
         {/* Left: intro, direct desk details, office photo */}
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
-            Get in touch
+            {valuation ? "Book a valuation" : "Get in touch"}
           </p>
           <h1 className="mt-1 font-display text-3xl font-bold text-brand-ink md:text-4xl">
-            Speak to a Manzell adviser
+            {valuation ? "Find out what your property is worth" : "Speak to a Manzell adviser"}
           </h1>
           <p className="mt-3 max-w-md text-brand-ink/70">
-            Whether you&rsquo;re enquiring about a specific property, booking a
-            valuation, or just starting to explore the market, send us a note
-            and we&rsquo;ll come back to you personally &mdash; usually within
-            one working day.
+            {valuation
+              ? "Tell us a little about the property and a Manzell adviser will arrange a considered, no-obligation valuation — in person or over a call, whichever suits you."
+              : "Whether you’re enquiring about a specific property, booking a valuation, or just starting to explore the market, send us a note and we’ll come back to you personally — usually within one working day."}
           </p>
 
           <div className="mt-9 border-y border-brand-border">
@@ -81,7 +81,7 @@ export default async function ContactPage({
 
         {/* Right: the enquiry form */}
         <div>
-          <EnquiryForm initialListing={listing} initialRef={ref} />
+          <EnquiryForm initialListing={listing} initialRef={ref} initialValuation={valuation} />
         </div>
       </div>
     </div>

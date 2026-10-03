@@ -32,7 +32,7 @@ export default async function RentPage({
           Property to rent in prime London
         </h1>
         <p className="mt-2.5 max-w-xl text-sm leading-relaxed text-brand-ink/70 md:text-[15px]">
-          Current instructions to let across Belgravia, Mayfair, Knightsbridge, Chelsea,
+          Current instructions to let across Mayfair, Knightsbridge, Chelsea,
           Kensington and beyond &mdash; updated as they come to market.
         </p>
       </div>

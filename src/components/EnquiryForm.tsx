@@ -16,9 +16,11 @@ const labelTextClasses =
 export default function EnquiryForm({
   initialListing,
   initialRef,
+  initialValuation,
 }: {
   initialListing?: string;
   initialRef?: string;
+  initialValuation?: boolean;
 }) {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -77,6 +79,9 @@ export default function EnquiryForm({
           <input type="hidden" name="listingTitle" value={initialListing} />
         </>
       )}
+      {!initialListing && initialValuation && (
+        <input type="hidden" name="intent" value="valuation" />
+      )}
 
       <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
         Send an Enquiry
@@ -88,6 +93,11 @@ export default function EnquiryForm({
       {initialListing && (
         <div className="mt-6 bg-brand-surface px-4 py-3 text-sm text-brand-ink/80">
           Regarding: <span className="font-semibold">{initialListing}</span>
+        </div>
+      )}
+      {!initialListing && initialValuation && (
+        <div className="mt-6 bg-brand-surface px-4 py-3 text-sm text-brand-ink/80">
+          Regarding: <span className="font-semibold">A property valuation</span>
         </div>
       )}
 
@@ -116,7 +126,13 @@ export default function EnquiryForm({
           required
           name="message"
           rows={4}
-          defaultValue={initialListing ? `I'd like to arrange a viewing for ${initialListing}.` : ""}
+          defaultValue={
+            initialListing
+              ? `I'd like to arrange a viewing for ${initialListing}.`
+              : initialValuation
+              ? "I'm thinking of selling or letting, and would like to arrange a valuation."
+              : ""
+          }
           className={`${fieldClasses} resize-none`}
         />
       </label>

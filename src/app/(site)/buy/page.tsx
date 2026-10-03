@@ -32,7 +32,7 @@ export default async function BuyPage({
           Property for sale in prime London
         </h1>
         <p className="mt-2.5 max-w-xl text-sm leading-relaxed text-brand-ink/70 md:text-[15px]">
-          Current instructions across Belgravia, Mayfair, Knightsbridge, Chelsea, Kensington
+          Current instructions across Mayfair, Knightsbridge, Chelsea, Kensington
           and beyond &mdash; updated as they come to market.
         </p>
       </div>

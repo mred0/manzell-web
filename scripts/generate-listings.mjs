@@ -13,7 +13,7 @@
 // need formal ethics approval (ER1) — scaling up this generator instead of
 // sourcing or seeding any real listing data sidesteps that requirement
 // completely, while still giving search/filters realistic volume to work
-// against. 12 real Prime/super-prime London areas are covered (see AREAS
+// against. 11 real Prime/super-prime London areas are covered (see AREAS
 // below); every "listing" within them is fictional.
 //
 // Run with: node scripts/generate-listings.mjs
@@ -82,21 +82,6 @@ const shuffle = (arr) => {
 // write-up would plausibly mention).
 // ---------------------------------------------------------------------------
 const AREAS = {
-  Belgravia: {
-    postcodes: ["SW1"],
-    tier: "ultra",
-    streets: [
-      "Eaton Square", "Chester Square", "Lyall Street", "Wilton Place", "Cadogan Lane",
-      "Eccleston Square", "Ebury Street", "Motcomb Street", "Chesham Place", "Belgrave Mews North",
-      "Wilton Crescent", "Chester Row",
-    ],
-    types: ["townhouse", "apartment", "mews-house"],
-    flavour: [
-      "the private garden squares Belgravia is built around",
-      "a short walk from Sloane Square and the shops on Elizabeth Street",
-      "close to Wilton Crescent and the embassies along Belgrave Square",
-    ],
-  },
   Mayfair: {
     postcodes: ["W1"],
     tier: "ultra",

@@ -9,6 +9,22 @@ import type { Listing } from "@/types/listing";
 
 type Status = "idle" | "loading" | "done" | "error";
 type SearchResultRow = { listing: Listing; score: number };
+type ConversationTurn = { question: string; reply: string };
+
+// Next.js unmounts this page's component on every route change, which
+// wipes its React state — so leaving /search and coming back (even via
+// the browser back button) looked like the whole search had reset. The
+// session is cached here instead, under the user's own tab (cleared when
+// the tab closes, never shared across tabs or persisted server-side), and
+// restored on mount — skipped when arriving with its own ?q=... (e.g. from
+// the homepage's live demo), since that's a deliberate new search.
+const STORAGE_KEY = "manzell-ai-search-session";
+type StoredSearchSession = {
+  query: string;
+  searchedQuery: string;
+  results: SearchResultRow[];
+  history: ConversationTurn[];
+};
 
 const fieldClasses =
   "w-full border-0 border-b-[1.5px] border-brand-border bg-transparent px-0.5 py-3.5 text-[15px] text-brand-ink outline-none transition-colors placeholder:text-brand-ink/40 focus:border-brand-gold-deep";
@@ -34,9 +50,26 @@ export default function SearchPage() {
 // citation resolves to one of the cards on the page, or is silently
 // dropped if it doesn't (which would mean the model cited something
 // outside the list it was given).
+//
+// Belt-and-suspenders: the system prompt forbids markdown link syntax
+// ("[label](url)"), but a follow-up turn was observed producing it anyway
+// (the model inventing a plausible-looking but ungrounded URL). Rather
+// than trust an arbitrary model-written URL, any such syntax is stripped
+// down to its plain label before the [ID:...] citations are parsed, so a
+// prompt slip degrades to plain text instead of showing broken raw
+// brackets on the page.
 function renderAssistantReply(text: string, results: SearchResultRow[]): ReactNode[] {
   const listingById = new Map(results.map((r) => [r.listing.id, r.listing]));
-  const segments = text.split(/(\[ID:[^\]]+\])/g);
+  const withoutMarkdownLinks = text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+  // Also strip markdown bold/italic emphasis (**text**, *text*) the model
+  // is instructed not to use but was observed adding anyway on a
+  // list-style follow-up question — same belt-and-suspenders reasoning as
+  // the markdown-link strip above: degrade to plain text rather than show
+  // literal asterisks on the page.
+  const withoutEmphasis = withoutMarkdownLinks
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/(?<!\d)\*([^*]+)\*(?!\d)/g, "$1");
+  const segments = withoutEmphasis.split(/(\[ID:[^\]]+\])/g);
 
   return segments.map((segment, index) => {
     const match = segment.match(/^\[ID:([^\]]+)\]$/);
@@ -64,14 +97,28 @@ function SearchPageInner() {
   const hasAutoRun = useRef(false);
   const [status, setStatus] = useState<Status>("idle");
   const [results, setResults] = useState<SearchResultRow[]>([]);
-  const [aiReply, setAiReply] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  // The follow-up conversation thread. history[0] is always the original
+  // query + its reply, set once a search succeeds with a reply (absent
+  // whenever Groq isn't configured or the call failed — the page then
+  // simply shows the plain results, same as before this feature existed).
+  // Every entry after that is one round-trip to /api/assistant/follow-up
+  // against the same fixed `results` — the candidate list is never
+  // re-retrieved mid-conversation.
+  const [searchedQuery, setSearchedQuery] = useState("");
+  const [history, setHistory] = useState<ConversationTurn[]>([]);
+  const [followUpQuestion, setFollowUpQuestion] = useState("");
+  const [followUpStatus, setFollowUpStatus] = useState<"idle" | "loading" | "error">("idle");
 
   async function runSearch(q: string) {
     if (!q.trim()) return;
     setStatus("loading");
     setErrorMessage(null);
-    setAiReply(null);
+    setHistory([]);
+    setFollowUpQuestion("");
+    setFollowUpStatus("idle");
+    setSearchedQuery(q);
 
     try {
       const res = await fetch("/api/assistant", {
@@ -87,7 +134,9 @@ function SearchPageInner() {
 
       const data: { results: SearchResultRow[]; aiReply: string | null } = await res.json();
       setResults(data.results);
-      setAiReply(data.aiReply);
+      if (data.aiReply) {
+        setHistory([{ question: q, reply: data.aiReply }]);
+      }
       setStatus("done");
     } catch (err) {
       setStatus("error");
@@ -100,6 +149,31 @@ function SearchPageInner() {
     runSearch(query);
   }
 
+  async function handleFollowUpSubmit(event: FormEvent) {
+    event.preventDefault();
+    const question = followUpQuestion.trim();
+    if (!question || history.length === 0 || followUpStatus === "loading") return;
+
+    setFollowUpStatus("loading");
+    try {
+      const res = await fetch("/api/assistant/follow-up", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ originalQuery: searchedQuery, results, history, question }),
+      });
+
+      if (!res.ok) throw new Error();
+      const data: { reply: string | null } = await res.json();
+      if (!data.reply) throw new Error();
+
+      setHistory((prev) => [...prev, { question, reply: data.reply as string }]);
+      setFollowUpQuestion("");
+      setFollowUpStatus("idle");
+    } catch {
+      setFollowUpStatus("error");
+    }
+  }
+
   // Auto-run once for a query arriving via ?q=... (e.g. someone followed
   // "Search" from the homepage's live demo, or a shared link). Guarded by
   // a ref so it fires exactly once per mount, not on every render.
@@ -109,8 +183,42 @@ function SearchPageInner() {
     if (initialQuery.trim()) {
       // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional one-time fetch triggered by an incoming URL query param, not a render-derived setState.
       runSearch(initialQuery);
+      return;
+    }
+
+    // No incoming query — this is a plain visit to /search, which includes
+    // coming back after navigating away. Restore the last session if one
+    // was saved, rather than starting from a blank page.
+    try {
+      const raw = sessionStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const saved: StoredSearchSession = JSON.parse(raw);
+      if (!saved.results?.length) return;
+      setQuery(saved.query);
+      setSearchedQuery(saved.searchedQuery);
+      setResults(saved.results);
+      setHistory(saved.history ?? []);
+      setStatus("done");
+    } catch {
+      // A missing/corrupted/inaccessible session store just means a
+      // normal blank page — never worth surfacing to the visitor.
     }
   }, [initialQuery]);
+
+  // Keep the saved session in step with the current one, so a later visit
+  // restores exactly this state. Only meaningful once a search has
+  // actually completed — an idle/loading/error page has nothing worth
+  // saving.
+  useEffect(() => {
+    if (status !== "done") return;
+    try {
+      const toStore: StoredSearchSession = { query, searchedQuery, results, history };
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(toStore));
+    } catch {
+      // sessionStorage can throw (private browsing, storage disabled,
+      // quota) — persistence here is a convenience, not a requirement.
+    }
+  }, [status, query, searchedQuery, results, history]);
 
   return (
     <div className="container-page py-12 md:py-16">
@@ -194,18 +302,63 @@ function SearchPageInner() {
         {results.length > 0 && (
           <>
             {/* Assistant reply — a short natural-language recommendation
-                grounded only in the cards below it (src/lib/assistant.ts).
-                Absent whenever Groq isn't configured or the call failed,
-                in which case the page simply shows the plain results, no
-                different from before this feature existed. */}
-            {aiReply && (
+                grounded only in the cards below it (src/lib/assistant.ts),
+                with a lightweight follow-up turn underneath: the client
+                can ask one more question about the same fixed set of
+                properties without a new search running. Absent whenever
+                Groq isn't configured or the call failed, in which case
+                the page simply shows the plain results, no different
+                from before this feature existed. */}
+            {history.length > 0 && (
               <div className="mb-8 border border-brand-border bg-white p-6 shadow-[0_22px_44px_-28px_rgba(36,26,28,0.26)] md:p-7">
                 <p className="inline-flex items-center gap-1.5 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-brand-gold-deep">
                   <Sparkles size={12} /> Manzell Assistant
                 </p>
-                <p className="mt-2.5 text-[15px] leading-relaxed text-brand-ink/85">
-                  {renderAssistantReply(aiReply, results)}
-                </p>
+
+                <div className="mt-2.5 flex flex-col gap-4">
+                  {history.map((turn, index) => (
+                    <div key={index}>
+                      {index > 0 && (
+                        <p className="mb-1.5 text-[13px] font-semibold text-brand-ink/55">
+                          You asked: &ldquo;{turn.question}&rdquo;
+                        </p>
+                      )}
+                      <p className="text-[15px] leading-relaxed text-brand-ink/85">
+                        {renderAssistantReply(turn.reply, results)}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
+                <form
+                  onSubmit={handleFollowUpSubmit}
+                  className="mt-5 flex items-end gap-3 border-t border-brand-border pt-5"
+                >
+                  <label className="block flex-1 text-left">
+                    <span className="sr-only">Ask a follow-up</span>
+                    <input
+                      type="text"
+                      value={followUpQuestion}
+                      onChange={(e) => setFollowUpQuestion(e.target.value)}
+                      placeholder="Ask a follow-up — e.g. does it have a garden?"
+                      disabled={followUpStatus === "loading"}
+                      className={fieldClasses}
+                    />
+                  </label>
+                  <button
+                    type="submit"
+                    disabled={followUpStatus === "loading" || !followUpQuestion.trim()}
+                    className="inline-flex shrink-0 items-center justify-center gap-2 border border-brand-ink px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.08em] text-brand-ink transition-all duration-300 hover:border-brand-gold hover:bg-[linear-gradient(135deg,rgba(255,255,255,0.75)_0%,rgba(233,201,138,0.4)_60%,rgba(233,201,138,0.55)_100%)] hover:text-brand-plum hover:shadow-[0_0_18px_-2px_rgba(233,201,138,0.7)] disabled:opacity-60"
+                  >
+                    {followUpStatus === "loading" && <Loader2 className="animate-spin" size={14} />}
+                    Ask
+                  </button>
+                </form>
+                {followUpStatus === "error" && (
+                  <p className="mt-2 text-[12.5px] text-status-reduced">
+                    The assistant couldn&rsquo;t answer that just now &mdash; feel free to try again.
+                  </p>
+                )}
               </div>
             )}
 

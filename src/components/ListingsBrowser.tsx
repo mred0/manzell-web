@@ -7,7 +7,6 @@ import type { Listing, ListingPurpose } from "@/types/listing";
 
 const AREA_OPTIONS = [
   "All areas",
-  "Belgravia",
   "Mayfair",
   "Knightsbridge",
   "Chelsea",

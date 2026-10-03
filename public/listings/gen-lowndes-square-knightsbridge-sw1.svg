@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="640" viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lowndes Square · Knightsbridge">
+  <defs>
+    <linearGradient id="g130" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(30)">
+      <stop offset="0%" stop-color="#36013f"/>
+      <stop offset="100%" stop-color="#832a89"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#g130)"/>
+  <rect x="0" y="0" width="960" height="640" fill="#514ea2" opacity="0.06"/>
+  
+    <rect x="192" y="320" width="576" height="217.60000000000002" fill="none" stroke="#f9f7fa" stroke-width="2" opacity="0.85"/>
+    <rect x="288" y="217.60000000000002" width="384" height="102.4" fill="none" stroke="#f9f7fa" stroke-width="2" opacity="0.85"/>
+    <line x1="288" y1="217.60000000000002" x2="288" y2="140.8" stroke="#f9f7fa" stroke-width="2" opacity="0.6"/>
+    <line x1="672" y1="217.60000000000002" x2="672" y2="140.8" stroke="#f9f7fa" stroke-width="2" opacity="0.6"/>
+    <rect x="336" y="371.2" width="38.4" height="89.60000000000001" fill="#f9f7fa" opacity="0.5"/><rect x="432" y="371.2" width="38.4" height="89.60000000000001" fill="#f9f7fa" opacity="0.5"/><rect x="528" y="371.2" width="38.4" height="89.60000000000001" fill="#f9f7fa" opacity="0.5"/><rect x="624" y="371.2" width="38.4" height="89.60000000000001" fill="#f9f7fa" opacity="0.5"/>
+  
+  <text x="57.599999999999994" y="606" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#f9f7fa" opacity="0.92">Lowndes Square · Knightsbridge</text>
+  <text x="57.599999999999994" y="628" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#f9f7fa" opacity="0.6">MANZELL — ILLUSTRATIVE PLACEHOLDER</text>
+</svg>

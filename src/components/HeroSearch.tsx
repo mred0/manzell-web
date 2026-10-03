@@ -43,7 +43,7 @@ export default function HeroSearch() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Area, e.g. Belgravia, Chelsea, Mayfair…"
+          placeholder="Area, e.g. Knightsbridge, Chelsea, Mayfair…"
           className="w-full bg-transparent text-sm text-brand-ink outline-none placeholder:text-brand-ink/40"
         />
       </div>

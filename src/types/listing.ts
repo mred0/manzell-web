@@ -42,7 +42,7 @@ export interface ListingImage {
 export interface Listing {
   /** Stable machine id, e.g. "man-0001" */
   id: string;
-  /** URL slug, e.g. "eaton-square-belgravia-sw1" */
+  /** URL slug, e.g. "eaton-square-knightsbridge-sw1" */
   slug: string;
 
   purpose: ListingPurpose;

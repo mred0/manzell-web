@@ -46,8 +46,8 @@ export default function Footer() {
             Areas we cover
           </p>
           <ul className="mt-4 space-y-1 text-sm text-white/85">
-            <li>Belgravia · Mayfair · Knightsbridge</li>
-            <li>Chelsea · Kensington · Notting Hill</li>
+            <li>Mayfair · Knightsbridge · Chelsea</li>
+            <li>Kensington · Notting Hill</li>
             <li>Marylebone</li>
           </ul>
         </div>
