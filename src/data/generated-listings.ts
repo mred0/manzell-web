@@ -142,7 +142,7 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0011",
-    "slug": "harley-street-marylebone-w1",
+    "slug": "harley-street-marylebone-w1-1",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "maisonette",
@@ -2063,7 +2063,7 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0043",
-    "slug": "harley-street-marylebone-w1-1",
+    "slug": "harley-street-marylebone-w1-2",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "penthouse",
@@ -3318,7 +3318,7 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0064",
-    "slug": "phillimore-gardens-kensington-w8",
+    "slug": "phillimore-gardens-kensington-w8-1",
     "purpose": "let",
     "status": "let-agreed",
     "propertyType": "apartment",
@@ -8197,7 +8197,7 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "man-0145",
-    "slug": "phillimore-gardens-kensington-w8-1",
+    "slug": "phillimore-gardens-kensington-w8-2",
     "purpose": "sale",
     "status": "for-sale",
     "propertyType": "maisonette",

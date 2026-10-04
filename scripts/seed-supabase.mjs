@@ -17,6 +17,13 @@
 // src/lib/search.ts.
 import { pipeline, env } from "@xenova/transformers";
 import { createClient } from "@supabase/supabase-js";
+// realtime-js (a supabase-js dependency) needs a WebSocket implementation on
+// Node < 22, which lacks a native global WebSocket. This script doesn't use
+// realtime subscriptions at all, but supabase-js still constructs a
+// RealtimeClient internally, so we hand it the `ws` package explicitly
+// rather than requiring everyone running this script to be on Node 22+.
+// See: https://supabase.com/changelog/37869-change-in-realtime-js-affecting-node-js-22
+import ws from "ws";
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -112,6 +119,7 @@ async function main() {
   const extractor = await pipeline("feature-extraction", MODEL_ID, { quantized: true });
   const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
     auth: { autoRefreshToken: false, persistSession: false },
+    realtime: { transport: ws },
   });
 
   const rows = [];

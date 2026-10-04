@@ -53,3 +53,18 @@ const propertyTypeLabels: Record<string, string> = {
 export function formatPropertyType(type: string): string {
   return propertyTypeLabels[type] ?? type;
 }
+
+/** Tailwind bg-* class for a listing's status dot — shared by the public
+ * PropertyCard and the admin listings table so the same status always
+ * reads as the same colour everywhere in the app. */
+const statusDotClasses: Record<string, string> = {
+  "for-sale": "bg-status-sale",
+  "to-let": "bg-brand-accent",
+  "under-offer": "bg-status-sstc",
+  sstc: "bg-status-sstc",
+  "let-agreed": "bg-status-let",
+};
+
+export function statusDotClass(status: string): string {
+  return statusDotClasses[status] ?? "bg-brand-ink/30";
+}

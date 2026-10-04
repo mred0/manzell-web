@@ -1,15 +1,7 @@
 import Link from "next/link";
 import { BedDouble, Bath, Sofa, Ruler } from "lucide-react";
 import type { Listing } from "@/types/listing";
-import { formatHeadlineFigure, formatPropertyType, formatStatus } from "@/lib/format";
-
-const statusDot: Record<string, string> = {
-  "for-sale": "bg-status-sale",
-  "to-let": "bg-brand-accent",
-  "under-offer": "bg-status-sstc",
-  sstc: "bg-status-sstc",
-  "let-agreed": "bg-status-let",
-};
+import { formatHeadlineFigure, formatPropertyType, formatStatus, statusDotClass } from "@/lib/format";
 
 export default function PropertyCard({
   listing,
@@ -52,7 +44,7 @@ export default function PropertyCard({
           />
         )}
         <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 border border-brand-border bg-background/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-brand-ink">
-          <span className={`h-1.5 w-1.5 rounded-full ${statusDot[listing.status] ?? "bg-brand-plum"}`} aria-hidden />
+          <span className={`h-1.5 w-1.5 rounded-full ${statusDotClass(listing.status)}`} aria-hidden />
           {formatStatus(listing.status)}
         </span>
       </div>

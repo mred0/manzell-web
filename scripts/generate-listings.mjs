@@ -427,8 +427,31 @@ function generateListing(index, usedSlugs, areaName) {
   return listing;
 }
 
+// The 8 hand-written seed listings in src/data/listings.ts (not imported
+// here — that file is TypeScript and this script runs as plain Node via
+// `node scripts/generate-listings.mjs`, same reason scripts/seed-supabase.mjs
+// duplicates logic rather than importing across that boundary). Two of them
+// happen to sit on streets this generator also draws from for the same area
+// (Phillimore Gardens, Kensington and Harley Street, Marylebone), so without
+// seeding usedSlugs with these up front, the generator can't see the
+// collision coming and silently produces a duplicate slug — which is
+// harmless here but fails later with a Postgres "ON CONFLICT DO UPDATE
+// command cannot affect row a second time" error when both rows land in the
+// same Supabase upsert batch. Keep this list in sync with the slugs in
+// src/data/listings.ts if any hand-written listing's slug ever changes.
+const HAND_WRITTEN_SLUGS = [
+  "rutland-gate-knightsbridge-sw1",
+  "mount-street-mayfair-w1",
+  "wilton-crescent-knightsbridge-sw1",
+  "phillimore-gardens-kensington-w8",
+  "chepstow-villas-notting-hill-w11",
+  "favart-mews-chelsea-sw3",
+  "harley-street-marylebone-w1",
+  "cheyne-walk-chelsea-sw3",
+];
+
 function main() {
-  const usedSlugs = new Set();
+  const usedSlugs = new Set(HAND_WRITTEN_SLUGS);
   const listings = [];
 
   // Assign areas from a balanced, shuffled sequence (rather than an i.i.d.

@@ -2,6 +2,7 @@ import { getEnquiries } from "@/lib/db/enquiries";
 import { setEnquiryHandledAction } from "@/app/admin/actions";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 import SetupNotice from "@/components/admin/SetupNotice";
+import ExportCsvButton from "@/components/admin/ExportCsvButton";
 
 export const dynamic = "force-dynamic";
 
@@ -17,14 +18,35 @@ function formatDate(iso: string) {
 export default async function AdminEnquiriesPage() {
   const enquiries = await getEnquiries();
 
+  const csvRows = enquiries.map((enquiry) => [
+    enquiry.name,
+    enquiry.email,
+    enquiry.phone ?? "",
+    enquiry.listingRef ?? "",
+    enquiry.message,
+    enquiry.handled ? "Handled" : "New",
+    formatDate(enquiry.createdAt),
+  ]);
+
   return (
     <div>
-      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
-        Enquiries
-      </p>
-      <h1 className="mt-1 font-display text-2xl italic text-brand-ink">
-        {enquiries.filter((e) => !e.handled).length} new
-      </h1>
+      <div className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
+            Enquiries
+          </p>
+          <h1 className="mt-1 font-display text-2xl italic text-brand-ink">
+            {enquiries.filter((e) => !e.handled).length} new
+          </h1>
+        </div>
+        {enquiries.length > 0 && (
+          <ExportCsvButton
+            headers={["Name", "Email", "Phone", "Listing", "Message", "Status", "Received"]}
+            rows={csvRows}
+            filename={`manzell-enquiries-${new Date().toISOString().slice(0, 10)}.csv`}
+          />
+        )}
+      </div>
 
       {!isSupabaseConfigured && (
         <div className="mt-6">
