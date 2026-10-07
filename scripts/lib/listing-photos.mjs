@@ -54,11 +54,20 @@ const TYPE_LABEL = {
 
 const STUDY_ELIGIBLE = new Set(["townhouse", "detached-house", "penthouse", "mews-house"]);
 
-const exteriorAlt = (propertyType) =>
-  `Stock photograph illustrating a ${TYPE_LABEL[propertyType]} exterior of this style — not a photograph of this specific property.`;
+// "a"/"an" article agreement — simple vowel-initial-letter check, enough
+// for the fixed, known label sets above (apartment, entrance hallway are
+// the only vowel-initial labels currently in TYPE_LABEL/ROOM_LABEL).
+const articleFor = (word) => (/^[aeiou]/i.test(word) ? "an" : "a");
 
-const interiorAlt = (room) =>
-  `Stock photograph illustrating a ${ROOM_LABEL[room]} of this style — not a photograph of this specific property.`;
+const exteriorAlt = (propertyType) => {
+  const label = TYPE_LABEL[propertyType];
+  return `Stock photograph illustrating ${articleFor(label)} ${label} exterior of this style — not a photograph of this specific property.`;
+};
+
+const interiorAlt = (room) => {
+  const label = ROOM_LABEL[room];
+  return `Stock photograph illustrating ${articleFor(label)} ${label} of this style — not a photograph of this specific property.`;
+};
 
 const photo = (file, alt) => ({ src: `/photos/${file}`, alt });
 

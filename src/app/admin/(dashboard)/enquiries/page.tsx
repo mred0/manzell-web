@@ -58,7 +58,7 @@ export default async function AdminEnquiriesPage() {
         {enquiries.map((enquiry) => (
           <div
             key={enquiry.id}
-            className={`border p-5 ${
+            className={`border p-5 shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)] ${
               enquiry.handled ? "border-brand-border bg-white" : "border-brand-gold bg-brand-surface"
             }`}
           >

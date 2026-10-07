@@ -37,6 +37,13 @@
   --color-status-sstc: #b8862f;
   --color-status-reduced: #9b3d3d;
 
+  /* Admin-only semantic colours (Control Room dashboard) — deliberately
+     separate from the gold brand accent, which stays reserved for "look
+     here" marketing moments on the public site. Sage for "fine, resolved,
+     within range", terracotta for "needs attention" (an unread enquiry). */
+  --color-admin-ok: #5c7a5e;
+  --color-admin-urgent: #a14b3e;
+
   /* Font stacks — actual font files are self-hosted via @fontsource and
      imported as CSS in layout.tsx, so these just name the resulting
      font-family. */
@@ -61,6 +68,8 @@
   --color-status-let: var(--color-status-let);
   --color-status-sstc: var(--color-status-sstc);
   --color-status-reduced: var(--color-status-reduced);
+  --color-admin-ok: var(--color-admin-ok);
+  --color-admin-urgent: var(--color-admin-urgent);
   --font-display: var(--font-bodoni);
   --font-sans: var(--font-montserrat);
   --font-mono: ui-monospace, "SFMono-Regular", monospace;

@@ -46,13 +46,18 @@ export default async function Home() {
           (which goes fully transparent/white on this page only while at
           the top of the hero, see Header.tsx) via the negative top margin
           below. */}
-      <section className="relative -mt-20 h-[560px] w-full overflow-hidden bg-[linear-gradient(135deg,#b84aa0_0%,#6a1f78_45%,#36013f_100%)] sm:h-[620px] lg:h-[680px]">
+      <section className="relative -mt-20 h-[560px] w-full overflow-hidden bg-[linear-gradient(135deg,#5a1f63_0%,#3a0f45_45%,#1a0020_100%)] sm:h-[620px] lg:h-[680px]">
         {/* eslint-disable-next-line @next/next/no-img-element -- decorative brand graphic band, not a Next/Image candidate */}
         <img
           src="/brand/manzell-skyline-band.png"
           alt=""
           aria-hidden
           className="absolute inset-x-0 bottom-0 h-28 w-full object-cover opacity-90 sm:h-36 lg:h-44"
+          style={{
+            filter: "brightness(0.5) saturate(1.05)",
+            WebkitMaskImage: "linear-gradient(to bottom, transparent 0%, black 10%)",
+            maskImage: "linear-gradient(to bottom, transparent 0%, black 10%)",
+          }}
         />
         <div className="relative flex h-full flex-col items-center justify-center pb-24 text-center sm:pb-32 lg:pb-36">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-gold">

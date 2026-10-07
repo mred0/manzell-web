@@ -9,7 +9,8 @@
     "lint": "eslint",
     "build:embeddings": "tsx scripts/build-embeddings.mjs",
     "db:seed": "tsx scripts/seed-supabase.mjs",
-    "eval:assistant": "node scripts/eval-assistant.mjs"
+    "eval:assistant": "node scripts/eval-assistant.mjs",
+    "eval:search": "tsx scripts/eval-search.mjs"
   },
   "dependencies": {
     "@ai-sdk/groq": "^4.0.53",

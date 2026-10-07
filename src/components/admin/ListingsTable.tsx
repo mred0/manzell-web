@@ -165,7 +165,7 @@ export default function ListingsTable({
         />
       </div>
 
-      <div className="mt-4 overflow-x-auto border border-brand-border bg-white">
+      <div className="mt-4 overflow-x-auto border border-brand-border bg-white shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)]">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="border-b border-brand-border text-xs font-semibold uppercase tracking-wider text-brand-ink/60">
             <tr>

@@ -120,7 +120,7 @@ export default function ListingForm({
 
   return (
     <form action={action} ref={formRef} className="space-y-8">
-      <section className="border border-brand-border bg-white p-6">
+      <section className="border border-brand-border bg-white p-6 shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)]">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.15em] text-brand-gold-deep">
@@ -161,7 +161,7 @@ export default function ListingForm({
         </ul>
       </section>
 
-      <section className="grid gap-5 border border-brand-border bg-white p-6 sm:grid-cols-2">
+      <section className="grid gap-5 border border-brand-border bg-white p-6 sm:grid-cols-2 shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)]">
         <Field label="Title">
           <input name="title" required defaultValue={initial?.title} className={inputClass} />
         </Field>
@@ -242,7 +242,7 @@ export default function ListingForm({
         </label>
       </section>
 
-      <section className="grid gap-5 border border-brand-border bg-white p-6 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-5 border border-brand-border bg-white p-6 sm:grid-cols-2 lg:grid-cols-4 shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)]">
         <Field label="Price (£, sale)">
           <input name="price" type="number" min={0} defaultValue={initial?.price} className={inputClass} />
         </Field>
@@ -332,7 +332,7 @@ export default function ListingForm({
         </Field>
       </section>
 
-      <section className="space-y-5 border border-brand-border bg-white p-6">
+      <section className="space-y-5 border border-brand-border bg-white p-6 shadow-[0_26px_50px_-28px_rgba(36,26,28,0.28)]">
         <Field label="Summary (one or two sentences)">
           <textarea
             name="summary"

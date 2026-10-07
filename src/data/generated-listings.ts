@@ -76,7 +76,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-23",
@@ -354,7 +354,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -374,7 +374,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-06",
@@ -654,7 +654,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -674,7 +674,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-22",
@@ -774,7 +774,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -836,7 +836,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -973,7 +973,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-17",
@@ -1132,7 +1132,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -1194,7 +1194,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -1276,7 +1276,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-06-28",
@@ -1559,7 +1559,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -1579,7 +1579,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-06-05",
@@ -1797,7 +1797,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -1879,7 +1879,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-04",
@@ -2175,7 +2175,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-09-02",
@@ -2217,7 +2217,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -2454,7 +2454,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -2474,7 +2474,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-12",
@@ -2574,7 +2574,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -2750,7 +2750,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -2774,7 +2774,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-03",
@@ -2816,7 +2816,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -2992,7 +2992,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -3070,7 +3070,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-06-25",
@@ -3290,7 +3290,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -3352,7 +3352,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -3372,7 +3372,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-09",
@@ -3593,7 +3593,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -3679,7 +3679,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-09-01",
@@ -3721,7 +3721,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -3971,7 +3971,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-25",
@@ -4013,7 +4013,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4274,7 +4274,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-07",
@@ -4316,7 +4316,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4374,7 +4374,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -4494,7 +4494,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -4552,7 +4552,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -4576,7 +4576,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-01",
@@ -4618,7 +4618,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -4676,7 +4676,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -4854,7 +4854,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -4874,7 +4874,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-06-14",
@@ -5036,7 +5036,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -5180,7 +5180,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-06",
@@ -5280,7 +5280,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -5342,7 +5342,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -5458,7 +5458,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -5482,7 +5482,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-06-18",
@@ -5761,7 +5761,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -5781,7 +5781,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-07-07",
@@ -6085,7 +6085,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-28",
@@ -6388,7 +6388,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-03",
@@ -6488,7 +6488,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -6683,7 +6683,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-12",
@@ -6907,7 +6907,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -6989,7 +6989,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-26",
@@ -7207,7 +7207,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -7293,7 +7293,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-08-07",
@@ -7335,7 +7335,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -7451,7 +7451,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -7513,7 +7513,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-05.jpg",
@@ -7591,7 +7591,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-09",
@@ -7753,7 +7753,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -7870,7 +7870,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -7890,7 +7890,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-09-03",
@@ -7932,7 +7932,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
@@ -7990,7 +7990,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-01.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -8052,7 +8052,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-04.jpg",
@@ -8165,7 +8165,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-01.jpg",
@@ -8189,7 +8189,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-02.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-05-21",
@@ -8289,7 +8289,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-03.jpg",
@@ -8491,7 +8491,7 @@ export const generatedListings: Listing[] = [
       },
       {
         "src": "/photos/interior-hallway-01.jpg",
-        "alt": "Stock photograph illustrating a entrance hallway of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an entrance hallway of this style — not a photograph of this specific property."
       }
     ],
     "dateListed": "2026-09-27",
@@ -8533,7 +8533,7 @@ export const generatedListings: Listing[] = [
     "images": [
       {
         "src": "/photos/exterior-apartment-02.jpg",
-        "alt": "Stock photograph illustrating a apartment exterior of this style — not a photograph of this specific property."
+        "alt": "Stock photograph illustrating an apartment exterior of this style — not a photograph of this specific property."
       },
       {
         "src": "/photos/interior-livingroom-02.jpg",
