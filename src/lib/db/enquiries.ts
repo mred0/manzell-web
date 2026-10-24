@@ -15,12 +15,9 @@ export interface Enquiry {
 }
 
 export interface NewEnquiry {
-  /** The listing's uuid, when the enquiry came from a property page — only
-   * stored as the FK if it's actually a valid uuid (won't be, yet, for any
-   * enquiry submitted before the Supabase migration is complete). */
+ 
   listingId?: string | null;
-  /** Human-readable snapshot (the listing's title) — always safe to store,
-   * shown as-is in the admin inbox regardless of the FK above. */
+
   listingRef?: string | null;
   name: string;
   email: string;

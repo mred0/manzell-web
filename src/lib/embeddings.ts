@@ -3,13 +3,6 @@ import path from "node:path";
 import { pipeline, env, type FeatureExtractionPipeline } from "@xenova/transformers";
 import type { Listing } from "@/types/listing";
 
-/**
- * Shared local-embedding machinery — used by both /api/search (embedding a
- * visitor's live query) and the admin listing create/update server actions
- * (embedding a listing's text so it's searchable the moment it's saved, no
- * separate build step). Everything runs through the same quantized MiniLM
- * model bundled under /models — no external API call, no key.
- */
 
 env.allowRemoteModels = false;
 env.allowLocalModels = true;

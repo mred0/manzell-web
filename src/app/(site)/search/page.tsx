@@ -11,13 +11,6 @@ type Status = "idle" | "loading" | "done" | "error";
 type SearchResultRow = { listing: Listing; score: number };
 type ConversationTurn = { question: string; reply: string };
 
-// Next.js unmounts this page's component on every route change, which
-// wipes its React state — so leaving /search and coming back (even via
-// the browser back button) looked like the whole search had reset. The
-// session is cached here instead, under the user's own tab (cleared when
-// the tab closes, never shared across tabs or persisted server-side), and
-// restored on mount — skipped when arriving with its own ?q=... (e.g. from
-// the homepage's live demo), since that's a deliberate new search.
 const STORAGE_KEY = "manzell-ai-search-session";
 type StoredSearchSession = {
   query: string;
@@ -43,29 +36,12 @@ export default function SearchPage() {
   );
 }
 
-// The assistant is instructed (src/lib/assistant.ts) to cite each property
-// it recommends with an exact "[ID:...]" tag drawn from the candidates it
-// was given. Turning those tags into links here — rather than leaving them
-// as raw bracket text — is also what makes the grounding visible: every
-// citation resolves to one of the cards on the page, or is silently
-// dropped if it doesn't (which would mean the model cited something
-// outside the list it was given).
-//
-// Belt-and-suspenders: the system prompt forbids markdown link syntax
-// ("[label](url)"), but a follow-up turn was observed producing it anyway
-// (the model inventing a plausible-looking but ungrounded URL). Rather
-// than trust an arbitrary model-written URL, any such syntax is stripped
-// down to its plain label before the [ID:...] citations are parsed, so a
-// prompt slip degrades to plain text instead of showing broken raw
+
 // brackets on the page.
 function renderAssistantReply(text: string, results: SearchResultRow[]): ReactNode[] {
   const listingById = new Map(results.map((r) => [r.listing.id, r.listing]));
   const withoutMarkdownLinks = text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
-  // Also strip markdown bold/italic emphasis (**text**, *text*) the model
-  // is instructed not to use but was observed adding anyway on a
-  // list-style follow-up question — same belt-and-suspenders reasoning as
-  // the markdown-link strip above: degrade to plain text rather than show
-  // literal asterisks on the page.
+
   const withoutEmphasis = withoutMarkdownLinks
     .replace(/\*\*([^*]+)\*\*/g, "$1")
     .replace(/(?<!\d)\*([^*]+)\*(?!\d)/g, "$1");
@@ -99,13 +75,7 @@ function SearchPageInner() {
   const [results, setResults] = useState<SearchResultRow[]>([]);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // The follow-up conversation thread. history[0] is always the original
-  // query + its reply, set once a search succeeds with a reply (absent
-  // whenever Groq isn't configured or the call failed — the page then
-  // simply shows the plain results, same as before this feature existed).
-  // Every entry after that is one round-trip to /api/assistant/follow-up
-  // against the same fixed `results` — the candidate list is never
-  // re-retrieved mid-conversation.
+ 
   const [searchedQuery, setSearchedQuery] = useState("");
   const [history, setHistory] = useState<ConversationTurn[]>([]);
   const [followUpQuestion, setFollowUpQuestion] = useState("");
@@ -174,9 +144,7 @@ function SearchPageInner() {
     }
   }
 
-  // Auto-run once for a query arriving via ?q=... (e.g. someone followed
-  // "Search" from the homepage's live demo, or a shared link). Guarded by
-  // a ref so it fires exactly once per mount, not on every render.
+ 
   useEffect(() => {
     if (hasAutoRun.current) return;
     hasAutoRun.current = true;
@@ -186,9 +154,7 @@ function SearchPageInner() {
       return;
     }
 
-    // No incoming query — this is a plain visit to /search, which includes
-    // coming back after navigating away. Restore the last session if one
-    // was saved, rather than starting from a blank page.
+    
     try {
       const raw = sessionStorage.getItem(STORAGE_KEY);
       if (!raw) return;

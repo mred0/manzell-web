@@ -6,11 +6,7 @@ export interface RoomEntry {
   image: ListingImage;
 }
 
-// Every listing photo's alt text already names its room category (see
-// scripts/lib/listing-photos.mjs and the hand-written galleries in
-// src/data/listings.ts), so the room breakdown below is derived from that
-// text rather than hand-authored per listing — it works the same way for
-// all 142 generated listings and the 8 hand-written ones.
+
 const ROOM_MATCHERS: Array<{ key: string; label: string; test: RegExp }> = [
   { key: "kitchen", label: "Kitchen", test: /kitchen/i },
   { key: "dining", label: "Dining Room", test: /dining room/i },
@@ -42,13 +38,7 @@ function captionFor(key: string, listing: Listing): string {
   }
 }
 
-/**
- * Builds a "Room by Room" breakdown from a listing's interior photos — every
- * image after the first, which is always the exterior hero shot (both the
- * generator and the hand-written listings put the exterior image first).
- * Only the first photo of each room category is used, so a listing with two
- * bedroom photos still gets one "Bedroom" row, not two.
- */
+
 export function getRoomBreakdown(listing: Listing): RoomEntry[] {
   const interiorImages = listing.images.slice(1);
   const seen = new Set<string>();

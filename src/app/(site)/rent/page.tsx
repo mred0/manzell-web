@@ -7,8 +7,7 @@ export const metadata: Metadata = {
   description: "Browse Manzell's current portfolio of prime London property to let.",
 };
 
-// Fetched fresh on every request — see the comment on this export in
-// src/app/page.tsx.
+
 export const dynamic = "force-dynamic";
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;

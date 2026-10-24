@@ -12,10 +12,6 @@ interface EnquiryPayload {
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// Validates, then stores the enquiry via the DB layer — which itself falls
-// back to just logging (as this route always used to) if Supabase isn't
-// configured yet, so nothing breaks mid-migration. Once it's set up, these
-// show up in /admin/enquiries immediately.
 export async function POST(request: Request) {
   let payload: EnquiryPayload;
 

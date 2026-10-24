@@ -5,13 +5,7 @@ import { getAdminEmail } from "@/lib/admin-user";
 
 export const dynamic = "force-dynamic";
 
-// src/proxy.ts already redirects anyone without a Supabase session to
-// /admin/login before this ever renders, so no further check is needed
-// here — this layout is purely the authenticated "Control Room" shell
-// (picked off the Design Canvas over the lighter "Quiet Desk" alternative,
-// see the project doc's "Admin redesign canvas" note). Was a light header
-// bar (AdminNav) across the top; now a persistent dark sidebar down the
-// left, reused by every /admin/(dashboard) page.
+
 export default async function AdminDashboardLayout({ children }: { children: React.ReactNode }) {
   const [listings, enquiries, adminEmail] = await Promise.all([
     getListings(),

@@ -27,9 +27,7 @@ export const metadata: Metadata = {
     "Manzell is a London real estate agency specialising in premium and luxury property sales and lettings.",
 };
 
-// Deliberately just the document shell — the public site's header/footer
-// live in src/app/(site)/layout.tsx, a sibling of src/app/admin/, so the
-// admin backend doesn't inherit Manzell's public marketing chrome.
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="h-full antialiased">

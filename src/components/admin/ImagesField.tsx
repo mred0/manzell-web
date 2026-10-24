@@ -3,13 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Listing } from "@/types/listing";
 
-/**
- * The general-purpose reusable stock-photo pool in /public/photos (see the
- * "Real stock photography" note in the project doc) — 12 exterior shots (2
- * per property type) + 27 interior room shots. Built from the same naming
- * convention scripts/lib/listing-photos.mjs uses, so this list and the
- * generator can't silently drift apart.
- */
+
 function buildStockPhotos(): { src: string; label: string }[] {
   const exteriorTypes: Array<[string, string]> = [
     ["apartment", "Apartment"],

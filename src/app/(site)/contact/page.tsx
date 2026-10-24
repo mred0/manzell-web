@@ -8,10 +8,6 @@ export const metadata: Metadata = {
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
-// Premium split layout, matching the About/Property editorial system: the
-// story + direct desk details + the real office photo sit on the left,
-// the enquiry form is a standalone card on the right — rather than a single
-// centred column with the form directly under the intro copy.
 const DESK_ITEMS = [
   { icon: "MP", label: "Call the desk", value: "020 3337 8554" },
   { icon: "@", label: "Email directly", value: "contact@manzell.com" },

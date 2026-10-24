@@ -4,10 +4,6 @@ import HomeHeroSearch from "@/components/HomeHeroSearch";
 import PropertyCard from "@/components/PropertyCard";
 import { getFeaturedListings } from "@/lib/db/listings";
 
-// Listings now live in the database (once Supabase is configured — see
-// SUPABASE_SETUP.md), so this page always fetches fresh rather than being
-// statically generated at build time: an admin edit shows up on the very
-// next page load, no rebuild/redeploy needed.
 export const dynamic = "force-dynamic";
 
 const values = [

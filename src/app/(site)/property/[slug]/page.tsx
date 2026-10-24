@@ -14,9 +14,7 @@ import PropertyGallery from "@/components/PropertyGallery";
 
 type Params = Promise<{ slug: string }>;
 
-// Listings live in the database now, so property pages are rendered fresh
-// per request rather than pre-built for a fixed list of slugs at build
-// time — a listing added through /admin gets a working page immediately.
+
 export const dynamic = "force-dynamic";
 
 export async function generateMetadata({

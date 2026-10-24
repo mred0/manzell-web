@@ -3,13 +3,7 @@
 import { useEffect, useState } from "react";
 import type { ListingImage } from "@/types/listing";
 
-/**
- * Property detail page photo gallery: a large hero photo with a thumbnail
- * strip beneath it, and a full-screen lightbox (prev/next + click-to-zoom,
- * then scroll to pan) opened by clicking the hero photo. Sharp, bordered
- * edges with a soft drop shadow — the "Editorial Catalogue, sharp + shadow"
- * concept Hemang picked over a softened/rounded alternative.
- */
+
 export default function PropertyGallery({ images }: { images: ListingImage[] }) {
   const [heroIndex, setHeroIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);

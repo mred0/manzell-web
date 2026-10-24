@@ -4,17 +4,16 @@ const gbp = new Intl.NumberFormat("en-GB", {
   maximumFractionDigits: 0,
 });
 
-/** Formats a sale guide price, e.g. "£8,250,000". */
+
 export function formatPrice(price: number): string {
   return gbp.format(price);
 }
 
-/** Formats a monthly rent, e.g. "£13,500 pcm". */
 export function formatRentPcm(rentPcm: number): string {
   return `${gbp.format(rentPcm)} pcm`;
 }
 
-/** Formats either side of a listing depending on its purpose. */
+
 export function formatHeadlineFigure(listing: {
   purpose: "sale" | "let";
   price?: number;
@@ -69,10 +68,6 @@ export function statusDotClass(status: string): string {
   return statusDotClasses[status] ?? "bg-brand-ink/30";
 }
 
-/** "12m ago" / "3h ago" / "5d ago", falling back to a plain date once an
- * item is more than a week old — used for the admin dashboard's enquiries
- * rail, where "just now" precision matters but a month-old entry doesn't
- * need second-by-second counting. */
 export function formatRelativeTime(iso: string): string {
   const then = new Date(iso).getTime();
   const diffMs = Date.now() - then;

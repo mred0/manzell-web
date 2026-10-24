@@ -5,9 +5,7 @@ import { CheckCircle2, Loader2 } from "lucide-react";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-// Underline-style fields (no boxed borders) to match the premium editorial
-// card used across the redesigned pages, rather than the plain bordered
-// inputs the form used before.
+
 const fieldClasses =
   "mt-1 w-full border-0 border-b border-brand-border bg-transparent px-0.5 py-2.5 text-sm text-brand-ink outline-none transition-colors focus:border-brand-gold-deep";
 const labelTextClasses =

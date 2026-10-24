@@ -18,11 +18,6 @@ export default function Header() {
   const pathname = usePathname();
   const isHome = pathname === "/";
 
-  // The homepage hero is Manzell's own brand gradient (never a photo —
-  // see page.tsx), so the header can sit fully transparent in white over
-  // it with no clash. It settles to the normal solid cream header, plum
-  // logo included, as soon as the visitor scrolls past the top of the
-  // hero. Every other page keeps the solid header at all times.
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     if (!isHome) return;

@@ -17,7 +17,6 @@ export async function logoutAction() {
   redirect("/admin/login");
 }
 
-/** Reads the shared listing fields out of a submitted <ListingForm>. */
 function listingInputFromFormData(formData: FormData): ListingInput {
   const str = (name: string) => (formData.get(name) as string | null)?.trim() ?? "";
   const optionalNumber = (name: string): number | undefined => {

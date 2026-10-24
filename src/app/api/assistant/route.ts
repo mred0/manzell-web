@@ -2,9 +2,7 @@ import { NextResponse } from "next/server";
 import { semanticSearch } from "@/lib/search";
 import { getAssistantReply } from "@/lib/assistant";
 
-// Runs on Node.js (not the Edge runtime) since the local embedding model
-// needs the filesystem to load its weights from /models — same constraint
-// as /api/search, which this route wraps.
+
 export const runtime = "nodejs";
 
 export async function POST(request: Request) {

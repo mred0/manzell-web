@@ -7,12 +7,7 @@ export const metadata: Metadata = {
   description: "Manzell is a London property agency working across prime and super-prime addresses.",
 };
 
-// One-screen proposal: on a normal laptop viewport (roughly 1440x900 and up)
-// every section below sits inside a fixed-height row so the whole story
-// reads without scrolling past the sticky header. Row heights are set
-// explicitly (not flex-grow ratios) so text never gets silently clipped —
-// below the md breakpoint there's too much content to hold on one screen,
-// so it stacks and scrolls normally there.
+
 const PILLARS = [
   { mono: "LE", title: "Local Expertise", body: "Deep, neighbourhood-level knowledge behind every valuation." },
   { mono: "TS", title: "Tailored Service", body: "A strategy built around your situation, not a standard playbook." },

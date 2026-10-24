@@ -4,32 +4,7 @@ import { groq } from "@ai-sdk/groq";
 import { formatHeadlineFigure, formatPropertyType } from "@/lib/format";
 import type { SearchResult } from "@/lib/search";
 
-/**
- * The AI-assisted search's natural-language layer — a small RAG (retrieval-
- * augmented generation) step on top of the existing local semantic search:
- *
- *   1. src/lib/search.ts finds the top matching listings by meaning
- *      (unchanged, still runs fully locally, no external call).
- *   2. Those listings — and ONLY those listings — are handed to Groq's
- *      free-tier hosted model, which writes a short, natural reply that
- *      recommends from the list and cites each one by its listing ID.
- *
- * The model is never allowed to see the full catalogue, so it physically
- * cannot recommend a property that wasn't already found by the semantic
- * search — the retrieval step is what keeps this grounded, not the prompt
- * wording alone.
- *
- * getAssistantFollowUpReply() extends the same grounding to a short
- * conversation: the candidate list never changes after the first reply, so
- * a follow-up question ("does it have a garden?") is answered from exactly
- * the same fixed set of properties, with the prior exchange passed back in
- * as conversation history rather than re-running retrieval.
- *
- * If Groq is unreachable, rate-limited, or GROQ_API_KEY isn't set, these
- * return null and the caller (the /search page) simply shows the plain
- * search results with no assistant reply — the feature degrades silently
- * rather than breaking the page.
- */
+
 
 const MODEL_ID = "openai/gpt-oss-20b";
 

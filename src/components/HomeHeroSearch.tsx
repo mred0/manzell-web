@@ -4,11 +4,7 @@ import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 
-// A deliberately plain, single-line search bar for the homepage's hero
-// card — it submits straight into the real AI search page (same /search
-// semantic matching as everywhere else on the site; see LiveSearchHero
-// for the richer self-running demo version of the same feature, used
-// previously in this slot).
+
 export default function HomeHeroSearch() {
   const router = useRouter();
   const [query, setQuery] = useState("");

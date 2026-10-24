@@ -1,32 +1,4 @@
--- Manzell database schema (Postgres / Supabase)
---
--- Run this once, in full, in the Supabase SQL Editor for a fresh project
--- (see SUPABASE_SETUP.md at the repo root for the exact steps). It's
--- written to be safe to re-run: types and the update-trigger function are
--- wrapped so a second run won't error, though the `create table` /
--- `create policy` statements will fail loudly on a second run rather than
--- silently no-op — that's deliberate, so you notice if you're about to
--- run it against a database that already has data in it.
---
--- Design notes for the report:
--- - `images` is a single `jsonb` column of {src, alt} objects rather than a
---   separate listing_images table with a foreign key. At this listing
---   volume (dozens, not thousands) the join bought nothing but complexity
---   for the admin CRUD forms, so it was simplified once an actual admin
---   UI was being built against it — a concrete example of a design
---   decision revised once real usage patterns were clearer (Design
---   Science Research's build-evaluate loop).
--- - `search_embedding` stores the same 384-dim MiniLM vector the app was
---   already computing locally (see src/lib/embeddings.ts) — this schema
---   just gives it a permanent home instead of a regenerated JSON file, so
---   a listing added through the admin is searchable immediately, no build
---   step required.
--- - Row-level security is enabled on both tables. Public visitors (the
---   anon key) can read listings and submit enquiries, and nothing else —
---   all admin writes go through the service-role key from server-only
---   code that's already gated behind a Supabase Auth session
---   (src/middleware.ts), so RLS doesn't need to know about "admin" as a
---   role at all.
+
 
 create extension if not exists "uuid-ossp";
 create extension if not exists vector;

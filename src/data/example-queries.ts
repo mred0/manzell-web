@@ -1,9 +1,4 @@
-/**
- * Example queries used to demonstrate the semantic search feature — in the
- * homepage's live search hero (which cycles through them automatically)
- * and as quick-start chips on the /search page itself. Kept in one place so
- * both surfaces stay in sync.
- */
+
 export const EXAMPLE_QUERIES: string[] = [
   "somewhere quiet with a garden and off-street parking",
   "a bright apartment near shops, good for entertaining",

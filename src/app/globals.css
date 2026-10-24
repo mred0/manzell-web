@@ -1,20 +1,15 @@
 @import "tailwindcss";
 
-/* Exclude the bundled ML model + precomputed embeddings from Tailwind's
-   automatic source scan — they're large binary/JSON assets, not markup,
-   and scanning them for class names is extremely slow. */
+
 @source not "../../models";
 @source not "../data/listing-embeddings.json";
 
 :root {
-  /* A warm paper/cream ground rather than stark white — the "editorial
-     auction-catalogue" identity Hemang picked from three mocked-up
-     directions, built around Bodoni Moda, gold, and a "Lot"-numbered
-     listing motif rather than a generic SaaS-template look. */
+ 
   --background: #f6f1e7;
   --foreground: #241a1c;
 
-  /* Manzell brand palette — carried forward from the live site audit */
+  
   --color-brand-primary: #832a89; /* nav accents, buttons */
   --color-brand-plum: #36013f; /* deep plum — footer, CTA band, bold headline word */
   --color-brand-footer: #68226d;
@@ -24,29 +19,21 @@
   --color-brand-border: rgba(36, 26, 28, 0.15);
   --color-brand-ink: #241a1c;
 
-  /* A warm brass/gold accent — the recurring "look here" colour: every price
-     figure, "Lot" numbering, section kickers, hover states. Purple remains
-     the secondary brand colour (buttons, the plum headline word, footer);
-     gold is what's meant to catch the eye first. */
+ 
   --color-brand-gold: #a9762f;
   --color-brand-gold-deep: #7c581f;
 
-  /* Deliberate semantic status colours (the live site's red/amber were ad hoc) */
+  
   --color-status-sale: #832a89;
   --color-status-let: #1f7a5c;
   --color-status-sstc: #b8862f;
   --color-status-reduced: #9b3d3d;
 
-  /* Admin-only semantic colours (Control Room dashboard) — deliberately
-     separate from the gold brand accent, which stays reserved for "look
-     here" marketing moments on the public site. Sage for "fine, resolved,
-     within range", terracotta for "needs attention" (an unread enquiry). */
+  
   --color-admin-ok: #5c7a5e;
   --color-admin-urgent: #a14b3e;
 
-  /* Font stacks — actual font files are self-hosted via @fontsource and
-     imported as CSS in layout.tsx, so these just name the resulting
-     font-family. */
+  
   --font-montserrat: "Montserrat", Inter, -apple-system, sans-serif;
   --font-bodoni: "Bodoni Moda", "Times New Roman", Georgia, serif;
 }
@@ -85,10 +72,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-bodoni);
 }
 
-/* The price figure is the one number every visitor reads on every card — an
-   italic, bold didone numeral in the gold accent so it reads as the single
-   deliberately eye-catching detail on the page, not a bigger/bolder version
-   of the body font. */
+
 .price-figure {
   font-family: var(--font-bodoni);
   font-style: italic;
@@ -98,8 +82,7 @@ h1, h2, h3, h4 {
   color: var(--color-brand-gold-deep);
 }
 
-/* The recurring "Lot NN — Area" catalogue-style label used on listing
-   cards, echoing an auction house's lot numbering. */
+
 .lot-label {
   font-family: var(--font-bodoni);
   font-style: italic;
@@ -119,7 +102,7 @@ h1, h2, h3, h4 {
   }
 }
 
-/* Used by the homepage's live AI-search hero demo (LiveSearchHero). */
+
 @keyframes blink {
   0%, 45% { opacity: 1; }
   50%, 100% { opacity: 0; }
@@ -136,10 +119,7 @@ h1, h2, h3, h4 {
   }
 }
 
-/* Minimal underline <select> used on the Buy/Rent filter bar — a small
-   reusable primitive (like .price-figure/.lot-label above) since several
-   fields need pixel-identical styling: no native chrome, a bottom rule,
-   and a slim gold chevron drawn as a background image. */
+
 .field-select {
   appearance: none;
   -webkit-appearance: none;
@@ -159,9 +139,6 @@ h1, h2, h3, h4 {
   cursor: pointer;
 }
 
-/* Buy/Rent listing-card hover — the same combined lift + deepened shadow +
-   gold border + diagonal gold "shine" treatment used on the About page's
-   pillar cards and value cells. */
 .listing-card {
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s, border-color 0.35s;
 }
@@ -182,9 +159,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 0%, rgba(233, 201, 138, 0) 35%, rgba(233, 201, 138, 0.22) 100%);
 }
 
-/* AI-search example-query chip hover — a smaller-scale version of the
-   .listing-card lift + gold shine, for a row of pill-sized buttons rather
-   than a photo card. */
+
 .search-chip {
   position: relative;
   overflow: hidden;

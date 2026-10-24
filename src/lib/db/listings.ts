@@ -9,7 +9,7 @@ import {
 } from "@/data/listings";
 import type { Listing } from "@/types/listing";
 
-/** Fields an admin can set when creating or editing a listing. */
+
 export type ListingInput = Omit<Listing, "id">;
 
 interface ListingRow {
