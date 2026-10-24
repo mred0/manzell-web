@@ -1,39 +1,47 @@
-# Lighthouse / Performance Evaluation — Old Site vs. New Build
+# Lighthouse and Performance Evaluation
 
-Run: 2026-10-06
+**Date:** 6 October 2026
 
-## Methodology, and why it's a mixed method
+## Aim and Method
 
-The evaluation sandbox this project is built in cannot reach the open internet (its egress is restricted to package registries), so a single consistent Lighthouse CLI run across both old and new sites wasn't possible. Two different, complementary methods were used instead:
+I evaluated the performance of the new Manzell website and compared it with the original website. The new build was tested using Lighthouse on desktop settings. As the testing environment could not access the live website directly through Lighthouse, the original website was measured separately using browser performance data.
 
-- **New build** (`localhost:3000`, the actual code in this repo): audited with the Lighthouse CLI, `--preset=desktop` (Manzell's prime-London buyer audience is predominantly desktop, so this is the more representative preset than Lighthouse's mobile-throttled default — which was tried first and produced wildly inflated numbers, see note below).
-- **Old site** (`manzell.com`, live): Lighthouse itself couldn't reach it from this environment, so the same underlying signals — Navigation Timing, resource transfer sizes, image alt-text coverage, meta tags — were captured directly from a real browser (Chrome, via the user's own browser session) using the Performance API. This is a field measurement rather than a lab score, so it isn't a direct 0–100 Lighthouse number, but it's the same underlying data Lighthouse's own scoring is built from.
+The scores are based on one Lighthouse run per page, so further testing would be needed to confirm the results.
 
-**A throttling note worth keeping for the report:** the first attempt used Lighthouse's default mobile simulated throttling (4x CPU slowdown + slow-4G). On this container's shared CPU, that produced a homepage Performance score of 34 with an 8.1s Total Blocking Time — almost entirely "Style & Layout" and "Parse HTML & CSS" time, not script execution, which is the signature of a CPU-starved headless run rather than a genuine site problem. Switching to `--preset=desktop` (lighter, more realistic throttling) brought the homepage to 91. This is itself worth a sentence in the report: Lighthouse lab scores are highly sensitive to the hardware they're run on, which is why the desktop preset — and not the raw score alone — was used as the basis for comparison.
+## Results
 
-## Summary
+| Page | Performance | Accessibility | Best Practices | SEO |
+|---|---:|---:|---:|---:|
+| Homepage | 91 | 96 | 100 | 100 |
+| Listings | 83 | 89 | 100 | 100 |
+| Property detail | 41 | 96 | 100 | 100 |
 
-| Page | New build — Performance | New build — Accessibility | New build — Best Practices | New build — SEO | Old site — load time (field) | Old site — total transfer |
-|---|---|---|---|---|---|---|
-| Home | 91 | 96 | 100 | 100 | 454 ms (`loadEventEnd`) | 57 KB / 8 requests |
-| Listings / search (`/buy` vs `/properties/sale`) | 83 | 89 | 100 | 100 | 147 ms | ~1 KB / 8 requests (images not yet loaded at measurement — see limitations) |
-| Property detail | 41 | 96 | 100 | 100 | 2,478 ms | **11,298 KB (11.3 MB) / 61 requests** |
+The original website's measured load times were 454 ms for the homepage, 147 ms for the listings page and 2,478 ms for the property detail page. The property detail page transferred approximately 11.3 MB across 61 requests.
 
-## Key findings
+These figures come from different testing methods, so they should not be treated as a direct Lighthouse score comparison.
 
-1. **The old site is fast specifically because it does very little.** The homepage ships 57 KB across 8 requests — essentially a logo, a static hero, and six hardcoded property teasers with no search logic behind them. There's no AI matching, no semantic ranking, and (per the project's own problem statement) nothing beyond simple bedroom-count filtering. Speed and feature scope trade off against each other here, and that trade-off — not a flat "old is faster" — is the honest framing for the report.
+## Main Findings
 
-2. **The old site's property detail page is the one place it is genuinely, badly slow**: 11.3 MB across 61 requests (52 of them images), a 2.5s `loadEventEnd`. This is a real, measured problem with the live production site Manzell is being redesigned away from — useful as supporting evidence for why the rebuild's problem statement is justified.
+The original homepage loaded quickly because it contained fewer features and less content. However, its property detail page transferred a large amount of data, mainly because of images.
 
-3. **The new build's biggest performance cost is the same category of problem, concentrated differently**: the property detail page's Lighthouse score (41) is driven almost entirely by five uncompressed stock photographs (`interior-livingroom-01.jpg` at 3.18 MB, `interior-kitchen-01.jpg` at 2.94 MB, and three more each over 1.7 MB) served as plain `<img>` tags rather than through `next/image`. `src/components/PropertyCard.tsx` documents this as a deliberate choice ("skipping the image optimizer keeps this a fully static/offline-friendly build"), which is a reasonable trade-off to have made, but this evaluation now has a measured cost attached to it: ~11 MB of avoidable image weight per property page view. Worth naming directly in the report as a known limitation with a concrete, cheap fix (resize/compress the source JPGs, or reintroduce `next/image` for just this path) — a textbook "critical evaluation" finding: identify the trade-off, quantify its cost, propose the fix, and say whether it was in scope to make before submission.
+The new website provides more functionality, including semantic search and improved property browsing. Its homepage scored 91 for performance, while the listings page scored 83. The property detail page scored 41, mainly because several large images were not compressed.
 
-4. **Accessibility: a genuine improvement, with one regression to fix.** The old site's listings page is missing `alt` text on 8 of its 17 images; the new build has zero missing `alt` text across all three pages tested — a real, measurable accessibility gain from the rebuild. Against that: Lighthouse flagged a **color-contrast failure on all three new-build pages**, on the small `text-xs` metadata labels on property cards (the "2 bed · 1 bath" line), plus an **unlabeled `<select>`** and a **heading-order violation** on `/buy`'s filter bar specifically. These are small, concrete, and fixable — exactly the kind of finding a testing section should surface rather than smooth over.
+Accessibility also improved in some areas. The original listings page had missing alternative text on eight of its 17 images, while all images checked on the new pages had alternative text. However, Lighthouse identified colour contrast issues on the new website, along with an unlabeled filter dropdown and a heading-order issue on the listings page.
 
-5. **SEO and Best Practices**: 100/100 on the new build across all three pages. Not directly comparable to the old site (Lighthouse's SEO/Best-Practices categories need a live Lighthouse run, which wasn't available for `manzell.com`), but worth noting the old site's homepage and listings page metadata were both present and reasonable (`<meta name="description">`, a single `<h1>`, a viewport tag) — i.e. the old site isn't SEO-broken, so this isn't a weak-opponent comparison.
+The new build scored 100 for both Best Practices and SEO on all three pages tested. These scores were not directly compared with the original website.
 
 ## Limitations
 
-- The old-site numbers are field measurements from one real browser session, not repeated Lighthouse lab runs — directionally reliable (especially the 11.3 MB image-weight figure, which came straight off the Resource Timing API) but not as rigorously standardised as the new build's Lighthouse scores.
-- The listings-page old-site transfer figure (1 KB) almost certainly undercounts image weight — the page has 17 `<img>` elements but the Resource Timing entries captured at measurement time showed only the logo, suggesting most listing-card images were still lazy-loading or served through a CDN URL pattern the capture script's file-extension filter didn't recognise. Treat that one row as incomplete rather than as evidence the old listings page is unusually light — the property-detail page (11.3 MB) is the reliable data point for the old site's actual image-weight behaviour.
-- Lighthouse scores (new build) were captured from a single run each, not an averaged set of runs — Lighthouse's own guidance is to run 3–5 times and take the median for a number reported with confidence. Given time constraints, this run reports single-shot scores and says so, rather than presenting them as more precise than they are.
-- No old-site Accessibility/Best-Practices/SEO Lighthouse scores exist (network-restricted), so those three categories are new-build-only in this run; the comparison there is qualitative (meta tags, alt text, heading structure), not score-to-score.
+The original website was measured in a real browser, while the new website was tested using Lighthouse. The results therefore have some limitations. Only one Lighthouse run was completed for each page, and the original listings-page transfer figure was incomplete because some images had not loaded when measurements were taken.
+
+## Recommended Improvements
+
+- Compress the large property images or use image optimisation.
+- Improve the colour contrast of small text.
+- Add a proper label to the filter dropdown.
+- Correct the heading order on the listings page.
+- Repeat Lighthouse tests to check whether the scores remain consistent.
+
+## Conclusion
+
+The new website improves functionality and provides a more complete property-search experience. However, the property detail page needs performance improvements because of large images. Accessibility issues also remain. These results helped identify areas that could be improved further after the main project features were developed.

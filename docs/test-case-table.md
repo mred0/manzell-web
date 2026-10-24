@@ -1,37 +1,45 @@
-# Test Case Table — Manzell Rebuild
+# Manzell Website — Test Case Table
 
-Compiled 6 Oct 2026 from the build-verification evidence accumulated throughout the project (lint/typecheck/build results, Playwright checks, and the bugs found and fixed along the way — all individually dated and detailed in `claude/cs69-project-artifacts.md`), plus the three evaluation runs from the same day (`docs/search-evaluation.md`, `docs/lighthouse-evaluation.md`, `docs/heuristic-evaluation.md`). No participants were involved in any of the tests below — see the Methodology section of the report for why, and `docs/heuristic-evaluation.md`/`docs/search-evaluation.md` for the two evaluations that substitute for user testing.
+**Date:** 6 October 2026
 
-Every row was actually run and its Actual Result observed, not predicted — most during the project's own ongoing build-verify-ship routine (clean `npm run lint` + `npx tsc --noEmit` + a clean production build + a Playwright check, repeated before every feature was marked shipped), the rest from the dedicated evaluation scripts run 6 Oct.
+## Aim
 
-| ID | Feature | Test steps | Expected result | Actual result | Pass/Fail | Date / evidence |
-|---|---|---|---|---|---|---|
-| TC-01 | AI semantic search | POST a natural-language query ("somewhere to cool off on a hot day") to `/api/search` | Returns ranked listings matching the described need via meaning, not literal keyword overlap | Returned listings with pool-related features in top results; confirmed structurally across 8 paraphrase queries, mean Precision@5 0.300 vs. 0.275 for a keyword baseline | Pass | `docs/search-evaluation.md`, 6 Oct |
-| TC-02 | AI semantic search — literal term edge case | Query on a single literal feature word ("concierge") | Listings with that literal feature appear in top results | 0/5 relevant in top 6 — the deployed `minScore: 0.15` cutoff filtered out literal matches on this short query | **Fail** (known, documented limitation — not yet fixed) | `docs/search-evaluation.md`, 6 Oct |
-| TC-03 | AI assistant (RAG) grounding | Run 15 test questions (12 realistic, 3 adversarial) against `/api/assistant`, check every `[ID:...]` cited is one of the 6 listings retrieval actually returned | Zero citations outside the retrieved candidate set | 15/15 requests succeeded, 14/15 got a grounded reply, 0 hallucinated citations across every run | Pass | `docs/ai-assistant-evaluation.md`, 2 Oct |
-| TC-04 | AI assistant — reasoning-token budget | Ask a realistic client brief; check a non-empty reply is returned | Assistant returns a real reply, not an empty string | First run: ~20-30% of real questions returned empty text (`gpt-oss-20b` exhausted `maxOutputTokens` on invisible reasoning before writing a reply) | Fail → **Fixed** (raised `maxOutputTokens` 350→900, confirmed on re-run) | 2 Oct |
-| TC-05 | AI assistant — follow-up formatting | Ask a follow-up question naming multiple properties / inviting a list-style answer | Reply uses the same plain-sentence `[ID:...]` citation format as the first turn, no markdown | Model switched to markdown links with invented URLs, and separately to bold/numbered-list formatting, on two different follow-up questions | Fail → **Fixed** (system prompt strengthened twice + a defensive markdown-stripping fallback added) | 2 Oct |
-| TC-06 | AI assistant — session persistence | Complete a search + follow-up conversation on `/search`, navigate to `/buy`, navigate back | Search, results and conversation thread are restored unchanged | Initially lost on navigation (React state unmounts on route change) | Fail → **Fixed** (state saved to `sessionStorage` on every completed search, restored on mount) | 2 Oct |
-| TC-07 | Data integrity — listing slugs | Generate all 150 listings (8 hand-written + 142 procedural), check for duplicate slugs | Every listing has a unique slug | 2 duplicate pairs found (`phillimore-gardens-kensington-w8`, `harley-street-marylebone-w1`) — the generator didn't know about the hand-written listings' slugs | Fail → **Fixed** (hand-written slugs seeded into the generator's dedup set; re-verified 150/150 unique) | 3 Oct |
-| TC-08 | Data integrity — Supabase seed | Run `npm run db:seed` against the real connected database | All 150 listings upserted with embeddings computed | First run failed (`ws` transport error on Node 20, then the duplicate-slug conflict above); both fixed, re-run succeeded: 150/150 upserted | Fail → **Fixed** | 3 Oct |
-| TC-09 | Property stats bar — conditional fields | Load a leasehold sale listing and a freehold let listing | Sale listing shows all 6 stat fields (incl. Price/Sqft, Service Charge); let listing shows only the 3 that apply (Tenure, EPC, Council Tax) | Confirmed correct on both listing types | Pass | 29 Sept |
-| TC-10 | Property gallery lightbox | Click the hero photo on a property page; use prev/next and Escape | Full-screen lightbox opens, navigates, and closes correctly; zoom-then-pan works | Confirmed working via Playwright click-through | Pass | 29 Sept |
-| TC-11 | Area content sweep | Search the whole rendered site for "Belgravia" after removing it from `AREAS` | Zero occurrences anywhere a visitor would see | Confirmed zero occurrences across Home/`/buy`/`/rent`/`/contact`; filter dropdown correctly lists the remaining 11 areas | Pass | 3 Oct |
-| TC-12 | Valuation CTA routing | Click "Book a valuation" (header + homepage CTA band) vs. plain "Contact" nav link | Valuation CTA pre-fills the contact form with valuation-specific copy; plain Contact stays generic | Confirmed both routes render distinct `<h1>`/pre-filled state; one bug found (bottom CTA band still linked to a bare `/contact`) and fixed | Fail → **Fixed** | 3 Oct |
-| TC-13 | Admin — listing readiness checklist | Fill an add-listing form field by field | "N of 6 ready to publish" count increments live and accurately | Confirmed 1→2→3 increments correctly, including the freehold auto-pass for lease details | Pass | 4 Oct |
-| TC-14 | Admin — ImagesField gallery | Reorder, add from library, and remove photos on an existing listing | Cover/#N badges update correctly; line count (and readiness count) stays accurate through every operation | Confirmed across reorder, add (6→7), and remove (7→6) | Pass | 4 Oct |
-| TC-15 | Admin — search/filter/pagination | Use the `/admin/listings` search box, status/purpose filters, and Previous/Next pagination | Correct subset of listings shown; CSV export reflects the active filter | Confirmed working; CSV button correctly hidden on `/admin/enquiries` when there are zero enquiries | Pass | 4 Oct |
-| TC-16 | Admin — numeric field validation | Submit a malformed/non-numeric value into a price/bedrooms/etc. field server-side | Submission is rejected or corrected server-side | No server-side `isNaN` check exists — a malformed value would be written as `NaN` | **Fail** (known, not yet fixed) | 4 Oct bug audit |
-| TC-17 | Routing — 404 handling | Navigate to a mistyped `/property/[slug]` URL | A branded 404 page matching the site's identity is shown | Falls through to Next.js's generic unbranded default 404 (no `not-found.tsx` exists) | **Fail** (known, not yet fixed) | 4 Oct bug audit |
-| TC-18 | Responsive layout — mobile overflow | Load Home/`/buy`/`/rent`/`/search`/`/about`/`/contact` and all 4 admin pages at 390px width | `document.body.scrollWidth` / `documentElement.scrollWidth` exactly 390, no horizontal scroll | One real bug found and fixed (admin dashboard table pushed the page to 723px); all pages confirmed exactly 390px after the fix | Fail → **Fixed** | 4 Oct |
-| TC-19 | Cross-page consistency — contact details | Compare phone number and opening hours across About, Contact and Footer | Identical phone/hours everywhere | Confirmed consistent (this was the original live-site's own bug, now fixed in the rebuild) | Pass | 4 Oct, re-confirmed 6 Oct |
-| TC-20 | Cross-page consistency — property page agent card | Compare the property page's agent contact card against About/Contact/Footer | Same phone/email domain used site-wide | **New instance of the same class of bug found**: agent card uses `prime@manzell.co.uk` while every other page uses the `.com` domain | **Fail** (known, not yet fixed) | 6 Oct heuristic re-evaluation |
-| TC-21 | Accessibility — colour contrast | Run Lighthouse's accessibility audit against Home, `/buy`, and a property page | No contrast failures | All three pages flagged the same issue: the small bed/bath/reception metadata text fails WCAG contrast against the cream background | **Fail** (known, not yet fixed) | `docs/lighthouse-evaluation.md`, 6 Oct |
-| TC-22 | Accessibility — image alt text | Check every `<img>` on Home, `/buy`, and a property page for a non-empty `alt` | Zero images missing alt text | Zero missing across all three new-build pages (vs. 8 of 17 missing on the old live site's listings page) | Pass | `docs/lighthouse-evaluation.md`, 6 Oct |
-| TC-23 | Admin auth gate | Attempt to load any `/admin/*` route or trigger an admin server action without a valid session | Request is redirected/blocked by the auth gate | Confirmed `src/proxy.ts` correctly gates every admin page and server action | Pass | 4 Oct bug audit |
-| TC-24 | Secret handling | Check the Supabase service-role key and Groq API key are never reachable from client-side code | Both keys stay server-only | Confirmed both are behind `import "server-only"` in every file that uses them | Pass | 4 Oct bug audit |
-| TC-25 | Production build health | `npm run lint`, `npx tsc --noEmit`, `next build` (all routes) | Zero warnings, zero type errors, zero build failures | Confirmed clean on every verified change throughout the project, most recently 6 Oct | Pass | Ongoing, most recently 6 Oct |
+I tested the main features of the Manzell website during development. The tests covered search, the AI assistant, property data, admin features, accessibility and the production build. No real participants were involved.
+
+## Test Results
+
+| ID | Feature | Result | Status |
+|---|---|---|---|
+| TC-01 | Semantic search | Natural-language searches returned property results. Overall performance was slightly better than keyword search for paraphrased queries. | Pass |
+| TC-02 | Search for "concierge" | No relevant properties appeared in the top results. | Fail — open |
+| TC-03 | AI assistant answers | 14 of 15 requests received a grounded reply, with no incorrect property citations found. | Pass with limitation |
+| TC-04 | AI assistant response length | Some replies were empty. Increasing the output-token limit fixed the issue during re-testing. | Fixed |
+| TC-05 | Assistant follow-up formatting | Some replies used incorrect links or formatting. Prompt changes and fallback handling improved the output. | Fixed |
+| TC-06 | Conversation persistence | Search and chat history were lost when changing pages. Session storage was added and re-tested. | Fixed |
+| TC-07 | Unique listing slugs | Duplicate slugs were found and corrected. All 150 listings were then checked for uniqueness. | Fixed |
+| TC-08 | Database seeding | Initial database seeding failed. The issues were corrected and all 150 listings were uploaded successfully. | Fixed |
+| TC-09 | Property statistics | The correct information appeared for different property types. | Pass |
+| TC-10 | Property image gallery | Image navigation, closing and zoom controls worked during testing. | Pass |
+| TC-11 | Area information | Removed area names no longer appeared in the tested pages or filters. | Pass |
+| TC-12 | Valuation links | The valuation buttons initially had an incorrect destination. The links were corrected and re-tested. | Fixed |
+| TC-13 | Admin readiness checklist | The listing readiness count updated correctly as fields were completed. | Pass |
+| TC-14 | Admin image management | Adding, removing and reordering images worked correctly. | Pass |
+| TC-15 | Admin search and filters | Search, filters, pagination and CSV export worked as expected. | Pass |
+| TC-16 | Admin numeric validation | Invalid numeric values are not properly checked on the server. | Fail — open |
+| TC-17 | Error and 404 pages | A branded error page is missing for invalid property URLs. | Fail — open |
+| TC-18 | Mobile layout | A horizontal overflow issue was found in the admin dashboard and fixed. The tested pages then fitted a 390px screen. | Fixed |
+| TC-19 | Contact details consistency | Phone number and opening hours were consistent across the main pages checked. | Pass |
+| TC-20 | Property contact details | The property agent card uses different contact details from the rest of the website. | Fail — open |
+| TC-21 | Colour contrast | Small property information text failed the contrast checks on the three tested pages. | Fail — open |
+| TC-22 | Image alternative text | All images checked on the new website had alternative text. | Pass |
+| TC-23 | Admin authentication | The authentication gate blocked unauthorised access during testing. | Pass |
+| TC-24 | API key security | The Supabase service-role key and Groq API key were kept in server-side code. | Pass |
+| TC-25 | Production build | Linting, TypeScript checks and the production build completed successfully during verification. | Pass |
 
 ## Summary
 
-25 test cases across six areas (AI search, AI assistant, data integrity, admin backend, cross-cutting UX/accessibility, build health). **13 passed outright on first verification; 7 started as a real failure found during development and were fixed before shipping, with the fix confirmed on re-test (TC-04, 05, 06, 07, 08, 12, 18); 5 are known, documented, not-yet-fixed gaps (TC-02, 16, 17, 20, 21).** The open gaps are each small and specific — not vague "needs more testing" items — and each has a named fix already proposed (see `docs/heuristic-evaluation.md`'s recommendations section and the 4 Oct bug audit in `claude/cs69-project-artifacts.md`), a decision point for whether to fix before the 10 Oct submission or report them as known limitations with a remediation plan.
+I tested 25 cases covering the main website features and technical requirements. Thirteen passed without requiring a recorded fix, seven issues were found and fixed during development, and five issues remained open at the time of evaluation.
+
+The main remaining issues are the weak search results for some terms, missing numeric validation, the unbranded 404 page, inconsistent property contact details and colour contrast. These should be considered when assessing the final website.
+
+The tests were carried out during development and the final evaluation. No real users participated, so the results show how the website performed in the tested scenarios rather than proving how all users would experience it.

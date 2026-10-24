@@ -1,42 +1,53 @@
-# Heuristic Re-Evaluation — New Build vs. 13 Sept Baseline Audit
+# Heuristic Evaluation
 
-Run: 6 Oct 2026, against the new build (`localhost:3000`, equivalent to the deployed `manzell-web` repo) and the original live-site audit in `Documents/Project Management/Manzell_Site_Audit_Brand_Reference.docx` (13 Sept 2026 crawl of `manzell.com`).
+**Date:** 6 October 2026
 
-## Method
+## Aim
 
-The original audit flagged five specific issues against Nielsen's heuristics (section 7, "Preliminary UX observations"). Each is re-tested directly against the new build's actual source and rendered pages below, then a fresh pass is made across all ten heuristics, since a re-evaluation should check for new problems the rebuild introduced, not just whether the old ones were fixed.
+I compared the new Manzell website with the original website audit from 13 September 2026. I used Nielsen's ten usability heuristics to check whether the main problems had improved and to identify any new issues.
 
-## Part 1 — Re-testing the five baseline findings
+## Comparison with the Original Website
 
-| # | Baseline finding (13 Sept) | Status in new build | Evidence |
-|---|---|---|---|
-| 1 | **Nielsen #4 (Consistency):** phone number and opening hours differ between About and Contact pages | **Hours: fixed.** Phone: **a new, different instance of the same problem appeared elsewhere.** | About and Contact both now read "Mon–Fri 9–6 · Sat 10–4" — consistent. But every property detail page's agent contact card (`src/app/(site)/property/[slug]/page.tsx`, line 206) hardcodes phone `020 7946 0958` — note this is inside Ofcom's reserved fictional/drama-use number range, not a working number — and email `prime@manzell.co.uk`, while About, Contact and the Footer all consistently use `020 3337 8554` and the `.com` domain. This is the same consistency violation recurring in a part of the site the original audit didn't cover (there was no property detail agent-contact pattern on the old site to compare against). |
-| 2 | **Nielsen #2 (Match with real world):** search was dropdown-only, no natural-language support | **Fixed — the project's core deliverable.** | `/search` accepts free-text queries ("somewhere to cool off on a hot day") and returns ranked results via semantic embedding, confirmed working in the search evaluation (`docs/search-evaluation.md`). This is a genuine, structural improvement, not cosmetic. Caveat: the same evaluation found semantic search can still miss an exact literal term ("concierge" scored 0/5 relevant in top 6, despite "concierge" being a literal feature word) — the system doesn't yet combine semantic ranking with a literal-match fallback, so very short, single-concept queries are its weakest case. |
-| 3 | **Recognition/content strategy:** Valuation, Selling, Buying, Letting were four near-identical thin template pages | **Not fixed — descoped, not rebuilt.** | None of these routes exist in the new build (`src/app/(site)/` has only `about`, `buy`, `contact`, `property`, `rent`, `search`). This is a defensible MoSCoW scoping decision — the proposal's Must-Have tier prioritised search, AI and the admin backend — but as of today the original finding can't be marked "resolved"; the pages simply aren't there yet to judge. Worth stating plainly in the report as a scoping decision rather than letting it read as an oversight. |
-| 4 | **No visible conversational entry point anywhere on the old site** | **Fixed, and done well.** | `/search` carries the AI assistant, and it's reachable from a clearly labelled "AI Search" link in the main header nav (`src/components/Header.tsx`) on every page — not a floating chat bubble a visitor might miss or distrust, but a named, permanent nav item. This matches Nielsen #6 (recognition over recall) as well as resolving the original gap. |
-| 5 | **Ad hoc status/accent colours** (red and amber each used exactly once, unintentional) | **Fixed.** | `src/lib/format.ts` defines a deliberate semantic token per status — `bg-status-sale`, `bg-status-sstc`, `bg-status-let`, plus the brand accent for "To Let" — exactly the "distinct colours for For Sale / To Let / SSTC / Reduced" the original audit recommended. |
-
-**Net: 2 of 5 cleanly fixed, 1 fixed with a new, smaller instance of the same problem appearing elsewhere, 1 genuinely improved with a known caveat, 1 not yet addressed (deferred by scope, not forgotten).** That's a more honest and more useful finding for a critical-evaluation section than "all issues resolved" — it shows the rebuild solved the hard, structural problems (search, AI, status system) and hasn't yet reached the easier content pages, which is exactly what a Must-Have-first MoSCoW plan predicts.
-
-## Part 2 — Fresh pass across all ten heuristics
-
-| Heuristic | Finding |
+| Original issue | Result in the new website |
 |---|---|
-| **1. Visibility of system status** | The AI Search nav entry is clearly labelled, and listing counts/filter state are visible on `/buy`. Gap: semantic search never surfaces its own confidence — a query like "concierge" that scores poorly against the obvious literal match still returns six results with no indication that the match quality is low, so a user has no way to tell a strong result set from a weak one. |
-| **2. Match between system and the real world** | Natural-language search is the project's headline improvement here (see Part 1, #2). Property terminology (tenure, EPC rating, council tax band) matches how the UK property market actually talks about listings. |
-| **3. User control and freedom** | Standard browser back/forward and in-app navigation work as expected; no modal traps or forced flows observed in the pages reviewed. Not independently stress-tested for this evaluation (e.g. multi-step admin forms) — worth a short manual pass before submission if time allows. |
-| **4. Consistency and standards** | Mixed, as detailed in Part 1: hours and status-colour consistency are now solid; the property-page agent contact card introduces a fresh phone/domain inconsistency. Typography and the Editorial Catalogue shadow/border conventions are applied consistently across the public pages that exist. |
-| **5. Error prevention** | A real gap, carried over from the 4 Oct bug audit: `listingInputFromFormData()` in `src/app/admin/actions.ts` converts admin numeric fields (price, bedrooms, bathrooms, receptions, size) with `Number(...)` and never checks for `NaN` — a malformed entry is accepted rather than rejected at the point of entry. |
-| **6. Recognition rather than recall** | The AI Search nav label and the `/buy` filter bar's visible chips/dropdowns both favour recognition over memorised syntax. The now-missing Valuation/Selling/Buying/Letting pages mean this can't be assessed for that content yet. |
-| **7. Flexibility and efficiency of use** | Genuinely strong: a visitor can either type a natural-language need into AI Search or use `/buy`'s structured filters for precise control — two paths to the same goal, serving both casual and power users. |
-| **8. Aesthetic and minimalist design** | The Editorial Catalogue design system (documented colour/type tokens, a single consistent card-shadow convention) reads as considered rather than templated — a deliberate improvement over the original's unbranded dropdown-and-dump layout. One concrete blemish: Lighthouse's automated audit flagged insufficient colour contrast on the small `text-xs` bed/bath/reception metadata line on property cards, on all three pages tested (see `docs/lighthouse-evaluation.md`) — small text set in a muted tone against the cream background, falling under WCAG's minimum contrast ratio. |
-| **9. Help users recognize, diagnose, and recover from errors** | Weak spot, carried over from the 4 Oct bug audit: there is no custom `not-found.tsx` or `error.tsx` anywhere in the app, so a mistyped property URL or an unhandled runtime error falls through to Next.js's generic, unbranded default screen rather than something that helps the visitor get back on track. By contrast, the AI assistant's own error handling is a good example done right elsewhere in the same codebase: if Groq is unreachable or misconfigured, it falls back to plain search results instead of failing outright (documented in `docs/ai-assistant-evaluation.md` and the codebase guide). |
-| **10. Help and documentation** | A genuine, honest regression as of today: the original site's one strong content asset — the 6-step Buyers Guide with real UK cost figures — has no equivalent route in the new build yet. This is explainable by the same Must-Have-first scoping as the Valuation/Selling/Buying/Letting pages, but if presented at demo/viva as "the new site is better across the board," this is the counterexample to have an answer ready for: it isn't, yet, on this one specific axis, and that's a scope decision rather than a quality regression. |
+| Different phone numbers and opening hours | Opening hours are now consistent, but the property pages still show different contact details. |
+| Search only used dropdown filters | Improved with natural-language semantic search, although some searches still return poor matches. |
+| Similar and limited content pages | The Valuation, Selling and Letting pages have not been included in the current scope. |
+| No clear conversational search option | An AI Search link is now available in the main navigation. |
+| Inconsistent status colours | Status colours are now more consistent across the website. |
 
-## Recommendations worth naming in the report (not necessarily worth fixing before the deadline)
+Overall, the new website improves search, navigation and visual consistency. However, some problems remain, and a few original content pages have been left out of the current version.
 
-1. Fix the property-detail agent-contact card's phone number and email domain to match the real, consistent values used everywhere else (`020 3337 8554`, `@manzell.com`) — cheap, high-value, directly closes a Nielsen #4 finding this evaluation surfaced.
-2. Add `isNaN` validation to the admin numeric fields (already flagged 4 Oct).
-3. Add a branded `not-found.tsx` and `error.tsx`.
-4. Fix the metadata-text colour-contrast issue Lighthouse flagged (likely a one-line Tailwind class change, e.g. darkening `text-brand-ink/55` for that specific label).
-5. State explicitly in the report that the Valuation/Selling/Buying/Letting pages and the Buyers Guide are deliberately out of scope for the Must-Have artefact, not an oversight — and that the original heuristic findings against them (#3, #10 above) remain open precisely because that content doesn't exist yet to re-evaluate.
+## Review of Nielsen's Heuristics
+
+1. **Visibility of system status:** Search filters and listing information are visible, but users are not told when a semantic search produces weak matches.
+
+2. **Match with the real world:** Users can search using natural language, and the property information uses familiar UK property terms.
+
+3. **User control and freedom:** Normal navigation works as expected. More testing of admin forms would be useful.
+
+4. **Consistency and standards:** The design and status colours are consistent, but the property contact details need correcting.
+
+5. **Error prevention:** Admin numeric fields need better validation to prevent invalid values from being saved.
+
+6. **Recognition rather than recall:** The navigation and visible filters make the main features easy to find.
+
+7. **Flexibility and efficiency:** Users can either search naturally with AI or use standard property filters.
+
+8. **Aesthetic and minimalist design:** The new design is more consistent and considered, although some small text needs better colour contrast.
+
+9. **Error recovery:** Custom error and not-found pages are missing. The AI assistant handles service failures better by falling back to normal search results.
+
+10. **Help and documentation:** The original Buyers Guide has not been recreated, and some content pages remain outside the current scope.
+
+## Recommended Improvements
+
+- Correct the phone number and email address on property pages.
+- Add validation for numeric fields in the admin section.
+- Create branded error and not-found pages.
+- Improve the colour contrast of small text.
+- Consider adding the missing content pages and Buyers Guide in future work.
+
+## Conclusion
+
+The new website improves the original search experience, navigation and visual design. However, the evaluation also identified issues with contact details, form validation, error pages and text contrast. Some content was left out to focus on the main project requirements. These limitations should be considered when evaluating the final website.
